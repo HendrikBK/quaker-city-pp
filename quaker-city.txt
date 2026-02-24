@@ -4653,7 +4653,7 @@ Ladies Western Hem., forty-eight
 pages--monthly--offers following
 inducements--two dollars--"
 at this point of his handbill the gentleman
-staggered wofully--"Office No[**missing '.']
+staggered wofully--"Office No.
 209 Drayman's Alley--hurrah
 Mutchins what's your idea of soft
 crabs?"
@@ -4663,7 +4663,7 @@ heavily to the floor, mingled in the
 same heap that contained the poet and
 the wigless editor. In a moment he
 rose heavily to his feet, and staggered
-slowly to Mutchin's[**s'] side.
+slowly to Mutchin's side.
 
 "Gentlemen of the jury, I charge
 you--" began the Judge.
@@ -4704,7 +4704,7 @@ with a nose decorated by yellowish
 streaks from a mustard bottle.
 
 "Boys I tell you the fire's up this
-alley--" cried another merchant--ather[** 'rather']
+alley--" cried another merchant--rather
 an amateur in fires when sober--"Here's
 the plug--now then--"
 
@@ -4735,7 +4735,7 @@ in a meal bag--"
 "My friends--" said the reverend
 gentleman, staggering to his feet--"What
 is this I see--confusion and
-drunkeness[**typo?: 'drunkenness']? Is this a scene for the
+drunkenness? Is this a scene for the
 house of God?" He glanced around
 with a look of sober reproof, and then
 suddenly exclaimed--"No heeltaps
@@ -4810,13 +4810,13 @@ was darkness. I listened intently. I
 entered Monk-Hall <i>for no licentious object,
 but with the distinct purpose of discovering the
 retreat of Western</i>. This story, told in Merivale's
-own words, is strictly true[**missing: '.']]
+own words, is strictly true.]
 could hear no sound, save the breathing
 of the girl who slept by my side.
 And as I listened, a sudden awe came
 over me. True, I heard no noise, but
 that my sleep had been broken by a
-most appaling[**typo?: 'appalling'] sound, I could not doubt.
+most appalling sound, I could not doubt.
 And the stories I had heard of Monk-hall
 came over me. Years before, in
 my native village, a wild rollicking
@@ -5122,7 +5122,7 @@ laughing--"But out of this house my
 father's son don't stir till broad day-*light."
 
 With a careless laugh, she wound
-her night gown round[**possibly around] her, opened the
+her night gown round her, opened the
 door, and disappeared in the dark.
 Down, down, down, I could hear her
 go, her footsteps echoing along the
@@ -5139,18 +5139,18 @@ without arms, and with the pleasant
 prospect of the young lady coming
 back with Devil-Bug and his niggers
 to despatch me. I had heard the cry
-of 'Murder'-- so ran my reasoning*[**em-dash next page]
+of 'Murder'-- so ran my reasoning*
 *--they, that is the murderers--would
 suspect that I was a witness to their
 guilt, and, of course, would send me
 down some d--d trap-door on an
 especial message to the devil.
 
-This was decidely[**typo?: 'decidedly'] a bad case. I
+This was decidedly a bad case. I
 began to look around the room for
 some chance of escape, some arms to
 defend myself, or, perhaps from a
-motive of laudible[**typo?: 'laudable'] curiosity, to know
+motive of laudable curiosity, to know
 something more about the place where
 my death was to happen.
 
@@ -5269,7 +5269,7 @@ of wine in the other. There was
 nothing remarkable in her look, her
 face was calm, and her boiled chicken
 and bottle of wine, decidedly common
-place[**commonplace?].
+place.
 
 "Great God--" she cried as she
 gazed in my countenance--"What
@@ -5542,7 +5542,7 @@ force--"
 Instead of stepping aside, as a
 peaceable woman would have done,
 she sits right down in the chair, fixing
-those full black eyes of her's[**typo?: 'hers'] on my
+those full black eyes of her's on my
 face, with a glance that looked very
 much like madness.
 
@@ -5625,7 +5625,7 @@ stranger, that <i>he murdered her too</i>!
 
 Ha-ha--why here's all the room
 to ourselves! All the club have either
-dissappeared[**disappeared?], or lie drunk on the floor!
+disappeared, or lie drunk on the floor!
 I saw Fitz-Cowles--I know him--sneak
 off a few moments since--I
 could tell by his eye that he is after
@@ -5756,8 +5756,8 @@ As he spoke he raised his left hand
 to his brow, and in the action, the
 gleam of a plain ring on his finger
 met his eye. He kissed it suddenly,
-and kissed it again and again?[**! ?] Was
-it the gift of his ladye[**lady(?)]-love?
+and kissed it again and again! Was
+it the gift of his lady-love?
 
 "God bless her--God bless her!
 Wo to the man who shall do <i>her</i>
@@ -5773,12 +5773,12 @@ house! And onward I will go, until
 I discover Lorrimer or solve the mystery
 of this den. God knows, I
 feel--pshaw! I'm only nervous--as
-though I was walking to my death[**missing?: '.' Also "]
+though I was walking to my death."
 
 Passing through the narrow doorway,
 he cautiously ascended the dark
 staircase, and in a moment stood on
-the first floor. The moon was stil[**typo?: 'still']
+the first floor. The moon was still
 shining through the distant skylight,
 down over the windings of the massive
 stairway. All was silent as death
@@ -6079,7 +6079,7 @@ a little drop o' the 'lively'--hey,
 Mother?"
 
 "Yes, dovey--here's the key of
-the closet. Get the bottle, my dear[**.]
+the closet. Get the bottle, my dear.
 A leetle--jist a <i>leetle</i>--don't go ugly
 with one's tea--"
 
@@ -6103,7 +6103,7 @@ large alms to the poor, and bestow
 unlimited amounts of tracts among the
 vicious. A good, dear, old body, was
 Mother Nancy, although her face was
-not decidedly preposessing[**prepossessing(?)]. A low
+not decidedly prepossessing. A low
 forehead, surmounted by a perfect
 tower-of-Babel of a cap, a little sharp
 nose looking out from two cheeks disposed
@@ -6134,7 +6134,7 @@ been dug by the gouty hands of the
 vile old hag, who sate chuckling in her
 quiet arm-chair? How many of the
 betrayed maidens, found rotting on the
-rivers[**'] waves, dangling from the garret
+river's waves, dangling from the garret
 rafter, starving in the streets, or resting,
 vile and loathsome, in the Green-*house;[A]
 how many of these will, at the
@@ -6201,11 +6201,11 @@ The oysters, if you please--a little o'
 that pepper. Any mustard there? Now
 then, Mother, let's be comfortable--"
 
-"But[**,]" observed the old lady pouring
+"But," observed the old lady pouring
 a glass of the 'Lively' from a decanter
 labelled 'Brandy'--"But Bessie
 my love, I'm a-waitin' to hear all about
-this little dove whom you trapped to-*night[**missing '-']--"
+this little dove whom you trapped to-*night--"
 
 It may be as well to remark that
 Bessie, was a tall queenly girl of some
@@ -6215,7 +6215,7 @@ even now in its ruins, was lovely to look
 upon, while her faded face, marked by
 a high brow and raven-black hair,
 was still enlivened by the glance of
-two large dark eyes, that were susceptable[**typo?: 'susceptible']
+two large dark eyes, that were susceptible
 of any expression, love or hate,
 revenge or jealousy; anything but
 fear. Her complexion was a very
@@ -6231,7 +6231,7 @@ eye.
 "This here 'Lively' is first rate,
 after the tramp I've had--" said Bessie
 as her eyes grew brighter with the
-'lively' effects of the bottle--"[**delete space]You
+'lively' effects of the bottle-- "You
 know Mother Nancy its three weeks
 since Gus mentioned the <i>thing</i> to me--"
 
@@ -6251,16 +6251,16 @@ Dolph--"
 handsome if I could manage it
 for him, so I undertook the thing.
 The bread if you please, Mother. You
-know I'm rather expert in such matters?'[**change ' to "]
+know I'm rather expert in such matters?"
 
 "There ain't you beat my dear.
-Be quiet Dolph--that's a nice Dolph-ee[**hyphenated on prev page]--"
+Be quiet Dolph--that's a nice Dolph-ee--"
 
 "For a week all my efforts were in
 vain. I could'nt discover anything
 that was likely to suit the taste of
 Gus--At last he put me on the right
-track himself--[**"]
+track himself--"
 
 "He did, did he? Ah deary me, but
 Gus is a regular lark. You can't perduce
@@ -6277,7 +6277,7 @@ found that the young lady had just returned,
 from the Moravian boarding
 school at Bethlehem. She was innocent,
 inexperienced, and all that. Suited
-Lorrimers[**'] taste. He swore he'd
+Lorrimers' taste. He swore he'd
 have her."
 
 "So you undertook to catch her,
@@ -6297,7 +6297,7 @@ most winning tone----"
 like, Bess. That's a fact.--"
 
 "Whether Mr. Elmwood lived there?
-Of course she answered 'No'[**.] But in
+Of course she answered 'No.' But in
 making an apology for my intrusion, I
 managed to state that Mr. Elmwood
 was my uncle, that I had just come to
@@ -6313,7 +6313,7 @@ acquaintance with her?"
 ignorant of the world as the babe unborn,
 the girl was interested in me, I
 suppose, and swallowed the white'uns
-I told her, without a single suspicion,[**Typo?: '.']
+I told her, without a single suspicion.
 The next day about noon, I met her
 as she was hurrying to see an old
 aunt, who lived two or three Squares
@@ -6323,7 +6323,7 @@ along rather fast, anxious to reach her
 aunt's house, as soon as possible. I
 spoke to her--proposed a walk--she
 assented with a smile of pleasure. I
-I[** 'I' duplicated] told her a long story of my sorrows;
+told her a long story of my sorrows;
 how I had been engaged to be married,
 how my lover had died of consumption
 but a month ago; that he was
@@ -6367,7 +6367,7 @@ saved him the trouble. Lord love you
 Mother Nancy, she spoke to him
 first--"
 
-"Be still Dolph--be still Dolph-ee![** not sure: '!']
+"Be still Dolph--be still Dolph-ee!
 Now Bessie that's a leetle too strong!
 Not the tea, but the story. She so innocent
 and baby-like speak first to a
@@ -6396,9 +6396,9 @@ these walks secret from the eyes
 of her folks? Eh? Bessie?"
 
 "Easy as <i>that</i>--" replied Bessie
-gracefully snapping her fingers--[**previous
-page ends with em-dash]"Every time she went out, she told
-father and mother'[**extra quote?] that she went to
+gracefully snapping her fingers--*
+*"Every time she went out, she told
+father and mother" that she went to
 see her old Aunt. I hinted at first,
 that our friendship would be more romantic,
 if concealed from all intrusive
@@ -6428,7 +6428,7 @@ knees, invoke the old man's blessing;
 be forgiven and be happy! Hand us
 the toast Mother Nancy--"
 
-"And to night[**to-night?] the girl <i>did</i> leave the
+"And to night the girl <i>did</i> leave the
 old folks' house? Entered the door
 of Monk-hall, thinking it was Lorrimer's
 <i>family</i> Mansion, and to-morrow
@@ -6439,7 +6439,7 @@ Bess?"
 Lorrimer said he would get that fellow
 Petriken to personate the Parson--Mutchins
 the gambler, acts the old uncle;
-you, Mother Nancy must,[**extra comma?] dress
+you, Mother Nancy must dress
 up for the kind and amiable grandma----suit
 you to a T? Lorrimer
 pays high for his rooms you know?"
@@ -6491,7 +6491,7 @@ in one so fallen--"Your father
 blessed you by that name, the
 night before you fled from his roof!
 
-'Emily!' Aye, <i>he</i>, the foul betray-*[**missing hyphen]
+'Emily!' Aye, <i>he</i>, the foul betray-*
 *er, whispered that name with a smile
 as he entered the Chamber, from which
 he never came forth again--You remember
@@ -6680,18 +6680,18 @@ she whispered a single word--
 exclaimed the woman, who stood
 by the bedside--"Gus has some taste,
 even in his vilest loves! But, with
-this girl--this child--good Heavens[**possible punctuation]
+this girl--this child--good Heavens!
 how refined! He shrunk at the very
 idea of <i>her</i> voice whispering the name
 which had been shouted by his devil-*mates
 at a drinking bout! So he told
-the girl to call him--not Gusty, no[**possible comma]
-no, but something musical--<i>Lorraine!</i>[**exclamation point in or out of italics?]"
+the girl to call him--not Gusty, no,
+no, but something musical--<i>Lorraine!</i>
 
 And, stooping over the the couch,
 the queenly woman, with her proud
 form arrayed in a dress of snow
-white[**snow-white previously] silk, and her raven-black hair
+white silk, and her raven-black hair
 gathered in thick tresses along her
 neck, so full and round, applied her
 lips to the ear of the sleeper and
@@ -6766,7 +6766,7 @@ the first passion of an innocent woman!
 [A]And was there aught of <i>earth</i> in
 this love? Did the fever of sensual
 passion throb in the pulses of her virgin
-blood? Did she love Lorimer[**typo?: 'Lorrimer'] because
+blood? Did she love Lorrimer because
 his eye was bright, his form
 magnificent, his countenance full of
 healthy manliness? No, no, no!
@@ -6778,7 +6778,7 @@ he did not possess, which vile worldlings
 of his class never will possess.
 For the magic with which her fancy
 had enshrouded his face and form, she
-loved him, for the wierd[**typo?: 'weird'] fascination
+loved him, for the wierd fascination
 which <i>her own soul</i> had flung around
 his very existence, for a dream of
 
@@ -6824,7 +6824,7 @@ Like man she is a combination of an
 animal, with an intellectual nature.
 Unlike man her animal nature is a
 <i>passive</i> thing, that must be roused ere
-it will develope[**typo?: 'develop'] itself in action. Let
+it will develope itself in action. Let
 the intellectual nature of woman, be
 the only object of man's influence, and
 woman will love him most holily.
@@ -6849,7 +6849,7 @@ or whose the wrong? Oh, would man
 but learn the solemn truth--that no
 angel around God's throne is purer
 than Woman when her intellectual nature
-alone is stirred into developement[**typo?: 'development'],
+alone is stirred into developement,
 that no devil crouching in the flames
 of hell is fouler than Woman, when
 her animal nature alone is roused into
@@ -6882,12 +6882,12 @@ arose in the couch.
 "Has--<i>he</i> come?" were the first
 words she murmured in her musical
 tones, that came low and softened to
-the listeners[**'] ear--"Has <i>he</i> come?"
+the listeners' ear--"Has <i>he</i> come?"
 
 "Not yet--not yet--my dear--"
 said long-haired Bess, assisting the
 young maiden to rise from the couch,
-with all imaginable tenderness of manner--"[**delete extra space]You
+with all imaginable tenderness of manner--" You
 see Mary love, it's
 half-past two o'clock and over, and
 of course, high time for you to dress.
@@ -6932,7 +6932,7 @@ neck--The dear old lady is in a perfect
 fever to see you! She helped me
 to get every thing ready for the wedding--"
 
-"Oh Bessie--Is it not most sad?'[**change to "]
+"Oh Bessie--Is it not most sad?"
 said Mary as her blue eyes shone with
 a glance of deep feeling--"To think
 that Albert and you should love one
@@ -6968,7 +6968,7 @@ dress?"
 
 "It seems to me--" said Mary,
 whose thoughts dwelt solely on her
-love for Lorrimer--"[**delete extra space]That there is
+love for Lorrimer-- "That there is
 something deeply touching in a wedding
 that is held at this hour of the
 night! Every thing is calm and tranquil;
@@ -7100,7 +7100,7 @@ his arms!"
 
 There she stood, her fair hands
 clasped trembling together, her eyes
-flashing in ecstacy[**typo?: 'ecstasy'], while her heart,
+flashing in ecstacy, while her heart,
 throbbing and throbbing like some
 wild bird, endeavoring to burst the bars
 of its cage, sent her bosom heaving
@@ -7145,13 +7145,13 @@ a simple black cravat; such were the
 brief details of his neat but effective
 costume. His manly face was all in
 a glow with health and excitement.
-Clustering curls of dark brow[**typo for brown?] hair
+Clustering curls of dark brown hair
 fell carelessly along his open brow.
 His clear, dark-hazel eye, gave forth
 a flashing glance, that failed to reveal
 anything but the frank and manly
 qualities of a generous heart. You
-did not read the villian, in his glance.[**missing '.' (P2; confirmed in Google's scan)]
+did not read the villian, in his glance.
 The aquiline nose, the rounded chin,
 the curving lip, darkened by a graceful
 moustache, the arching eyebrows,
@@ -7244,10 +7244,10 @@ And as the beautiful enthusiast,
 <i>whose mind had been developed in
 utter seclusion from the world</i>, gave
 forth these revelations of her heart, in
-broken and abrupt sentences, Lorrimer[**hyphen missing]
+broken and abrupt sentences, Lorrimer
 drew a step nearer, and gazed
 upon her with a look in which passion
-rose predominent[**typo?: 'predominant'], even above admiration.
+rose predominant, even above admiration.
 
 "Oh, Bessie, can it be that his love
 will ever grow cold? Will his voice
@@ -7328,7 +7328,7 @@ was designed to remain open in front,
 while the skirt fell trailing along the
 floor. Falling aside from the bust,
 where outlines were so gracefully developed
-by the tight-fitting boddice[**typo?: 'bodice'] of
+by the tight-fitting bodice of
 white satin, its opposite sides were connected
 by interlacing threads of silver-cord,
 crossed and recrossed over the
@@ -7348,7 +7348,7 @@ a smile as he flung the robe over her
 shoulders--"How elegant the fall
 of that sleeve! Ha--ha--Mary,
 you <i>must</i> allow me to lace these silver
-cords[**spelled silver-cord above] in front. I'm afraid I would
+cords in front. I'm afraid I would
 make but an awkward lady's-maid.
 What say you Bessie? Mary, your
 arms seem to love the light embrace
@@ -7400,12 +7400,12 @@ stainless as the new-fallen snow, loving
 as one of God's own cherubim, he
 led her gently from the place, motioning
 onward with his hand as again
-and again he whispered '[**"]To the Wedding
+and again he whispered "To the Wedding
 Room my love, to the Wedding
 Room!"
 
 "To the Wedding Room--" echo-*
-*ed Bess who folllowed[**followed] in her Bridesmaid
+*ed Bess who followed in her Bridesmaid
 robes--"To the Wedding
 Room--ha, ha, ha, say rather to
 h--ll!"
@@ -7529,8 +7529,8 @@ Clergyman.
 
 And in this position, gathered around
 the Altar, they stood for some five
-minutes silently awaiting the appearance[**hyphen missing]
-of the Bridegroom and the Bride[**.]
+minutes silently awaiting the appearance
+of the Bridegroom and the Bride.
 
 
 
@@ -7542,7 +7542,7 @@ THE BRIDAL.
 
 "I say Mutchy, my boy--" said
 Petriken, in a tone that indicated
-some lingering effects of his late debauch[**hyphen missing]--"
+some lingering effects of his late debauch--"
 How <i>do</i> I do it? Clever--hey?
 D'ye like this face? <i>Good</i>--is
 it? If my magazine fails, I
@@ -7739,13 +7739,13 @@ a single word--
 
 The bride turned slowly round.
 Her face was pale as death, and her
-blue eyes grew glassy as she turned[**.]
+blue eyes grew glassy as she turned.
 She beheld the form of the intruder.
 One glance was enough.
 
 "<sc>My Brother!</sc>" she shrieked,
 and started forward as though about
-[** his? P2:to? P3: verified to in original]to spring in the strangers arms; but
+to spring in the strangers arms; but
 suddenly recoiling she fell heavily
 upon the breast of Lorrimer.
 
@@ -7753,7 +7753,7 @@ There was a moment of silence--all
 was hushed as the grave.
 
 The stranger stood silent and motionless,
-regarding the awe-striken[**stricken?]
+regarding the awe-stricken
 bridal party, with one settled and
 burning gaze. One and all, they
 shrank back as if blasted by his look.
@@ -7864,7 +7864,7 @@ the floor, where he had been thrown
 by Mr. Abijah K. Jones--"Begone
 Devil-Bug--" he continued aloud--"But
 wait without and see that Glow-*worm
-and Musquito are at hand," He[**he?]
+and Musquito are at hand," he
 added in a meaning whisper. "Now
 Sir, I have a word to say to <i>you</i>--"
 And as he spoke he confronted the
@@ -7952,12 +7952,12 @@ Seating himself upon a small stool,
 that stood near the wall of the room,
 furthest from the door, Byrnewood
 with a single glance, took in all the
-details of the place,[** typo for .] It was a small
+details of the place. It was a small
 unpretending room, oblong in form,
 with rows of shelves along its longest
 walls, facing each other, supplied with
 books of all classes, and of every description,
-from the pondrous[**typo for ponderous?] history to
+from the ponderous history to
 the trashy novel. The other walls at
 either end, were concealed by plain
 and neat paper, of a modern pattern,
@@ -8022,7 +8022,7 @@ Byrnewood started, raised his hands
 suddenly, as if about to grasp the libertine
 by the throat, and then folding his
 arms tightly over his chest, he exclaimed
-in a voice marked by unatural[**unnatural?]
+in a voice marked by unnatural
 calmness--
 
 "For ten minutes, sir, I have promised
@@ -8103,7 +8103,7 @@ your ruin the astrologer foretold, when
 he urged this <i>devil</i>--to turn back in
 his career? Was it my <i>voice</i> that
 cheered <i>him</i> onward in his work of
-infamy? Oh Mary, was it for <i>this</i>[**missing comma?]
+infamy? Oh Mary, was it for <i>this</i>,
 for <i>this</i>, that I loved you as brother
 never loved sister? Was it for this,
 that I wound you close to my inmost
@@ -8129,7 +8129,7 @@ Lorrimer looked at him silently for
 a moment, and then, taking a small
 pen-knife from his pocket, began to
 pare his nails, with a quiet and absent
-air, as though he did'nt[**typo or alt. spelling?] exactly know
+air, as though he did'nt exactly know
 what to do with himself. He wore
 the careless and easy look of a gentleman,
 who having just dined, is
@@ -8237,7 +8237,7 @@ flower from <i>my</i> grasp? You are <i>so</i>
 strong, <i>so</i> mighty, you talk of reddening
 your hand in my heart's blood--and
 all such silly vaporing, that would
-be hissed by the pit-boy's[**pit-boys?], if they but
+be hissed by the pit-boys, if they but
 heard it, spouted forth by a fifth-rate
 hero of the green-room--and yet
 with all this--<i>you are my prisoner</i>--"
@@ -8517,7 +8517,7 @@ turned the orbless eye-socket to
 the floor at his left side, as though it
 was gifted with full powers of sight,
 while his solitary eye, grew larger and
-more burning in its fixed gaze, uutil[**until]
+more burning in its fixed gaze, until
 at last, it seemed to stand out, from
 his overhanging brow, like a separate
 flame.
@@ -8563,7 +8563,7 @@ To him, there was no such thing as
 <i>good</i> in the world.
 
 His world--his place of birth, his
-home in infancy, childhood and manhood[**missing?: '-'][**typo?: 'man-hood'],
+home in infancy, childhood and man-*hood,
 his only theatre of action--had
 been the common house of ill-fame.
 No mother had ever spoken words of
@@ -8578,8 +8578,8 @@ endeavoured to assume, leaving the
 slang title bestowed on him in childhood,
 to die in forgetfulness.
 
-Abijah K. Jones he might call him
-self[**himself?], but he was Devil-Bug still.
+Abijah K. Jones he might call himself,
+but he was Devil-Bug still.
 
 His loathsome look, his distorted
 form, and hideous soul, all seemed to
@@ -8599,7 +8599,7 @@ of compassion or love, warmed
 the breast of Devil-Bug, when enjoyed
 in any deed, marked by especial <i>cruelty</i>.
 This word will scarcely express
-the instinctive impulse of his soul,[**.]
+the instinctive impulse of his soul.
 He loved not so much to kill, as to observe
 the blood of his victim, fall drop
 by drop, as to note the convulsive look
@@ -8632,10 +8632,10 @@ Since the night of the Murder, a
 longing desire had grown up, within
 this creature, to lay another corpse beside
 his solitary victim. Were there
-he thought, two corses[**typo: 'corpses'], ever at his
+he thought, two courses, ever at his
 side, the terrible details of the mangled
 form and crushed countenance of
-the first, would loose[**lose] half their horror,
+the first, would lose half their horror,
 all their distinctness. He longed to
 surround himself with the Phantoms
 of new victims. In the <i>number</i> of his
@@ -8658,7 +8658,7 @@ his grasp.
 ere boy ought to have somethin' to eat.
 A leetle to drink--per'aps? Now
 <i>sup</i>-pose, I should take him up, a
-biled[** typo: boiled?] chicken and a bottle o' wine.
+boiled chicken and a bottle o' wine.
 He sits down by the table o' course to
 eat--I fix his plate on a pertikler side.
 As he planks down into the cheer, his
@@ -8752,7 +8752,7 @@ This gentleman and I, want
 to amuse ourselves with a little game.
 Bye-the-bye--where's Fitz-Cowles?
 I should like him to join us. Seen
-him to[**-]night my dear?"
+him to-night my dear?"
 
 "Up stairs you know Luke--" answered
 Bess with a meaning smile--"'<i>Veiled
@@ -8905,7 +8905,7 @@ for a light--Cuss it how the fat pin
 blazes!"
 
 He waited but a single moment for
-the wood and charcoal to ignite[**.] It
+the wood and charcoal to ignite. It
 flared up at first in a smoky blaze, and
 then subsided into a clear and brilliant
 flame. Seizing the iron handle of the
@@ -8951,7 +8951,7 @@ devil, as again the words rose to his
 lips--
 
 "The charcoal's a-burnin' -- wonder
-how <i>that</i>'ill[**add space?] work?"
+how <i>that</i> 'ill work?"
 
 The light still flickered through the
 keyhole of the massive door.
@@ -8969,7 +8969,7 @@ lamp, darkened by a heavy shade, was
 burning. The shade flung the light
 of the lamp down over the table--it
 was covered with books, cards, and
-wine glasses--and around the carpet.[**,]
+wine glasses--and around the carpet,
 for the space of a yard or more, while
 the other portions of the apartment,
 were enveloped in faint twilight.
@@ -9092,7 +9092,7 @@ closing its door, and strode with
 a noiseless footstep, into the dark
 room.
 
-Luke remained in the closet, listening[** missing dash in scan]
+Luke remained in the closet, listening
 with hushed breath.
 
 There was a pause for a moment.
@@ -9185,7 +9185,7 @@ The silence of the room was broken
 by the creaking of the door, as it
 swung slowly open.
 
-Bess silently entered the room, holding[**hyphen missing]
+Bess silently entered the room, holding
 the waiter with the cold chicken
 and bottle of Madeira in her hands.
 She hurriedly closed the door and advanced
@@ -9197,7 +9197,7 @@ shawl which she had thrown over her
 bridesmaid's dress, had fallen from her
 shoulders and hung loosely from her
 arms as she walked. Her entire appearance
-betrayed agitation and haste[**.]
+betrayed agitation and haste.
 
 "He sleeps!" she murmured, arranging
 the refreshments--provided
@@ -9286,7 +9286,7 @@ expressive features, as he stood swinging
 the furnace from side to side.
 
 "You can go, Bessie, my duck--"
-he said, with a pleasant way of speaking[**hyphen missing],
+he said, with a pleasant way of speaking,
 original with himself. "This
 'ere party don't want you no more.
 You see, my feller citizen--" he continued,
@@ -9345,7 +9345,7 @@ sashes, with inimitable skill! They
 deceived me, in the dim light of yonder
 lamp. What can this mean? By
 my life, I shrewdly suspect, that these
-bookcases[**hyphenated above], conceal secret passages,
+bookcases, conceal secret passages,
 leading from this den--"
 
 Byrnewood flung himself on the
@@ -9355,7 +9355,7 @@ his hands.
 "Blazes up quite comfortable--"
 muttered Devil-Bug, as half concealed
 by the folding doors of the central
-part of the bookcase[**hyphenated prev page], he stooped over
+part of the bookcase, he stooped over
 the furnace of blazing coal, warming
 his hands in the flame. "A nice fire,
 and a nice fire-place. But I'll have to

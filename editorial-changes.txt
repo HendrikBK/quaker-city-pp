@@ -20,9 +20,6 @@ Pg. 15
     - 'D----d -> "D----d
     - Mutchins -> Mutchin's
 
-Pg. 17
-    - to night -> to-night
-
 Pg. 18
     - husbands -> husband's
     - fathers -> father's
@@ -34,11 +31,7 @@ Pg. 18
     - period added after "introducing a friend"
 
 - Pg. 21
-    - To day -> To-day
     - Bynewood -> Byrnewood
-
-Pg. 22
-    - seen her to-night, -> seen her to-night.
 
 Pg. 24
     - Astrologers -> Astrologers'
@@ -77,9 +70,88 @@ Pg. 49
 
 Pg. 50
     - millionare - millionaire
+    - Office No -> Office No.
+
+Pg. 51
+    - ather -> rather
+    - drunkeness -> drunkenness
+
+Pg. 52
+    - appaling -> appalling
+
+Pg. 56
+    - decidely -> decidedly
+    - laudible -> laudable
+
+Pg. 60
+    - dissappeared -> disappeared
+
+Pg. 62
+    - again? -> again!
+    - ladye -> lady
+    - to my death -> to my death."
+    - stil -> still
+
+Pg. 65
+    - preposessing -> prepossessing
+
+Pg. 66
+    - rivers waves -> river's waves
+
+Pg. 67
+    - susceptable -> susceptible
+    - 'No' -> 'No.'
+
+Pg. 68
+    - suspicion, -> suspicion.
+    - I I told -> I told
+
+Pg. 72
+    - Lorimer -> Lorrimer
+
+Pg. 74
+    - good Heavens -> good Heavens!
+
+Pg. 76
+    - brow -> brown
+
+Pg. 77
+    - predominent -> predominant
+
+Pg. 78
+    - boddice -> bodice
+
+Pg. 79
+    - folllowed -> followed
+
+Pg. 83
+    - striken -> stricken
+
+Pg. 84
+    - He added -> he added
+
+Pg. 85
+    - pondrous -> ponderous
+    - unatural -> unnatural
+
+Pg. 88
+    - pit-boy's -> pit-boys
+
+Pg. 91
+    - uutil -> until
+
+Pg. 92
+    - corses -> courses
+    - loose -> lose
+    - biled -> boiled
 
 Normalization
 
 ancles [3] | ankles [2]
 sate [] | sate []
 wierd [] | weird []
+to night | to-night
+to day | to-day
+snow white | snow-white
+did'nt | didn't
+bookcase | book-case
