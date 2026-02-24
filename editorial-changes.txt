@@ -191,6 +191,12 @@ Pg. 150
     - mattter -> matter
     - Judos -> Judas
 
+Pg. 151
+    - imperturable -> imperturbable
+
+Pg. 152
+    - dissappeared -> disappeared
+
 Normalization
 
 ancles [3] | ankles [2]
@@ -203,3 +209,7 @@ did'nt | didn't
 bookcase | book-case
 corse | corpse
 Chesnut | Chestnut
+bedchamber | bed-chamber
+new comer | new-comer
+fire-place | fire place
+backroom | back-room
