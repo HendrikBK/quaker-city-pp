@@ -145,6 +145,52 @@ Pg. 92
     - loose -> lose
     - biled -> boiled
 
+Pg. 100
+    - statute -> statue
+
+Pg. 102
+    - protuberent -> protuberant
+
+Pg. 103
+    He way -> He was
+
+Pg. 104
+    - involutary -> involuntary
+
+Pg. 105
+    - freshning -> freshening
+
+Pg. 106
+    - panell -> panel
+
+Pg. 109
+    - threatning -> threatening
+
+Pg. 111
+    - fine -> find
+
+Pg. 115
+    - abhorence -> abhorrence
+
+Pg. 120
+    - moment -> movement
+
+Pg. 139
+    - ikely -> likely
+
+Pg. 141
+    - want's -> wants
+
+Pg. 142
+    - browh -> brown
+
+Pg. 147
+    - duex -> deux
+
+Pg. 150
+    - mattter -> matter
+    - Judos -> Judas
+
 Normalization
 
 ancles [3] | ankles [2]
@@ -155,3 +201,5 @@ to day | to-day
 snow white | snow-white
 did'nt | didn't
 bookcase | book-case
+corse | corpse
+Chesnut | Chestnut
