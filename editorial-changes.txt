@@ -1,0 +1,85 @@
+Pg 6
+    - ravens -> raven's
+
+Pg. 7
+    - awning post -> awning-post
+
+Pg. 9
+    - yov've -> you've
+
+Pg. 11
+    - Womer -> Women
+
+Pg. 14
+    - Your 'cute -> you're 'cute
+    - her fathers -> her father's
+    - ladys -> lady's
+    - its a penitentiary -> it's a penitentiary
+
+Pg. 15
+    - 'D----d -> "D----d
+    - Mutchins -> Mutchin's
+
+Pg. 17
+    - to night -> to-night
+
+Pg. 18
+    - husbands -> husband's
+    - fathers -> father's
+    - furnishod -> furnished
+    - crown- -> crowned
+
+- Pg. 19
+    - Mutchins -> Mutchin's
+    - period added after "introducing a friend"
+
+- Pg. 21
+    - To day -> To-day
+    - Bynewood -> Byrnewood
+
+Pg. 22
+    - seen her to-night, -> seen her to-night.
+
+Pg. 24
+    - Astrologers -> Astrologers'
+    
+Pg. 26
+    - comma added after "he started"
+
+Pg. 28
+    - blasphemus -> blasphemous
+
+Pg. 29
+    - cogniac -> cognac
+
+Pg. 30
+    - period added after "on the bowl"
+
+Pg. 34
+    - Delete double quote after 'Bone Squash.'
+
+Pg. 35
+    - Livingstone. -> Livingstone,
+
+Pg. 43
+    - Abijahs -> Abijah's
+
+Pg. 44
+    - dislosed -> disclosed
+    - destorted -> distorted
+
+Pg. 48
+    - strown -> strewn
+    - employer. -> employer;
+
+Pg. 49
+    - liason -> liaison
+
+Pg. 50
+    - millionare - millionaire
+
+Normalization
+
+ancles [3] | ankles [2]
+sate [] | sate []
+wierd [] | weird []
