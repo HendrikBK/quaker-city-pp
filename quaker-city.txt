@@ -174,7 +174,7 @@ thought or a bad deed.
 
 INSCRIBED TO THE MEMORY OF CHARLES BROCKDEN BROWN.
 
-*The origin and object of this Book.*
+<b>The origin and object of this Book.</b>
 
 
 One winter night I was called to the bedside of a dying friend. I
@@ -581,7 +581,7 @@ great pleasure; extraordinary pleasure.
 “You see, fellows, I believe I’ll take a spree for three days--wont go
 home, or to the store in Front street. Mean to keep it up until after
 Christmas. Wants three days o’ Christmas--mean to jolly--ha--ha--how
-the room reels”
+the room reels.”
 
 “Gentlemen--I don’t know what is the matter with me--” observed
 Petriken, who rested his elbows helplessly on the table, as he looked
@@ -1373,7 +1373,7 @@ little room has seen them all within its walls, begging from the
 humble man some knowledge of the future! Here they come--one and
 all--the fools, pretending to despise my science, and yet willing to
 place themselves in my power, while they affect to doubt. Ha-ha--here
-are their Nativities one and all--That” he continued, turning over a
+are their Nativities one and all--That,” he continued, turning over a
 leaf--“is the Horoscope of a clergyman--Holy man of God!--He wanted to
 know whether he could ruin an innocent girl in his congregation without
 discovery. And that is the Horoscope of a lawyer, who takes fees from
@@ -3162,7 +3162,7 @@ down, down. In a few moments all was still.
 Here I was, in a pretty ‘fix.’ In a lonely room at midnight, ignorant
 of the passages of the wizard’s den, without arms, and with the
 pleasant prospect of the young lady coming back with Devil-Bug and his
-niggers to despatch me. I had heard the cry of ‘Murder’-- so ran my
+niggers to despatch me. I had heard the cry of ‘Murder’--so ran my
 reasoning* *--they, that is the murderers--would suspect that I was a
 witness to their guilt, and, of course, would send me down some d--d
 trap-door on an especial message to the devil.
@@ -3813,7 +3813,7 @@ discoloring the flesh beneath each eye.
 
 “This here ‘Lively’ is first rate, after the tramp I’ve had--” said
 Bessie as her eyes grew brighter with the ‘lively’ effects of the
-bottle-- “You know Mother Nancy its three weeks since Gus mentioned the
+bottle--“You know Mother Nancy its three weeks since Gus mentioned the
 <i>thing</i> to me--”
 
 “What thing, my dear?”
@@ -3915,7 +3915,7 @@ Let’s try a little of the ‘Lively.’ And how did she--this baby-faced
 doll--keep these walks secret from the eyes of her folks? Eh? Bessie?”
 
 “Easy as <i>that</i>--” replied Bessie gracefully snapping her
-fingers--“Every time she went out, she told father and mother” that
+fingers--“Every time she went out, she told father and mother that
 she went to see her old Aunt. I hinted at first, that our friendship
 would be more romantic, if concealed from all intrusive eyes. The girl
 took the hint. Lorrimer with his smooth tongue, told her a long story
@@ -4139,7 +4139,7 @@ self, that marks the first passion of an innocent woman!
 
 <tb>
 
-[8]And was there aught of <i>earth</i> in this love? Did the fever
+And[8] was there aught of <i>earth</i> in this love? Did the fever
 of sensual passion throb in the pulses of her virgin blood? Did she
 love Lorrimer because his eye was bright, his form magnificent, his
 countenance full of healthy manliness? No, no, no! Shame on the fools
@@ -4260,7 +4260,7 @@ happiness? Not I--not I. Now slip off your night-gown my dear--Have you
 seen the wedding dress?”
 
 “It seems to me--” said Mary, whose thoughts dwelt solely on her love
-for Lorrimer-- “That there is something deeply touching in a wedding
+for Lorrimer--“That there is something deeply touching in a wedding
 that is held at this hour of the night! Every thing is calm and
 tranquil; the earth lies sleeping, while Heaven itself watches over the
 union of two hearts that are all in all to each other--”
@@ -5379,7 +5379,7 @@ could’nt you have taken it up yourself? ’Bijah you’re growin’ lazy--”
 
 “Mind gal--” grunted Devil-Bug as the girl disappeared through the
 door--“Set his plate on the side of the table furthest from the door.
-D’ye hear? It’s a whim o’mine--furthest from the door--d’ye hear”
+D’ye hear? It’s a whim o’mine--furthest from the door--d’ye hear?”
 
 “‘Furthest from the door’--” echoed Bess, and in a moment her footsteps
 resounded with a low pattering noise along the massive staircase.
@@ -5450,7 +5450,7 @@ And up the staircase of the mansion he pursued his way, flinging the
 blazing furnace from side to side, while his face, grew like the visage
 of a very devil, as again the words rose to his lips--
 
-“The charcoal’s a-burnin’ -- wonder how <i>that</i> ’ill work?”
+“The charcoal’s a-burnin’--wonder how <i>that</i> ’ill work?”
 
 The light still flickered through the keyhole of the massive door.
 
@@ -5663,7 +5663,7 @@ Byrnewood--“yer humble servant thought you might be hungry, so he sent
 you suffin’ to eat. Thought you might be cold; so he brung you some
 coals to warm yesself. You can <i>re</i>-tire, Bessie--”
 
-He gently led her to the door, fixing his eye upon her face. with a
+He gently led her to the door, fixing his eye upon her face with a
 look, as full of venom as a spiders sting.
 
 “You’d a-spilt it all--would yo’?” he hissed the whisper in her ear
@@ -7259,7 +7259,7 @@ She unwound her form from his embrace, and sank crouching into a corner
 of the Rose Chamber, extending her hands with a frightened gesture, as
 though she feared his slightest touch.
 
-“Mary” shrieked Byrnewood, flinging his arms on high, with a movement
+“Mary,” shrieked Byrnewood, flinging his arms on high, with a movement
 of sudden agitation--“Oh, do not look upon me thus! Come to me--oh,
 Mary--come to me, for I am your brother.”
 
@@ -8352,7 +8352,7 @@ humor, we’ll step in, and take a look at them. I’ll show you how to
 bluff off a creditor--”
 
 “I thought I was rather <i>au fait</i> at that business myself.
-However--<i>onter noos</i>--as we say in domestic French”[9]
+However--<i>onter noos</i>--as we say in domestic French.”[9]
 
 
 
@@ -8480,7 +8480,7 @@ important proposition. There was a dead silence in the Saloon. You
 might have heard a pin drop. The four and thirty Creditors, looked into
 one another’s faces, but said nothing. Buzby Poodle and Dim the Creole,
 concealed themselves among the window curtains, which quivered and
-shook, as with a sudden convulsion,
+shook, as with a sudden convulsion:
 
 “Gentlemen d’ye like my proposition?” said Fitz-Cowles blandly--“Is it
 feasible? We can all go to Huancatapepetel together; times are so hard
@@ -11404,7 +11404,7 @@ came echoing up the chasm, not even a murmur or a groan.
 
 “He’s gone home to his daddy--” muttered Devil-Bug, as rising on
 his feet again, he turned, in the darkness, from the edge of the
-trap-door-- “He’ll never refuse fat pork agin’. I warrant ye!”
+trap-door--“He’ll never refuse fat pork agin’. I warrant ye!”
 
 “I say, vot te teffil you cuts dem capersh for?” said a clear bold
 voice, resounding through the darkness of the vault--“Got-tam! I might
@@ -13523,7 +13523,7 @@ trickled down his swarthy face.
 
 “And not to git the chest o’ doubloons arter all! Kin ye read feller, I
 say kin ye read?” he exclaimed in a fierce tone, as he laid his hand on
-Brick-Top’s arm-- “Or are ye a stupid jackass as don’t know nothin’?”
+Brick-Top’s arm--“Or are ye a stupid jackass as don’t know nothin’?”
 
 “Shut me up in a coal mine all my life, and make me chaw dirt for a
 livin’! Kin I read? I wish my daddy could hear you say that! He’d show
@@ -13840,7 +13840,7 @@ the cloak around his slender form, carelessly tossed his dark ringlets
 over his brow and looked in the face of Devil-Bug with a long and
 penetrating glance.
 
-“Portr’it painter, I s’pose”? said Devil-Bug, with a grin--“Wants to
+“Portr’it painter, I s’pose?” said Devil-Bug, with a grin--“Wants to
 put my phizzog in the pictur’ winders.”
 
 “You know a man named Luke Harvey--” said the stranger in a deep voice
@@ -18879,7 +18879,7 @@ wide town, and to-morrow--”
 
 The Ghost paused. It pointed to the lurid cloud over head with the
 letters of flame written on its darkness, and as it pointed, a sad
-smile stole over its lips, and it whispered,
+smile stole over its lips, and it whispered:
 
 /*
   WO UNTO SODOM
@@ -21059,7 +21059,7 @@ eyes--who was he?
 
 It was the Signior Ravoni.
 
-[20]“Yes, yes, I am myself once more,” he muttered, striding slowly
+“Yes,[20] yes, I am myself once more,” he muttered, striding slowly
 along the room. “The sallow hues of care have vanished from my cheeks;
 the stoop of age has fallen from my shoulders. Once more I stand
 attired for the festival of Ravoni! That Festival I have celebrated
@@ -23861,7 +23861,7 @@ land and ocean, in order to save the souls of naked Savages of the
 South Sea, or rescue freezing Greenlanders of the polar waste, from the
 perils of eternal death.
 
-[23]“Hurray for old Devil-Bug!” the shout broke from the assembled band
+“Hurray[23] for old Devil-Bug!” the shout broke from the assembled band
 of vagabonds.
 
 “Hush your d----d noise!” growled Devil-Bug. “Or shall I lame two
@@ -24119,7 +24119,7 @@ George the Third, refused to pardon Gineral Washington. The Revolution,
 gentlemen, wos the konsekence o’ that refusal! I refers you to history,
 gentlemen, for further pertik’lers.”
 
-[24]“Genelmen, feller citizens,” shouted Slippery Elm, “Three cheers
+“Genelmen,[24] feller citizens,” shouted Slippery Elm, “Three cheers
 for the Governor, wot pardons everybody, for doin’ everything, and
 don’t axe no quest’ins! Huzzay!”
 
@@ -25258,7 +25258,7 @@ will go to prissen, and some of us ’ill be hung! Hurray! It’s only a
 kick and a jerk, and won’s as dead as a herrin’! I’ve hung a man in my
 time, I have that----”
 
-“‘ose you give us a leetle sarmin on that pint,” calmly remarked Easy
+“’Spose you give us a leetle sarmin on that pint,” calmly remarked Easy
 Larkspur, or Major Mulhill, as the reader likes. “We’re all a-waitin’
 for Alderman Tallow-docket, who’s to bind yo’ over, and send yo’ to
 prissin. Peggy Grud was brought out for final examination; and as
@@ -25543,7 +25543,7 @@ Pirate.</i>’
 “Hurray for the gallows, say I! It’s only a kick an’ a jerk, and a
 feller goes straight to kingdom come!
 
-[25]“The good old gallows law, for ever, and ever, A-men!”
+“The[25] good old gallows law, for ever, and ever, A-men!”
 
 <tb>
 
