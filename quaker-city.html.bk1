@@ -210,11 +210,6 @@
             text-indent: 0;
         }
 
-        header p {
-          text-align: center;
-          text-transform: uppercase;
-        }
-
         /* Transform */
 
         h1, h2, h3, *.uc {
@@ -292,11 +287,6 @@
             page-break-before: always;
         }
 
-       figure.break {
-            page-break-before: always;
-            page-break-after: always;
-}
-
         footer p{
           text-align: right;
         }
@@ -350,7 +340,7 @@ blockquote.poetry p > span + br {
     <p class="subtitle uc">Or, the<br>
     <span class="larger">Monks of Monk-Hall</span></p>
 
-    <p class="center uc">A Romance of<br> Philadelphia Life, Mystery and Crime.</p>
+    <p class="center uc">A Romance of<br> Philapdelphia Life, Mystery and Crime.</p>
 
   </header>
 
@@ -7768,10 +7758,7 @@ and the clouds sweep slowly past, bathed in the same crimson hue. All
 is blood—the river rushes before me, and the sky and the city—all
 pictured in colors of blood.</p>
 
-<figure class="break my-1">
-<img class="img-100" src="images/p126.jpg">
-<figcaption class="center uc">Mary, Byrnewood, and Lorrimer.—Page 126.</figcaption>
-</figure>
+<p>[Illustration: MARY, BYRNEWOOD, AND LORRIMER.—Page 126.]</p>
 
 <p>“An invisible hand is leading me to my doom. There is Death for me,
 in yonder river, and I know it, yet down, down to the rivers banks,

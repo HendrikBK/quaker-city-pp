@@ -1,0 +1,38 @@
+h1, h2, h3, h4 {
+    text-align: center;
+    text-transform: uppercase;    
+}
+
+*.uc {
+    text-transform: uppercase;
+}
+
+*.center,
+*.subtitle {
+    text-align: center;
+    text-indent: 0;
+}
+
+*.larger {
+    font-size: 1.3em;
+}
+
+/* Margins */
+
+*.mt-2 {
+    margin-top: 2em;
+}
+
+*.mt-5 {
+    margin-top: 5em;
+}
+
+section > p,
+blockquote > p {
+    text-indent: 1em;
+}
+
+blockquote.bridgehead p {
+    text-align: justify;
+    text-indent: -1em;
+}

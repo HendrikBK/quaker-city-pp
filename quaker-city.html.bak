@@ -8,427 +8,422 @@
       The Quaker City | Project Gutenberg
     </title>
     <link rel="icon" href="images/cover.jpg" type="image/x-cover">
+<link rel="stylesheet" href="css.CSS">
     <style>
+       body {
+            margin-left: 10%;
+            margin-right: 10%;
+        }
 
-body {
-    margin-left: 10%;
-    margin-right: 10%;
+        h1,h2,h3,h4,h5,h6 {
+            text-align: center; /* all headings centered */
+            clear: both;
+        }
+
+        p {
+            margin-top: .5em;
+            text-align: justify;
+            margin-bottom: .5em;
+        }
+
+        p + p {
+            text-indent: 1em;
+        }
+
+        hr {
+            width: 33%;
+            margin-top: 2em;
+            margin-bottom: 2em;
+            margin-left: 33.5%;
+            margin-right: 33.5%;
+            clear: both;
+        }
+
+        hr.tb   {
+            width: 45%;
+            margin-left: 27.5%;
+            margin-right: 27.5%;
+        }
+
+        hr.chap {
+            width: 65%;
+            margin-left: 17.5%;
+            margin-right: 17.5%;
+            }
+
+        @media print {
+            hr.chap {
+                display: none;
+                visibility: hidden;
+            }
+        }
+
+        hr.full {
+            width: 95%;
+            margin-left: 2.5%;
+            margin-right: 2.5%;
+        }
+
+        div.chapter {page-break-before: always;}
+        h2.nobreak  {page-break-before: avoid;}
+
+        /*ul.index { list-style-type: none; }
+        li.ifrst {
+            margin-top: 1em;
+            text-indent: -2em;
+            padding-left: 1em;
+        }
+        li.indx  {
+            margin-top: .5em;
+            text-indent: -2em;
+            padding-left: 1em;
+        }
+        li.isub1 {
+            text-indent: -2em;
+            padding-left: 2em;
+        }
+        li.isub2 {
+            text-indent: -2em;
+            padding-left: 3em;
+        }
+        li.isub3 {
+            text-indent: -2em;
+            padding-left: 4em;
+        }
+        li.isub4 {
+            text-indent: -2em;
+            padding-left: 5em;
+        }*/
+
+        table {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        /*table.autotable    { border-collapse: collapse; }
+        table.autotable td,
+        table.autotable th { padding: 0.25em; }
+
+        .tdl      {text-align: left;}
+        .tdr      {text-align: right;}
+        .tdc      {text-align: center;}*/
+
+        /* Page numbers */
+
+        .pagenum { /* uncomment the next line for invisible page numbers */
+            /*  visibility: hidden;  */
+            position: absolute;
+            left: 92%;
+            font-size: small;
+            text-align: right;
+            font-style: normal;
+            font-weight: normal;
+            font-variant: normal;
+            text-indent: 0;
+        }
+
+        /*.linenum {
+            position: absolute;
+            top: auto;
+            left: 4%;
+            font-style: normal;
+            font-weight: normal;
+            font-variant: normal;
+        }*/
+
+        blockquote {
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-left: 5%;
+            margin-right: 10%;
+        }
+
+        /*.sidenote {
+            width: 20%;
+            padding-bottom: .5em;
+            padding-top: .5em;
+            padding-left: .5em;
+            padding-right: .5em;
+            margin-left: 1em;
+            float: right;
+            clear: right;
+            margin-top: 1em;
+            font-size: small;
+            color: black;
+            background: #eeeeee;
+            border: 1px dashed;
+        }*/
+
+        /* Images */
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Footnotes */
+        .footnotes        {border: 1px dashed;}
+
+        .footnote         {margin-left: 10%; margin-right: 10%; font-size: 0.9em;}
+
+        .footnote .label  {position: absolute; right: 84%; text-align: right;}
+
+        .fnanchor {
+            vertical-align: super;
+            font-size: .8em;
+            text-decoration:
+            none;
+        }
+
+        /* Poetry */
+        /* uncomment the next line for centered poetry */
+        /* .poetry-container {display: flex; justify-content: center;} */
+        .poetry-container {text-align: center;}
+        .poetry           {text-align: left; margin-left: 5%; margin-right: 5%;}
+        .poetry .stanza   {margin: 1em auto;}
+        .poetry .verse    {text-indent: -3em; padding-left: 3em;}
+
+        /* Transcriber's notes */
+        .transnote {background-color: #E6E6FA;
+            color: black;
+            font-size:small;
+            padding:0.5em;
+            margin-bottom:5em;
+            font-family:sans-serif, serif;
+        }
+
+        /* General CSS */
+
+        *.center {
+            text-align: center;
+            text-indent: 0;
+        }
+
+        *.left {
+            text-align: left;
+        }
+
+        *.right {
+            text-align: right;
+        }
+
+        p.noindent {
+            text-indent: 0;
+        }
+
+        header p {
+          text-align: center;
+          text-transform: uppercase;
+        }
+
+        /* Transform */
+
+        h1, h2, h3, *.uc {
+            text-Transform: uppercase;
+        }
+
+        *.smcap {
+            font-variant: small-caps;
+        }
+
+        *.allsmcap {
+            font-variant: small-caps;
+            text-Transform: lowercase;
+        }
+
+        /* Margins and padding */
+
+        *.mt-1 {
+            margin-top: 1em;
+        }
+
+        *.mb-1 {
+            margin-bottom: 1em;
+        }
+
+        *.ml-1 {
+            margin-left: 1em;
+        }
+
+        *.mr-1 {
+            margin-right: 1em;
+        }
+
+        *.mx-1 {
+            margin-left: 1em;
+            margin-right: 1em;
+        }
+
+        *.my-1 {
+            margin-top: 1em;
+            margin-bottom: 1em;
+        }
+
+        *.pt-1 {
+            padding-top: 1em;
+        }
+
+        *.pr-1 {
+            padding-right: 1em;
+        }
+
+        *.pb-1 {
+            padding-bottom: 1em;
+        }
+
+        *.pl-1 {
+            padding-left: 1em;
+        }
+
+        *.px-1 {
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+
+        *.py-1 {
+            padding-top: 1em;
+            padding-bottom: 1em;
+        }
+
+        /* Breaks */
+
+        body > section,
+        body > div,
+        *.break {
+            page-break-before: always;
+        }
+
+       figure.break {
+            page-break-before: always;
+            page-break-after: always;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    text-align: center; /* all headings centered */
-    clear: both;
-}
+        footer p{
+          text-align: right;
+        }
 
-p {
-    margin-top: .5em;
-    text-align: justify;
-    margin-bottom: .5em;
-}
-
-.p2       {margin-top: 2em;}
-.p4       {margin-top: 4em;}
-.p6       {margin-top: 6em;}
-
-hr {
-    width: 33%;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    margin-left: 33.5%;
-    margin-right: 33.5%;
-    clear: both;
-}
-
-hr.tb   {width: 45%; margin-left: 27.5%; margin-right: 27.5%;}
-hr.chap {width: 65%; margin-left: 17.5%; margin-right: 17.5%;}
-@media print { hr.chap {display: none; visibility: hidden;} }
-hr.full {width: 95%; margin-left: 2.5%; margin-right: 2.5%;}
-
-hr.r5  {width: 5%; margin-top: 1em; margin-bottom: 1em; margin-left: 47.5%; margin-right: 47.5%;}
-hr.r65 {width: 65%; margin-top: 3em; margin-bottom: 3em; margin-left: 17.5%; margin-right: 17.5%;}
-
-div.chapter {page-break-before: always;}
-h2.nobreak  {page-break-before: avoid;}
-
-ul.index { list-style-type: none; }
-li.ifrst {
-    margin-top: 1em;
-    text-indent: -2em;
-    padding-left: 1em;
-}
-li.indx  {
-    margin-top: .5em;
-    text-indent: -2em;
-    padding-left: 1em;
-}
-li.isub1 {
-    text-indent: -2em;
-    padding-left: 2em;
-}
-li.isub2 {
-    text-indent: -2em;
-    padding-left: 3em;
-}
-li.isub3 {
-    text-indent: -2em;
-    padding-left: 4em;
-}
-li.isub4 {
-    text-indent: -2em;
-    padding-left: 5em;
-}
-
-table {
-    margin-left: auto;
-    margin-right: auto;
-}
-table.autotable    { border-collapse: collapse; }
-table.autotable td,
-table.autotable th { padding: 0.25em; }
-
-.tdl      {text-align: left;}
-.tdr      {text-align: right;}
-.tdc      {text-align: center;}
-
-.pagenum { /* uncomment the next line for invisible page numbers */
-    /*  visibility: hidden;  */
-    position: absolute;
-    left: 92%;
-    font-size: small;
-    text-align: right;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
+        blockquote.poetry p {
+    text-align: left;
     text-indent: 0;
-} /* page numbers */
-
-.linenum {
-    position: absolute;
-    top: auto;
-    left: 4%;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-} /* poetry number */
-
-blockquote {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 5%;
-    margin-right: 10%;
 }
 
-.sidenote {
-    width: 20%;
-    padding-bottom: .5em;
-    padding-top: .5em;
-    padding-left: .5em;
-    padding-right: .5em;
-    margin-left: 1em;
-    float: right;
-    clear: right;
-    margin-top: 1em;
-    font-size: small;
-    color: black;
-    background: #eeeeee;
-    border: 1px dashed;
+blockquote.poetry p > span {
+    display: block;
+    padding-left: 1em;
+    text-indent: -1em;
 }
 
-.bb       {border-bottom: 2px solid;}
-
-.bl       {border-left: 2px solid;}
-
-.bt       {border-top: 2px solid;}
-
-.br       {border-right: 2px solid;}
-
-.bbox     {border: 2px solid;}
-
-.center   {text-align: center; text-indent: 0;}
-
-.right    {text-align: right;}
-
-.smcap    {font-variant: small-caps;}
-
-.allsmcap {font-variant: small-caps; text-transform: lowercase;}
-
-.u        {text-decoration: underline;}
-
-.gesperrt
-{
-    font-style: normal;
-    letter-spacing: 0.2em;
-    margin-right: -0.2em;
-}
-.x-ebookmaker-2 .gesperrt {
-    font-style: italic;
-    letter-spacing: normal;
-    margin-right: 0em;
+blockquote.poetry p > span + br {
+    display: none;
 }
 
-figcaption   {font-weight: bold;}
-figcaption p {margin-top: 0; margin-bottom: .2em; text-align: inherit;}
-
-/* Images */
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-img.w100 {width: 100%;}
-
-
-.figcenter {
-    margin: auto;
-    text-align: center;
-    page-break-inside: avoid;
-    max-width: 100%;
+.img-container {
+  text-align: center;
+  margin: auto;
 }
 
-.figleft {
-    float: left;
-    clear: left;
-    margin-left: 0;
-    margin-bottom: 1em;
-    margin-top: 1em;
-    margin-right: 1em;
-    padding: 0;
-    text-align: center;
-    page-break-inside: avoid;
-    max-width: 100%;
-}
-/* comment out next line and uncomment the following one for floating figleft on ebookmaker output */
-.x-ebookmaker .figleft {float: none; text-align: center; margin-right: 0;}
-/* .x-ebookmaker .figleft {float: left;} */
-
-.figright {
-    float: right;
-    clear: right;
-    margin-left: 1em;
-    margin-bottom: 1em;
-    margin-top: 1em;
-    margin-right: 0;
-    padding: 0;
-    text-align: center;
-    page-break-inside: avoid;
-    max-width: 100%;
-}
-/* comment out next line and uncomment the following one for floating figright on ebookmaker output */
-.x-ebookmaker .figright {float: none; text-align: center; margin-left: 0;}
-/* .x-ebookmaker .figright {float: right;} */
-
-/* Footnotes */
-.footnotes        {border: 1px dashed;}
-
-.footnote         {margin-left: 10%; margin-right: 10%; font-size: 0.9em;}
-
-.footnote .label  {position: absolute; right: 84%; text-align: right;}
-
-.fnanchor {
-    vertical-align: super;
-    font-size: .8em;
-    text-decoration:
-    none;
+.img-25 {
+  width: 25%;
 }
 
-/* Poetry */
-/* uncomment the next line for centered poetry */
-/* .poetry-container {display: flex; justify-content: center;} */
-.poetry-container {text-align: center;}
-.poetry           {text-align: left; margin-left: 5%; margin-right: 5%;}
-.poetry .stanza   {margin: 1em auto;}
-.poetry .verse    {text-indent: -3em; padding-left: 3em;}
-
-/* Transcriber's notes */
-.transnote {background-color: #E6E6FA;
-    color: black;
-    font-size:small;
-    padding:0.5em;
-    margin-bottom:5em;
-    font-family:sans-serif, serif;
+.img-100 {
+  width: 100%;
 }
 
     </style>
 </head>
 <body>
 
+<div id="frontispiece">
 
-<!-- Autogenerated TOC. Modify or delete as required. -->
-<p>
-<a href="#PREFACE_TO_THIS_EDITION">PREFACE TO THIS EDITION.</a><br>
-<a href="#INSCRIBED_TO_THE_MEMORY_OF_CHARLES_BROCKDEN_BROWN">INSCRIBED TO THE MEMORY OF CHARLES BROCKDEN BROWN. <b>The origin and object of this Book.</b></a><br>
-<a href="#THE">THE MONKS OF MONK-HALL.</a><br>
-<a href="#BOOK_THE_FIRST">BOOK THE FIRST. THE FIRST NIGHT. MARY, THE MERCHANT’S DAUGHTER.</a><br>
-<a href="#CHAPTER_FIRST">CHAPTER FIRST. THE WAGER IN THE OYSTER-CELLAR.</a><br>
-<a href="#CHAPTER_SECOND">CHAPTER SECOND. MARY, THE MERCHANTS DAUGHTER.</a><br>
-<a href="#CHAPTER_THIRD">CHAPTER THIRD. BYRNEWOOD AND LORRIMER.</a><br>
-<a href="#CHAPTER_FOURTH">CHAPTER FOURTH. THE ASTROLOGER.</a><br>
-<a href="#CHAPTER_FIFTH">CHAPTER FIFTH. DORA LIVINGSTONE.</a><br>
-<a href="#CHAPTER_SIXTH">CHAPTER SIXTH. MONK-HALL.</a><br>
-<a href="#CHAPTER_SEVENTH">CHAPTER SEVENTH. THE MONKS OF MONK-HALL.</a><br>
-<a href="#CHAPTER_EIGHTH">CHAPTER EIGHTH. MOTHER NANCY AND LONG-HAIRED BESS.</a><br>
-<a href="#CHAPTER_NINTH">CHAPTER NINTH. THE BRIDE.</a><br>
-<a href="#CHAPTER_TENTH">CHAPTER TENTH. THE BRIDAL.</a><br>
-<a href="#CHAPTER_ELEVENTH">CHAPTER ELEVENTH. DEVIL-BUG.</a><br>
-<a href="#CHAPTER_TWELFTH">CHAPTER TWELFTH. THE TOWER ROOM.</a><br>
-<a href="#CHAPTER_THIRTEENTH">CHAPTER THIRTEENTH. THE CRIME WITHOUT A NAME.</a><br>
-<a href="#CHAPTER_FOURTEENTH">CHAPTER FOURTEENTH. THE GUILTY WIFE.</a><br>
-<a href="#CHAPTER_FIFTEENTH">CHAPTER FIFTEENTH. THE DISHONOR.</a><br>
-<a href="#BOOK_THE_SECOND"><i>BOOK THE SECOND.</i> THE DAY AFTER THE NIGHT. THE FORGER.</a><br>
-<a href="#CHAPTER_FIRST_1">CHAPTER FIRST. FITZ-COWLES AT HOME.</a><br>
-<a href="#CHAPTER_SECOND_1">CHAPTER SECOND. FITZ-COWLES AND HIS CREDITORS.</a><br>
-<a href="#CHAPTER_THIRD_1">CHAPTER THIRD. THE DEATH WARRANT.</a><br>
-<a href="#CHAPTER_FOURTH_1">CHAPTER FOURTH. DORA LIVINGSTONE AT HOME.</a><br>
-<a href="#CHAPTER_FIFTH_1">CHAPTER FIFTH. THE GOLD WATCH.</a><br>
-<a href="#CHAPTER_SIXTH_1">CHAPTER SIXTH. THE POISON OF CATHARINE DE MEDICIS.</a><br>
-<a href="#CHAPTER_SEVENTH_1">CHAPTER SEVENTH. THE COUNCIL OF WAR.</a><br>
-<a href="#CHAPTER_EIGHTH_1">CHAPTER EIGHTH. MAJOR RAPPAHANNOCK MULHILL.</a><br>
-<a href="#CHAPTER_NINTH_1">CHAPTER NINTH. THE DEAD-VAULT OF MONK-HALL.</a><br>
-<a href="#CHAPTER_TENTH_1">CHAPTER TENTH. THE GHOST-ROOM.</a><br>
-<a href="#CHAPTER_ELEVENTH_1">CHAPTER ELEVENTH. DEVIL-BUG IN THE GHOST-ROOM.</a><br>
-<a href="#BOOK_THE_THIRD">BOOK THE THIRD. THE SECOND NIGHT. MABEL.</a><br>
-<a href="#CHAPTER_FIRST_2">CHAPTER FIRST. LUKE HARVEY IN THE GHOST-ROOM.</a><br>
-<a href="#CHAPTER_SECOND_2">CHAPTER SECOND. DORA AND LUKE.</a><br>
-<a href="#CHAPTER_THIRD_2">CHAPTER THIRD. THE FREE BELIEVERS AND TRUE REPENTERS.</a><br>
-<a href="#CHAPTER_FOURTH_2">CHAPTER FOURTH. STRANGE VISITORS IN MONK-HALL.</a><br>
-<a href="#CHAPTER_FIFTH_2">CHAPTER FIFTH. DORA AND FITZ-COWLES.</a><br>
-<a href="#CHAPTER_SIXTH_2">CHAPTER SIXTH. DEVIL-BUG IN LOVE.</a><br>
-<a href="#CHAPTER_SEVENTH_2">CHAPTER SEVENTH. PARSON PYNE AND HIS DAUGHTER.</a><br>
-<a href="#CHAPTER_EIGHTH_2">CHAPTER EIGHTH. THE PIT OF MONK-HALL.</a><br>
-<a href="#CHAPTER_NINTH_2">CHAPTER NINTH. PATENT-GOSPEL GRACE.</a><br>
-<a href="#CHAPTER_TENTH_2">CHAPTER TENTH. PARSON PYNE HAS A GOOD LAUGH TO HIMSELF.</a><br>
-<a href="#CHAPTER_ELEVENTH_2">CHAPTER ELEVENTH. THE SAVAGE ALONE WITH THE MAIDEN.</a><br>
-<a href="#CHAPTER_TWELFTH_1">CHAPTER TWELFTH. THE FLIGHT FROM MONK-HALL.</a><br>
-<a href="#CHAPTER_THIRTEENTH_1">CHAPTER THIRTEENTH. THE GOLD WHICH DEVIL-BUG WON.</a><br>
-<a href="#CHAPTER_FOURTEENTH_1">CHAPTER FOURTEENTH. DEVIL-BUG’S DREAM.</a><br>
-<a href="#The_Last_Day_of_the_Quaker_City">The Last Day of the Quaker City.</a><br>
-<a href="#BOOK_THE_FOURTH">BOOK THE FOURTH. THE SECOND DAY. RAVONI THE SORCERER.</a><br>
-<a href="#CHAPTER_FIRST_3">CHAPTER FIRST. GOD IS JUST.</a><br>
-<a href="#CHAPTER_SECOND_3">CHAPTER SECOND. THE CURSE OF THE DRUGGED POTION.</a><br>
-<a href="#CHAPTER_THIRD_3">CHAPTER THIRD. “RAVONI A GOD!”</a><br>
-<a href="#CHAPTER_FOURTH_3">CHAPTER FOURTH. THE PRIESTESS OF RAVONI.</a><br>
-<a href="#CHAPTER_FIFTH_3">CHAPTER FIFTH. THE DISSECTING ROOM.</a><br>
-<a href="#CHAPTER_SIXTH_3">CHAPTER SIXTH. THE FIRST MIRACLE OF THE NEW FAITH.</a><br>
-<a href="#CHAPTER_SEVENTH_3">CHAPTER SEVENTH. RAVONI AND MABEL.</a><br>
-<a href="#CHAPTER_EIGHTH_3">CHAPTER EIGHTH. THE DEATH OF THE WHITE OWL.</a><br>
-<a href="#BOOK_THE_FIFTH">BOOK THE FIFTH.</a><br>
-<a href="#THE_THIRD_NIGHT">THE THIRD NIGHT. THE DEATH-ANGELS.</a><br>
-<a href="#CHAPTER_FIRST_4">CHAPTER FIRST. THE OUTCASTS OF THE QUAKER CITY.</a><br>
-<a href="#CHAPTER_SECOND_4">CHAPTER SECOND. THE OAK CHAMBER OF HAWKEWOOD. DORA LIVINGSTONE GAINS THE CORONET, FOR WHICH SHE PERILLED HER SOUL.</a><br>
-<a href="#CHAPTER_THIRD_4">CHAPTER THIRD. HURRAH FOR THE GALLOWS!</a><br>
-<a href="#CHAPTER_FOURTH_4">CHAPTER FOURTH. THE CHAPEL OF JESUS.</a><br>
-<a href="#CHAPTER_FIFTH_4">CHAPTER FIFTH. THE TEMPLE OF RAVONI.</a><br>
-<a href="#BOOK_THE_SIXTH">BOOK THE SIXTH.</a><br>
-<a href="#THE_THIRD_DAY">THE THIRD DAY. CHRISTMAS EVE.</a><br>
-<a href="#CHAPTER_FIRST_5">CHAPTER FIRST. HOME ONCE MORE.</a><br>
-<a href="#CHAPTER_SECOND_5">CHAPTER SECOND. THE PERSONAGE.</a><br>
-<a href="#CHAPTER_THIRD_5">CHAPTER THIRD. MONK-HALL ONCE MORE.</a><br>
-<a href="#CHAPTER_FOURTH_5">CHAPTER FOURTH. THE MEETING OF THE BROTHER AND THE LIBERTINE.</a><br>
-<a href="#CHAPTER_FIFTH_5">CHAPTER FIFTH. SUNSET ON CHRISTMAS EVE.</a><br>
-<a href="#THE_CONCLUSION">THE CONCLUSION.</a><br>
-<a href="#NOTES">NOTES</a>
-</p>
-<!-- End Autogenerated TOC. -->
-
-
-<p>[Illustration:</p>
-
-<p>
-  <span style="margin-left: 1.0em;"><i>In Brotherhood</i></span><br>
-  <span style="margin-left: 1.0em;"><i>George Lippard</i></span><br>
-  <span style="margin-left: 1.0em;"><i>S. W.</i></span>
-</p>
-<p>]</p>
-
-
-<h1>
-  THE QUAKER CITY;
-</h1>
-
-<p>
-  <span style="margin-left: 1.0em;">OR, THE</span><br>
-  <br>
-  <span style="margin-left: 1.0em;">MONKS OF MONK-HALL.</span><br>
-  <br>
-  <span style="margin-left: 1.0em;">A ROMANCE OF</span><br>
-  <br>
-  <span style="margin-left: 1.0em;">PHILADELPHIA LIFE, MYSTERY AND CRIME.</span><br>
-  <br>
-  <span style="margin-left: 1.0em;">WITH ILLUSTRATIONS, AND THE AUTHOR’S PORTRAIT AND AUTOGRAPH.</span><br>
-  <br>
-  <span style="margin-left: 1.0em;">BY GEORGE LIPPARD.</span><br>
-  <br>
-  <span style="margin-left: 1.0em;">AUTHOR OF “THE LEGENDS OF THE AMERICAN REVOLUTION,” “PAUL ARDENHEIM,</span><br>
-  <span style="margin-left: 1.0em;">THE MONK OF WISSAHIKON;” “BLANCHE OF BRANDYWINE;” “WASHINGTON</span><br>
-  <span style="margin-left: 1.0em;">AND HIS MEN;” “THE MYSTERIES OF FLORENCE;” “THE MEMOIRS OF A</span><br>
-  <span style="margin-left: 1.0em;">PREACHER;” “THE EMPIRE CITY;” “THE BANK DIRECTOR’S SON;”</span><br>
-  <span style="margin-left: 1.0em;">“THE ENTRANCED;” “THE NAZARENE;” “LEGENDS OF MEXICO.”</span>
-</p>
-
-<blockquote>
-<p><i>No American Novel has ever commanded so wide-spread an interest,
-as this work. It has been made the subject of criticism wherever the
-English language is spoken. On one hand, it has been denounced as
-a work of the most immoral and incendiary character; on the other,
-it has been elaborately praised, as a painfully vivid picture of
-Life in the Great City. It is written in a graphic style, with its
-darker passages relieved by portraitures of intense moral interest
-and beauty. But we advise the reader to refer to the work itself.
-Let him survey its varied pages, and take in the wide panorama of
-its absorbing plot, from the first chapter where the Great Idea
-of the story is dimly shadowed, even to the last, where that Idea
-is portrayed in all its details. Although all the characters of
-Philadelphia Life are introduced—the Lawyer, who takes fees from
-both sides; the Parson, whose private history gives the lie to his
-public preaching; the Doctor, who commits a crime for money; as well
-as the dishonest Merchant, the Swell-Forger, the black mail Editor,
-the Young Blood about town; the Fence Keeper, (receiver of stolen
-goods,) etc., etc.; yet has the author painted no living character in
-the pages of his work, but only the distinguishing features of the
-representatives of a class.</i></p>
-</blockquote>
-
-<p>
-  <span style="margin-left: 1.0em;">PHILADELPHIA:</span><br>
-  <span style="margin-left: 1.0em;">LEARY, STUART &amp; COMPANY,</span><br>
-  <span style="margin-left: 1.0em;">9 SOUTH NINTH STREET.</span>
-</p>
+  <div class="img-container">
+    <img class="img-25" src="images/frontispiece.jpg" alt="A sketch of the author">
+  </div>
+</div>
 
 <hr class="chap x-ebookmaker-drop">
 
-<div class="chapter">
-<p>
-  <span style="margin-left: 1.0em;">Entered according to Act of Congress, in the year 1876, by</span><br>
-  <span style="margin-left: 1.0em;">T. B. PETERSON &amp; BROTHERS,</span><br>
-  <span style="margin-left: 1.0em;">In the Office of the Librarian of Congress, at Washington, D. C.</span>
+<section id="titlepage">
+
+  <header class="center">
+    <h1>The Quaker City</h1>
+
+    <p class="subtitle uc">Or, the<br>
+    <span class="larger">Monks of Monk-Hall</span></p>
+
+    <p class="center uc">A Romance of<br> Philadelphia Life, Mystery and Crime.</p>
+
+  </header>
+
+  <p class="center mt-2 uc">With Illustrations, and the Author’s Portrait and Autograph.</p>
+
+  <p class="center larger mt-2 uc">By George Lippard.</p>
+
+  <p class="center uc">Author of “The Legends of the American Revolution,” “Paul Ardenheim,
+  the Monk of Wissahikon;” “Blanche of Brandywine;” “Washington
+  and His Men;” “The Mysteries of Florence;” “The Memoirs of a
+  Preacher;” “The Empire City;” “The Bank Director’s Son;”
+  “The Entranced;” “The Nazarene;” “Legends of Mexico.”</p>
+
+  <blockquote class="mt-5">
+    <p><i>No American Novel has ever commanded so wide-spread an interest,
+    as this work. It has been made the subject of criticism wherever the
+    English language is spoken. On one hand, it has been denounced as
+    a work of the most immoral and incendiary character; on the other,
+    it has been elaborately praised, as a painfully vivid picture of
+    Life in the Great City. It is written in a graphic style, with its
+    darker passages relieved by portraitures of intense moral interest
+    and beauty. But we advise the reader to refer to the work itself.
+    Let him survey its varied pages, and take in the wide panorama of
+    its absorbing plot, from the first chapter where the Great Idea
+    of the story is dimly shadowed, even to the last, where that Idea
+    is portrayed in all its details. Although all the characters of
+    Philadelphia Life are introduced—the Lawyer, who takes fees from
+    both sides; the Parson, whose private history gives the lie to his
+    public preaching; the Doctor, who commits a crime for money; as well
+    as the dishonest Merchant, the Swell-Forger, the black mail Editor,
+    the Young Blood about town; the Fence Keeper, (receiver of stolen
+    goods,) etc., etc.; yet has the author painted no living character in
+    the pages of his work, but only the distinguishing features of the
+    representatives of a class.</i></p>
+  </blockquote>
+
+<p class="center mt-5 uc">
+  Philadelphia:<br>
+  <span class="larger">Leary, Stuart & Company,</span><br>
+  9 South Ninth Street.
+</p>
+
+
+</section>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div id="loc">
+<p class="center">
+  Entered according to Act of Congress, in the year 1876, by<br>
+  <span class="uc"><abbr>T. B.</abbr> Peterson & Brothers,</span><br>
+  In the Office of the Librarian of Congress, at Washington, <abbr>D. C.</abbr>
 </p>
 </div>
 
+<hr class="chap x-ebookmaker-drop">
 
-<p>[Illustration]</p>
+<div id="titlepage-image">
 
-<p>
-  <span style="margin-left: 1.0em;">THE</span><br>
-  <span style="margin-left: 1.0em;">QUAKER CITY.</span><br>
-  <span style="margin-left: 1.0em;">OR, THE</span><br>
-  <br>
-  <span style="margin-left: 1.0em;">[Illustration: WO UNTO SODOM]</span><br>
-  <br>
-  <span style="margin-left: 1.0em;">MONKS OF MONK-HALL</span>
-</p>
+<div class="img-container">
+  <img class="img-100" src="images/titlepage.jpg" alt="The titlepage of the book.">
+</div>
 
+</div>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
+
+<section id="preface-1">
 
 <p><span class="pagenum" id="Page_1">[Pg 1]</span></p>
 
 
-  <h2 class="nobreak" id="PREFACE_TO_THIS_EDITION">
-    PREFACE TO THIS EDITION.
-  </h2>
-</div>
-
+  <h2>Preface to this Edition.</h2>
 
 <p>My Publishers ask me to write a Preface for this new Edition of the
 Quaker City. What shall I say? Shall I at this time enter into a full
@@ -503,24 +498,28 @@ and all its virtues. Judge it as you yourself would wish to be judged.
 Do not wrest a line from these pages, for the encouragement of a bad
 thought or a bad deed.</p>
 
-<p>
-  <span style="margin-left: 1.0em;">GEORGE LIPPARD.</span>
-</p>
 
+<footer>
+  <p class="uc">George Lippard.</p>
+</footer>
+
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
+
+<div id="dedication">
+
+<p class="center uc">Inscribed to the Memory of Charles Brockden Brown.</p>
+
+</div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<section id="preface-2">
 
 <p><span class="pagenum" id="Page_3">[Pg 3]</span></p>
 
-
-  <h2 class="nobreak" id="INSCRIBED_TO_THE_MEMORY_OF_CHARLES_BROCKDEN_BROWN">
-    INSCRIBED TO THE MEMORY OF CHARLES BROCKDEN BROWN.
-    <br>
-    <b>The origin and object of this Book.</b>
-  </h2>
-</div>
-
+  <h2><b>The origin and object of this Book.</b></h2>
 
 <p>One winter night I was called to the bedside of a dying friend. I
 found him sitting up in his death-couch, pale and trembling yet unawed
@@ -593,8 +592,8 @@ friendship. He was a lawyer, and <i>honest</i>; a Christian and yet no
 bigot; a philosopher and yet no sceptic.</p>
 
 <p>After his funeral, I received the pacquet of papers, inscribed
-with my name, and endorsed, <span class="allsmcap">REVELATIONS OF THE SECRET LIFE OF
-PHILADELPHIA</span>, <i>being the records of thirty years practice as a
+with my name, and endorsed, <span class="allsmcap">Revelations of the Secret Life of
+Philadelphia</span>, <i>being the records of thirty years practice as a
 councillor, by</i> * * * K——.</p>
 
 <p>The present book is founded upon those portions of the Revelations,
@@ -604,42 +603,36 @@ more intimately connected with the present day.</p>
 Quaker City, I now give it to my countrymen, as an illustration of the
 life, mystery and crime of Philadelphia.</p>
 
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
+
+<section id="halftitlepage">
+
+<h2>The<br>
+<span class="larger">Monks of Monk-Hall</span></h2>
+
+</section>
+
+<hr class="chap x-ebookmaker-drop">
+
+<section id="book-1">
 
 <p><span class="pagenum" id="Page_5">[Pg 5]</span></p>
 
-
-  <h2 class="nobreak" id="THE">
-    THE
-    <br>
-    MONKS OF MONK-HALL.
-  </h2>
-</div>
-
+<header>
+  <h3>Book the First.</h3>
+  <p class="subtitle">The First Night.</p>
+  <p class="center uc">Mary, the Merchant’s Daughter</p>
+</header>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="BOOK_THE_FIRST">
-    BOOK THE FIRST.
-    <br>
-    THE FIRST NIGHT.
-    <br>
-    MARY, THE MERCHANT’S DAUGHTER.
-  </h2>
-</div>
 
-
-<hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_FIRST">
-    CHAPTER FIRST.
-    <br>
-    THE WAGER IN THE OYSTER-CELLAR.
-  </h2>
-</div>
-
+<section id="book-1-1">
+  <header>
+    <h4>Chapter First.</h4>
+    <p class="subtitle">The Wager in the Oyster-Cellar</p>
+  </header>
 
 <p>“I say, gentlemen, shall we make a night of it? That’s the question
 gents. Shall we elevate the—the devil along Chesnut street, or shall
@@ -788,7 +781,7 @@ Sioux warrior, whom he belabored with terrific shrieks and yells.</p>
 Lorrimer, who appeared to be the soberest of the party by several
 bottles—“Fun is fun, but this thing of cutting up shines in Chesnut
 street, after twelve, when it—keep steady Silly—amounts to yelling
-like a devil in harness is—un-un-der-stand me, no fun. Come along,
+like a devil in harness is—un‑un‑der‑stand me, no fun. Come along,
 Mutchy my boy!”</p>
 
 <p>And arm in arm, linked four abreast, like horses very tastelessly
@@ -796,7 +789,7 @@ matched, the boon companions tottered along Chesnut street, toward
 Smokey Chiffin’s oyster cellar, where they arrived, with but a single
 interruption.</p>
 
-<p>“<i>Hao-pao-twel-o-glor-a-a-damuley-mor!</i>”</p>
+<p>“<i>Hao‑pao‑twel‑o‑glor‑a‑a‑damuley‑mor!</i>”</p>
 
 <p>This mysterious combination of sounds emanated from a stout gentleman
 in a slouching hat, and four or five overcoats, who, with a small piece
@@ -807,10 +800,10 @@ speeding onward in full career.</p>
 turning his square face over his shoulder and gazing at the retreating
 figure with the cord stick and the overcoats—“Jist do that again
 if you please. Let me go I tell you, Gus. Don’t you see, this is
-some—dis-distinguished vocal-ist from London? What a pathos there is
+some—dis‑distinguished vocal‑ist from London? What a pathos there is
 in his voice—so deep—so full—why Brough is nothing to him! Knock
-Wood, and Seg-Seguin—and Shrival—and a dozen more into a musical
-cocked-hat, and they can’t equal our mys-mysterious friend—”</p>
+Wood, and Seg‑Seguin—and Shrival—and a dozen more into a musical
+cocked-hat, and they can’t equal our mys‑mysterious friend—”</p>
 
 <p>“I say you’d better tortle on my coveys—” cried he of the great coats
 and cord stick, in a subterranean voice—“Or p’r’aps, my fellers, ye’d
@@ -1212,16 +1205,16 @@ fashion plates for the next number of the Ladies’ Western Hemisphere.
 ‘Economy is wealth,’ and the best way to learn to fly is to
 creep—creep very low, remarkably low, d——d low—<i>always creep</i>!”</p>
 
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_SECOND">
-    CHAPTER SECOND.
-    <br>
-    MARY, THE MERCHANTS DAUGHTER.
-  </h2>
-</div>
 
+<section id="book-1-2">
+
+  <header>
+    <h4>Chapter Second.</h4>
+    <p class="subtitle">Mary, the Merchant’s Daughter.</p>
+  </header>
 
 <p>Leaning gently forward, her shawl falling carelessly from her
 shoulders, and her bonnet thrown back from her brow, the fair girl
@@ -1443,17 +1436,15 @@ nine. This, as the reader will perceive, was just four hours previous
 to the time when Byrnewood and Lorrimer closed their wager in the
 subterranean establishment along Chesnut street. To the wager and its
 result we now turn our attention and the readers interest.</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_THIRD">
-    CHAPTER THIRD.
-    <br>
-    BYRNEWOOD AND LORRIMER.
-  </h2>
-</div>
 
+<section id="book-1-3">
+  <header>
+    <h4>Chapter Third.</h4>
+    <p class="subtitle">Byrnewood and Lorrimer</p>
+  </header>
 
 <p>The harsh sound of their footsteps, resounding along the frozen
 pavement, awoke the echoes of the State House buildings, as linked arm
@@ -1670,20 +1661,17 @@ the —— Bank, which every body says is on the eve of a grand blow-up!”</p>
 regard to the prospects of his bank—ha—ha! However, my boy, the door
 is open—let’s enter! Let’s consult this familiar of the fates, this
 intimate acquaintance of the Future!”</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
 
-<p><span class="pagenum" id="Page_23">[Pg 23]</span></p>
+<section id="book-1-4">
+    <p><span class="pagenum" id="Page_23">[Pg 23]</span></p>
 
-
-  <h2 class="nobreak" id="CHAPTER_FOURTH">
-    CHAPTER FOURTH.
-    <br>
-    THE ASTROLOGER.
-  </h2>
-</div>
+    <header>
+        <h4>Chapter Fourth.</h4>
+        <p class="subtitle">The Astrologer</p>
+    </header>
 
 
 <p>In a small room, remarkable for the air of comfort imparted by the
@@ -2026,17 +2014,15 @@ passing through the lower room toward the street.</p>
 his features convulsed with anger, and his voice wild and piercing in
 its tones—“One of you will die by the other’s hand! The winding sheet
 is woven, and the coffin made—you are rushing madly on your doom!”</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_FIFTH">
-    CHAPTER FIFTH.
-    <br>
-    DORA LIVINGSTONE.
-  </h2>
-</div>
 
+<section id="book-1-5">
+    <header>
+        <h4>Chapter Fifth.</h4>
+        <p class="subtitle">Dora Livingstone.</p>
+    </header>
 
 <p>It was a nice cozy place, that old counting-house room, with its
 smoky walls, its cheerful coal fire burning in the rusty grate, and
@@ -2656,24 +2642,23 @@ and they hurried down Fourth street with a single word from Luke—</p>
 
 <p>“To Monk-hall!”</p>
 
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_SIXTH">
-    CHAPTER SIXTH.
-    <br>
-    MONK-HALL.&#x2060;<a id="FNanchor_4_4" href="#Footnote_4_4" class="fnanchor">[4]</a>
-  </h2>
-</div>
 
+<section id="book-1-6">
+    <header>
+        <h4>Chapter Sixth.</h4>
+        <p class="subtitle">Monk-Hall.<a id="FNanchor_4_4" href="#Footnote_4_4" class="fnanchor">[4]</a></p>
+    </header>
 
-<p>Strange traditions have come down to our time, in relation to a massive
-edifice, which, long before the Revolution, stood in the centre of an
-extensive garden, surrounded by a brick wall, and encircled by a deep
-grove of horse-chesnut and beechen trees. This edifice was located
-on the outskirts of the southern part of the city, and the garden
-overspread some acres, occupying a space full as large as a modern
-square.</p>
+    <p>Strange traditions have come down to our time, in relation to a massive
+    edifice, which, long before the Revolution, stood in the centre of an
+    extensive garden, surrounded by a brick wall, and encircled by a deep
+    grove of horse-chesnut and beechen trees. This edifice was located
+    on the outskirts of the southern part of the city, and the garden
+    overspread some acres, occupying a space full as large as a modern
+    square.</p>
 
 <p>This mansion, but rarely seen by intrusive eyes, had been originally
 erected by a wealthy foreigner, sometime previous to the Revolution.
@@ -2820,17 +2805,15 @@ been said about it; because, as the pious landlord would observe, when
 cramming Abijah’s rent-money into the same pocket-book that contained
 some tract-society receipts,—“Good tenant that!—pays his rent with
 the regularity of clock-work!”</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_SEVENTH">
-    CHAPTER SEVENTH.
-    <br>
-    THE MONKS OF MONK-HALL.
-  </h2>
-</div>
 
+<section id="book-1-7">
+    <header>
+        <h4>Chapter Seventh.</h4>
+        <p class="subtitle">The Monks of Monk-Hall.</p>
+    </header>
 
 <p>The moon was shining brightly over the face of the old mansion,
 while the opposite side of the alley lay in dim and heavy shadow.
@@ -3163,7 +3146,7 @@ the Monks of Monk-hall.</p>
 hiccupped a round-faced lawyer, leaning over the table—“Touched
 on the vices of the day—ha—ha! ‘Dens of iniquity and holes of
 wickedness’—its very words!—‘exist in city, which want the strong arm
-of the law to uproot and ex-ex—d—n the hard words—exterminate them!’”</p>
+of the law to uproot and ex‑ex—d—n the hard words—exterminate them!’”</p>
 
 <p>“Good—my—very—words—” replied the Judge, who sat gazing around
 with a smile of imbecile fatuity—“Yet, Bellamy, not quite so good as
@@ -3175,7 +3158,7 @@ hear it—”</p>
 
 <p>“Why—you—see—” replied the Judge—“Bellamy is <i>so</i> d—d fat,
 (just keep them bottles from dancing about the table!) so <i>very</i>
-fat, that the i-i-idea of his writing a love letter is rath-rather
+fat, that the i‑i‑idea of his writing a love letter is rath-rather
 improbable. Nevertheless—he did—to a pretty actress, Madame De
 Flum—and left it on his office table. His wife found it—oh Lord—what
 a scene! ranted—raved—tore her hair. ‘My dear—’ said our fat friend,
@@ -3187,7 +3170,7 @@ wife swallowed the story—clever story for a fat man—very!”</p>
 <p>“Friends and Brethren, what shall ye do to be saved?” shouted the
 beefy-faced parson, in the long-drawn nasal tones peculiar to his
 pulpit or lecture room—“When we con-consider the wickedness of the
-age, when we reflect tha-that there are thousands da-i-ly and hou-r-ly
+age, when we reflect tha-that there are thousands da‑i‑ly and hou‑r‑ly
 going down to per-perdition, should we not cry from the depths of
 our souls, like Jonah from the depths of the sea—I say, give us the
 brandy, Mutchins!”</p>
@@ -3199,7 +3182,7 @@ from his chair, and endeavoured to stand erect—“It’s a—poem—on
 Commandments. I’ve dedicated it to our Rev-Reverend friend yonder.
 There’s a touch in it, gentlemen—if I may use the expression—above
 ordinary butter-milk. A sweetness, a path-pathos, a mildness, a-a-vein,
-gentlemen, of the strictest mo-ral-i-ty. I will read sonnet one—‘Thou
+gentlemen, of the strictest mo‑ral‑i‑ty. I will read sonnet one—‘Thou
 shalt not take the co-eternal name’—eh? Dammit! This is <i>a
 bill</i>!—I’ve left the sonnet at home—”</p>
 
@@ -3283,7 +3266,7 @@ saved—oh—”</p>
 
 <p>“Hand us the brandy—” shouted Mutchins.</p>
 
-<p>“Mutchy—Mutchy—I say—” hiccupped Petriken—“Rem-Rem-em-ber the gown
+<p>“Mutchy—Mutchy—I say—” hiccupped Petriken—“Rem‑Rem‑em‑ber the gown
 and the prayer-book—”</p>
 
 <p>“Silly—we must take a wash-off—” cried Mutchins, starting suddenly
@@ -3355,8 +3338,7 @@ forget——”</p>
 <p>“Yes have I! As I perceive you are unacquainted with the place, I will
 tell you my experience of</p>
 
-
-<p>A NIGHT IN MONK-HALL.&#x2060;<a id="FNanchor_6_6" href="#Footnote_6_6" class="fnanchor">[6]</a></p>
+<p class="center uc">A Night in Monk-Hall.&#x2060;<a id="FNanchor_6_6" href="#Footnote_6_6" class="fnanchor">[6]</a></p>
 
 <p>Six years ago, in 1836, on a foggy night in spring, at the hour of
 one o’clock, I found myself reposing in one of the chambers of this
@@ -4081,17 +4063,15 @@ superhuman efforts!</p>
 <p>One terrific howl, like the yell of a man flung suddenly over a
 cataract, broke from his lips. He thrust aside the curtain, and strode
 madly through its folds into the next room.</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_EIGHTH">
-    CHAPTER EIGHTH.
-    <br>
-    MOTHER NANCY AND LONG-HAIRED BESS.
-  </h2>
-</div>
 
+<section id="book-1-8">
+    <header>
+        <h4>Chapter Eighth.</h4>
+        <p class="subtitle">Mother Nancy and Long-Haired Bess.</p>
+    </header>
 
 <p>“So ye have lured the pretty dove into the cage, at last—” said
 the old lady, with a pleasant smile, as she poised a nice morsel of
@@ -4459,21 +4439,20 @@ you’ll be right fresh for the wedding. Three o’clock you know—Come
 along, Dolph, mommy must go ’tend to some little things about the
 house—Come along, Dolph-<i>ee</i>—Sleep a leetle, Bessie, that’s a
 dear!”</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_NINTH">
-    CHAPTER NINTH.
-    <br>
-    THE BRIDE.
-  </h2>
-</div>
 
-<blockquote>
-<p>A CHAPTER IN WHICH EVERY WOMAN MAY FIND SOME LEAVES OF HER OWN HEART,
-READ WITH THE EYES OF A HIGH AND HOLY LOVE.</p>
-</blockquote>
+<section id="book-1-9">
+    <header>
+        <h4>Chapter Ninth</h4>
+        <p class="subtitle">The Bride.</p>
+        <blockquote class="bridgehead">
+            <p>A chapter in which every woman may find
+            some leaves of her own heart, read with
+            the eyes of a high and holy love.</p>
+        </blockquote>
+</header>
 
 
 <p>“Mary!”</p>
@@ -4999,17 +4978,15 @@ position on the left of the Clergyman.</p>
 <p>And in this position, gathered around the Altar, they stood for some
 five minutes silently awaiting the appearance of the Bridegroom and the
 Bride.</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_TENTH">
-    CHAPTER TENTH.
-    <br>
-    THE BRIDAL.
-  </h2>
-</div>
 
+<section id="book-1-10">
+    <header>
+        <h4>Chapter Tenth.</h4>
+        <p class="subtitle">The Bridal.</p>
+    </header>
 
 <p>“I say Mutchy, my boy—” said Petriken, in a tone that indicated
 some lingering effects of his late debauch—” How <i>do</i> I do it?
@@ -5549,17 +5526,15 @@ his feet, and gazed around with a bewildered glance.</p>
 words whispered to his ear in a dream—“‘<i>On Christmas Eve, at the
 hour of sun-down, one of ye will die by the other’s hand—the winding
 sheet is woven and the coffin made!</i>’”</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_ELEVENTH">
-    CHAPTER ELEVENTH.
-    <br>
-    DEVIL-BUG.
-  </h2>
-</div>
 
+<section id="book-1-11">
+    <header>
+        <h4>Chapter Eleventh.</h4>
+        <p class="subtitle">Devil-Bug</p>
+    </header>
 
 <p>“It don’t skeer me, I tell ye! For six long years, day and night, it
 has laid by my side, with its jaw broke and its tongue stickin’ out,
@@ -5970,17 +5945,16 @@ drowning man. Then all was silent as before.</p>
 
 <p>In a moment the gurgling noise was heard again, and a sudden blaze of
 light streamed around the room.</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_TWELFTH">
-    CHAPTER TWELFTH.
-    <br>
-    THE TOWER ROOM.
-  </h2>
-</div>
 
+<section id="book-1-12">
+
+    <header>
+        <h4>Chapter Twelfth.</h4>
+        <p class="subtitle">The Tower Room.</p>
+    </header>
 
 <p>“My sister is in his power, for any act of wrong, for any deed of
 outrage! And I cannot strike a blow in her defence! A solitary wall
@@ -6588,16 +6562,15 @@ and gazed within the Rose Chamber.</p>
 
 <p>The horror of that silent gaze, would be ill-repayed by an Eternity of
 joy.</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_THIRTEENTH">
-    CHAPTER THIRTEENTH.
-    <br>
-    THE CRIME WITHOUT A NAME.
-  </h2>
-</div>
+
+<section id="book-1-13">
+    <header>
+        <h4>Chapter Thirteenth.</h4>
+        <p class="subtitle">The Crime Without a Name.</p>
+    </header>
 
 
 <p>“My brother consents? Oh joy, Lorraine—he consents!”</p>
@@ -7018,7 +6991,7 @@ Resistance? Prayers? Tears? He had not anticipated these. The fiend was
 up in his soul. The libertine had gone too far to recede.</p>
 
 <p>He stood before the crouching girl, a fearful picture of incarnate
-<span class="allsmcap">LUST</span>. Sudden as the shadow after the light this change had
+<span class="allsmcap">lust</span>. Sudden as the shadow after the light this change had
 passed over his soul. His form arose towering and erect, his chest
 throbbed with sensual excitement, his hands hung, madly clinched, by
 his side, while his curling hair fell wild and disordered over his
@@ -7164,17 +7137,15 @@ with livid cheeks and burning eyes, appeared between the crimson folds,
 gazing silently around the place, with a glance, that no living man
 would choose to encounter, for his weight in gold—it was so like the
 look of one arisen from the dead.</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_FOURTEENTH">
-    CHAPTER FOURTEENTH.
-    <br>
-    THE GUILTY WIFE.
-  </h2>
-</div>
 
+<section id="book-1-14">
+    <header>
+        <h4>Chapter Fourteenth.</h4>
+        <p class="subtitle">The Guilty Wife.</p>
+    </header>
 
 <p>The light of the dark lanthern streamed around the spot, where the
 Merchant stood.</p>
@@ -7550,21 +7521,16 @@ Dora! Dora!”</p>
 
 <p>And while the fair young wife slept quietly in the bed of guilt and
 shame, Luke led the Merchant from the room and from the house.</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
 
+<section id="book-1-15">
 <p><span class="pagenum" id="Page_123">[Pg 123]</span></p>
-
-
-  <h2 class="nobreak" id="CHAPTER_FIFTEENTH">
-    CHAPTER FIFTEENTH.
-    <br>
-    THE DISHONOR.
-  </h2>
-</div>
-
+    <header>
+        <h4>Chapter Fifteenth.</h4>
+        <p class="subtitle">The Dishonor.</p>
+    </header>
 
 <p>All was silent within the Rose Chamber. For a single moment that pale
 visage glared from the crimson hangings, concealing the entrance to the
@@ -7802,7 +7768,10 @@ and the clouds sweep slowly past, bathed in the same crimson hue. All
 is blood—the river rushes before me, and the sky and the city—all
 pictured in colors of blood.</p>
 
-<p>[Illustration: MARY, BYRNEWOOD, AND LORRIMER.—Page 126.]</p>
+<figure class="break my-1">
+<img class="img-100" src="images/p126.jpg">
+<figcaption class="center uc">Mary, Byrnewood, and Lorrimer.—Page 126.</figcaption>
+</figure>
 
 <p>“An invisible hand is leading me to my doom. There is Death for me,
 in yonder river, and I know it, yet down, down to the rivers banks,
@@ -7893,36 +7862,29 @@ executioner! Within three days you shall die by this hand!”</p>
 got a say in that leetle matter! How d’ye feel, young man? Did you ever
 take opium afore? You won’t go to sleep nor nothin’? We can’t do what
 we like with you? Kin we? Ho-ho-ho! <i>I vonders how that’ill vork!</i>”</p>
-
+</section>
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
+
+<section id="book-2">
 
 <p><span class="pagenum" id="Page_129">[Pg 129]</span></p>
 
+    <header>
+        <h3>Book the Second</h3>
+        <p class="subtitle">The Day Adter the Night<p>
+        <p>The Forger.</p>
+    </header>
 
-  <h2 class="nobreak" id="BOOK_THE_SECOND">
-    <i>BOOK THE SECOND.</i>
-    <br>
-    THE DAY AFTER THE NIGHT.
-    <br>
-    THE FORGER.
-  </h2>
-</div>
+<section id="book-2-1">
+    <header>
+        <h4>Chapter First.</h4>
+        <p class="subtitle">Fitz-Cowles at Home.</p>
+    </header>
 
-
-<hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_FIRST_1">
-    CHAPTER FIRST.
-    <br>
-    FITZ-COWLES AT HOME.
-  </h2>
-</div>
-
-
-<p>The scene changes to a Chamber in the fourth story of the <span class="allsmcap">TON
-HOTEL</span>, which arises along Chesnut street, a monster-building,
+<p>The scene changes to a Chamber in the fourth story of the <span class="allsmcap">Ton
+Hotel</span>, which arises along Chesnut street, a monster-building,
 with some hundred windows varying its red brick face, in the way of
 eyes, covered with green-blind shutters, looking very much like so many
 goggles intended to preserve the sight of the visual organs aforesaid;
@@ -8805,23 +8767,21 @@ bluff off a creditor—”</p>
 
 <p>“I thought I was rather <i>au fait</i> at that business myself.
 However—<i>onter noos</i>—as we say in domestic French.”&#x2060;<a id="FNanchor_9_9" href="#Footnote_9_9" class="fnanchor">[9]</a></p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_SECOND_1">
-    CHAPTER SECOND.
-    <br>
-    FITZ-COWLES AND HIS CREDITORS.
-  </h2>
-</div>
 
+<section id="book-2-2">
+    <header>
+        <h4>Chapter Second.</h4>
+        <p class="subtitle">Fitz-Cowles and His Creditors.</p>
+    </header>
 
-<p>In a large saloon, furnished in a style of magnificence, popularly
-known as the gingerbread style, with immense red silk curtains along
-the windows, scattered patches of gilt, glittering around the cornices,
-and a colossal mirror above the mantle, sate the four and thirty
-creditors, waiting for the appearance of the <i>millionaire</i>.</p>
+    <p>In a large saloon, furnished in a style of magnificence, popularly
+    known as the gingerbread style, with immense red silk curtains along
+    the windows, scattered patches of gilt, glittering around the cornices,
+    and a colossal mirror above the mantle, sate the four and thirty
+    creditors, waiting for the appearance of the <i>millionaire</i>.</p>
 
 <p>The softened light which came through the drawn curtains, gave a
 mild and shadowy effect to the figures of the patient band, while
@@ -9085,21 +9045,18 @@ mark under yer eye isn’t a bit o’ patchwork—will ye? Jest say it! Come
 on six ov ye—I ain’t pertikler which! Hurrah! There goes the lookin
 glass! Crack—smash—bang! Thry it agin—ould porpise! This bates
 Watherloo—hurray, hurray!”</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
+
+<section id="book-2-3">
 
 <p><span class="pagenum" id="Page_148">[Pg 148]</span></p>
 
-
-  <h2 class="nobreak" id="CHAPTER_THIRD_1">
-    CHAPTER THIRD.
-    <br>
-    THE DEATH WARRANT.
-  </h2>
-</div>
-
+  <header>
+    <h4>Chapter Third.</h4>
+    <p class="subtitle">The Death Warrant.</p>
+  </header>
 
 <p>The mirror, which hung above the dressing bureau, reflected the
 handsome form of Col. Fitz-Cowles. It must be confessed that the
@@ -9419,17 +9376,15 @@ then, as from the decks of a steamer bound for England, I gaze upon the
 receding shores of America, while Dora smiles in my face, and the cash
 rattles in my pocket, then—ha, ha, ha!—how I shall laugh at these
 fools of the Quaker City!”</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_FOURTH_1">
-    CHAPTER FOURTH.
-    <br>
-    DORA LIVINGSTONE AT HOME.
-  </h2>
-</div>
 
+<section id="book-2-4">
+  <header>
+    <h4>Chapter Fourth.</h4>
+    <p class="subtitle">Dora Livingstone at Home.</p>
+  </header>
 
 <p>The <i>boudoir</i> was lighted by two long and narrow windows looking
 to the south. The morning sunshine shone mildly round the place,
@@ -10191,17 +10146,16 @@ a slow and deliberate whisper, rendered most wild and thrilling, by the
 sudden huskiness of her voice:</p>
 
 <p>“Leave that to me, and to the <i>Future</i>!”</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_FIFTH_1">
-    CHAPTER FIFTH.
-    <br>
-    THE GOLD WATCH.
-  </h2>
-</div>
 
+<section id="book-2-5">
+
+  <header>
+    <h4>Chapter Fifth.</h4>
+    <p class="subtitle">The Gold Watch.</p>
+  </header>
 
 <p>“Luke, you know how liable we are to accident and sudden death? If I
 should die suddenly, I wish you to open this packet and execute the
@@ -10230,7 +10184,7 @@ this and sun-down—do I? Very likely I don’t. Possibly I do! Well,
 well, let matters take their course. When a woman adorns her husband’s
 forehead with horns she ought to remember that these ornamental
 <i>branches</i> may be turned into dangerous weapons! Stags <i>gore</i>
-people sometimes! W-h-ew! There’s that tooth again! I must to some
+people sometimes! W‑h‑ew! There’s that tooth again! I must to some
 tooth-butcher, right off!”</p>
 
 <p>With great deliberation, Luke took his black silk cravat from around
@@ -10725,8 +10679,7 @@ prison doors, upon the poor devil, who has stolen a loaf of bread to
 save himself from starvation! One day it stands grimly smiling while a
 mob fires a Church or sacks a Hall, the next, ha, ha, ha, it hurries
 from its impartial throne, and pastes its placards over the walls of
-a Theatre, stating in pompous words, and big capitals, that <span class="allsmcap">THE
-TRUTH</span> <i>must not be told in Philadelphia</i>!”</p>
+a Theatre, stating in pompous words, and big capitals, that <span class="allsmcap">the Truth</span> <i>must not be told in Philadelphia</i>!”</p>
 
 <p>“My friend, you are severe upon the ‘proper authorities,’” exclaimed
 F. Altamont T. Pyne, (Pastor of the church of True Believers and Free
@@ -10914,17 +10867,15 @@ scene—the night I fled from your roof! Oh God, oh God!”</p>
 <p>She fell prostrate on the bed, her limbs writhing in a convulsive
 spasm, while her cheek grew like death, and the white foam hung on her
 livid lips.</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_SIXTH_1">
-    CHAPTER SIXTH.
-    <br>
-    THE POISON OF CATHARINE DE MEDICIS.
-  </h2>
-</div>
 
+<section id="book-2-6">
+  <header>
+    <h4>Chapter Sixth.</h4>
+    <p class="subtitle">The Poison of Catharine de Medicis.</p>
+  </header>
 
 <p>“This, you see, is my Museum. My Museum, Livingstone! A little of every
 thing from all parts of the world. In that jar a negro child with two
@@ -10978,7 +10929,7 @@ these chemical secrets made known?”</p>
 <p>“Just fancy what a world it would make! A lawyer picks a quarrel
 with a judge, and sends him to Heaven with a whiff of a perfume. Two
 clergymen disagree on matters of controversial divinity—one makes the
-other a present of a pair of gloves! W-h-ew! He’s gone! A lady jilts
+other a present of a pair of gloves! W‑h‑ew! He’s gone! A lady jilts
 her lover—he sends her a magnificent Bird of Paradise, tipped with
 poison! The lady jilts no more lovers! Two candidates are running for
 office—one puts a pill in t’other’s brandy, and kills him off, on the
@@ -11168,16 +11119,15 @@ promised that the girl should not leave her roof, until she heard from
 me.—There’s mystery about the thing, take it as you will, and so—as
 I said last night—when hurrying down this very street—I say now! To
 Monk-Hall!”</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_SEVENTH_1">
-    CHAPTER SEVENTH.
-    <br>
-    THE COUNCIL OF WAR.
-  </h2>
-</div>
+
+<section id="book-2-7">
+  <header>
+    <h4>Chapter Seventh.</h4>
+    <p class="subtitle">The Council of War.</p>
+  </header>
 
 
 <p>“I have gathered the fruit, and it is ashes!”</p>
@@ -11234,7 +11184,7 @@ withered hand upon his shoulder.</p>
 spoke, his brow darkened with a frown, “and Devil-Bug, mark me—I would
 be alone!”</p>
 
-<p>“Very well, ve-r-y well! When the feller gits over the opium, I’ll
+<p>“Very well, ve‑r‑y well! When the feller gits over the opium, I’ll
 axe him down stairs very perlitely, and tell him to dig off! Vonder
 how that’ll vork? He won’t come back with the poleese—o’course not.
 Monk Gusty won’t be jugged up for makin’ too free, with another man’s
@@ -11281,17 +11231,15 @@ konsekence! Only the young feller will not come to his senses, till
 long arter dark, and then—and then—cuss the light, it’s gone out!”</p>
 
 <p>The libertine and his minions were enveloped in sudden darkness.</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_EIGHTH_1">
-    CHAPTER EIGHTH.
-    <br>
-    MAJOR RAPPAHANNOCK MULHILL.
-  </h2>
-</div>
 
+<section id="book-2-8">
+  <header>
+    <h4>Chapter Eighth.</h4>
+    <p class="subtitle">Major Rappahannock Mulhill.</p>
+  </header>
 
 <p>Arrayed in all the paraphernalia of his walking costume, Fitz-Cowles
 was threading his way among the crowd of loiterers, who daily occupy
@@ -11423,17 +11371,15 @@ look of smothered disgust.</p>
 
 <p>“Ha, ha, ha!” chuckled Livingstone, as he gazed after the retreating
 pair—“The handsome millionaire arm in arm with a police officer!”</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_NINTH_1">
-    CHAPTER NINTH.
-    <br>
-    THE DEAD-VAULT OF MONK-HALL.
-  </h2>
-</div>
 
+<section id="book-2-9">
+  <header>
+    <h4>Chapter Ninth.</h4>
+    <p class="subtitle">The Dead-Vault of Monk-Hall.</p>
+  </header>
 
 <p>The beams of the lanthern flashed over a wide cellar, whose arched roof
 was supported by massive pillars of unplastered brick. Here and there,
@@ -11478,12 +11424,17 @@ fellers laugh and shout in the next cellar!”</p>
 voice, then echoed by a score, came faint and murmuring through the
 thick walls of the adjoining cellar.</p>
 
-<p>
-  <span style="margin-left: 1.0em;">“Let the Bank D’rector swill his sham-pane,</span><br>
-  <span style="margin-left: 1.5em;">It’s pisen’d with orphan’s tears—</span><br>
-  <span style="margin-left: 1.0em;">Raw Jamakey we’ll drink and drink again,</span><br>
-  <span style="margin-left: 1.5em;">For d—l a beak we fears!”</span>
-</p>
+<blockquote class="poetry">
+  <p>
+    <span>“Let the Bank D’rector swill his sham-pane,</span>
+    <br>
+    <span class="i1">It’s pisen’d with orphan’s tears—</span>
+    <br>
+    <span>Raw Jamakey we’ll drink and drink again,</span>
+    <br>
+    <span class="i1">For d—l a beak we fears!”</span>
+  </p>
+</blockquote>
 
 <p>“That’s what I likes—” said Devil-Bug, as he came shuffling onward
 into the light of the lanthern—“I usually wisits my private ’partments
@@ -11707,8 +11658,8 @@ I say, massa, how did yer know dat? I jis was doin’ dat same t’ing! A
 party ob us young bloods went down to see de Navy Yard and den we tuk a
 shine roun’ town!”</p>
 
-<p>“Re-tire young genelman!” said Devil-Bug, severely—“Re-tire and
-<i>re</i>-port yesself to head-quarters, forthvith!’</p>
+<p>“Re‑tire young genelman!” said Devil-Bug, severely—“Re‑tire and
+<i>re</i>‑port yesself to head-quarters, forthvith!’</p>
 
 <p>“Ha-yah!” laughed Dim, as he hurried from the cellar—“Dis chile know
 a little more dan mos’ folk! He seen de debbil—ha, yah—once in his
@@ -11752,9 +11703,9 @@ trap-door directly at his back, with some six feet o’ the trap
 a-twixt me and him! The bolt will be right under my foot, so it will!
 Suppose I was to git thinkin’ on some subject, and forgit myself?
 My foot might unlodge the bolt from its socket in the trap-door.
-K-u-sh-ew-<i>bang</i>!” he continued, producing a strange hissing
+K‑u‑sh‑ew‑<i>bang</i>!” he continued, producing a strange hissing
 sound, by suddenly forcing his breath through his clenched teeth.
-“K-u-sh-ew-<i>bang</i>! The trap-door ’ud fall, and—‘melancholy to
+“K‑u‑sh‑ew‑<i>bang</i>! The trap-door ’ud fall, and—‘melancholy to
 <i>re</i>-late,’ as the newspapers ses—some body ’ud git their brains
 knocked into shad-roe right off!”</p>
 
@@ -12028,17 +11979,15 @@ air; “the lots o’ gold and walleyables we’re a-goin’ to lay hold of!
 All in the arternoon, ven the Quaker City ’as had its dinner, and all
 the Aldermon is a-strugglin’ with boat loads o’ terripin and basket of
 oysters! Hurray for Tippeycanoe!”</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_TENTH_1">
-    CHAPTER TENTH.
-    <br>
-    THE GHOST-ROOM.
-  </h2>
-</div>
 
+<section id="book-2-10">
+  <header>
+    <h4>Chapter Tenth.</h4>
+    <p class="subtitle">The Ghost-Room.</p>
+  </header>
 
 <p>“Now, Peggy Grud, did I ketch ye, that time? Fill the hopper to the
 brim with coffee, that cost me nine cents a pound! Hey! hey! Here’s
@@ -12061,11 +12010,11 @@ pound?”</p>
 the divvil himself ever hear tell o’ the likes o’ this? A hopper
 full o’ nine cent coffee ind<i>aa</i>de! D’ye think me bones is made
 o’ broomsticks, and me blood o’ turpentine an’ melasses, that ye
-f-<i>aa</i>-de me, on’ such likker as this?”</p>
+f‑<i>aa</i>‑de me, on’ such likker as this?”</p>
 
 <p>“Don’t shake yer coffee mill under my nose! It cost nine cents a pound.”</p>
 
-<p>“Murder, mur-<i>der</i>!” screamed the parrot.</p>
+<p>“Murder, mur‑<i>der</i>!” screamed the parrot.</p>
 
 <p>“Troth the parrot’s a-laffin’ at ye! No wondher! Didn’t he, himself,
 wid his own eyes, see me the ’tother day, a-tryin’ to make some o’ this
@@ -12118,8 +12067,8 @@ around the neck, and falling over the bosom in glossy curls, seemed
 warming into life, while it gazed with a sad and melancholy gaze, upon
 the wrinkled visage of the old woman seated by the fireside.</p>
 
-<p>“Murder—mur-der!” screamed the parrot, from his cage, which was hung
-beside the portrait. “Murder—Fi-er!”</p>
+<p>“Murder—mur‑der!” screamed the parrot, from his cage, which was hung
+beside the portrait. “Murder—Fi‑er!”</p>
 
 <p>“Now, Abe,” cried the Widow Smolby, starting from her reverie,—“That’s
 a lie! I was not a-goin’ to say murder nor fi-er! But I was a-goin’ to
@@ -12164,7 +12113,7 @@ stick yer claws into me, in that way! Down Wesley, I say get off my
 ye black snake ye, will you be quiet?”</p>
 
 <p>“Abe wants a pe-ta-ter!” screamed the Parrot bustling about in his
-cage—“Abe wants a hot pe-ta-ter! Fi-er! Murder, Mur-<i>der</i>!”</p>
+cage—“Abe wants a hot pe‑ta‑ter! Fi‑er! Murder, Mur‑<i>der</i>!”</p>
 
 <p>“I’ll get up and choke you, Abe, I will!” screamed the old woman
 turning over in bed—“Yer a perfec’ pack o’ wretches! To think that I
@@ -12355,17 +12304,15 @@ feeling of horror, that chilled him to the inmost heart.</p>
 
 <p>His hands, which he raised in the glare of the light, were crimsoned
 with thick red blood.</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_ELEVENTH_1">
-    CHAPTER ELEVENTH.
-    <br>
-    DEVIL-BUG IN THE GHOST-ROOM.
-  </h2>
-</div>
 
+<section id="book-2-11">
+  <header>
+    <h4>Chapter Eleventh</h4>
+    <p class="subtitle">Devil-Bug in the Ghost-Room.</p>
+  </header>
 
 <p>“Cuss the stairs—they creak as if they had the roomatiz! Keep close to
 my heels, Gabr’el!”</p>
@@ -12645,33 +12592,28 @@ the air, and then all was still.</p>
 <p>Silence, and darkness, and murder, were only the tenants of the
 Ghost-Room, while the oozing blood began to harden over the cold bricks
 of the fire-place.</p>
-
+</section>
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
+
+<section id="book-3">
 
 <p><span class="pagenum" id="Page_207">[Pg 207]</span></p>
 
-
-  <h2 class="nobreak" id="BOOK_THE_THIRD">
-    BOOK THE THIRD.
-    <br>
-    THE SECOND NIGHT.
-    <br>
-    MABEL.
-  </h2>
-</div>
-
+<header>
+  <h3>Book the Third.</h3>
+  <p class="subtitle">The Second Night.</p>
+  <p>Mabel.</p>
+</header>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_FIRST_2">
-    CHAPTER FIRST.
-    <br>
-    LUKE HARVEY IN THE GHOST-ROOM.
-  </h2>
-</div>
 
+<section id="book-3-1">
+  <header>
+    <h4>Chapter First.</h4>
+    <p class="subtitle">Luke Harvey in the Ghost-Room.</p>
+  </header>
 
 <p>Luke raised his blood-stained hands in the light, and stood chained to
 the spot with horror. In a moment he mastered the dead and icy feeling
@@ -12749,7 +12691,7 @@ between her and the fire-place, and the fearful object, laid along the
 floor, did not meet her eyesight.</p>
 
 <p>“Will ye git out o’ this, ye murtherin’ blaggards? Where’s my
-misthress? Ochone—Ochone! Th-a-aves! I’ll riz the nabor’ud on
+misthress? Ochone—Ochone! Th‑a‑aves! I’ll riz the nabor’ud on
 ye—Where’s me misthress?”</p>
 
 <p>Luke silently pushed the police officers aside, and taking Peggy Grud
@@ -12815,18 +12757,16 @@ mourn for the death o’ their missus! Aint that a sight genelmen?”</p>
 anybody, what have I done?”</p>
 
 <p>“Murder, Mur-<i>der</i>!” screamed the Parrot, from his
-cage—“Mur-<i>der</i>!”</p>
-
+cage—“Mur‑<i>der</i>!”</p>
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_SECOND_2">
-    CHAPTER SECOND.
-    <br>
-    DORA AND LUKE.
-  </h2>
-</div>
 
+<section id="book-3-2">
+  <header>
+    <h4>Chaoter Second.</h4>
+    <p class="subtitle">Dora and Luke.</p>
+  </header>
 
 <p>“No sign of violence, no mark of murder, to tell the story of an
 untimely death! The victim will lay, calm and motionless, as though he
@@ -13414,17 +13354,15 @@ lips parted, and her eyes, glaring upon the ceiling with an unconscious
 stare, there she lay, insensible and motionless, but the Fiend was
 locked within that faultless form; within the snowy whiteness of that
 bosom, now gleaming coldly in the light, was Hell.</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_THIRD_2">
-    CHAPTER THIRD.
-    <br>
-    THE FREE BELIEVERS AND TRUE REPENTERS.
-  </h2>
-</div>
 
+<section id="book-3-3">
+  <header>
+    <h4>Chapter Third.</h4>
+    <p class="subtitle">The Free Believers and the True Repenters.</p>
+  </header>
 
 <p>“‘Genelmen, my daddy vos a scavenger and my mommy sold rags!’ On my
 travels again, ha, ha! Let me compare notes with myself—and first of
@@ -13475,14 +13413,14 @@ confines of an entry, disclosed by an open door. Above the door, a
 large sign bore the legend, in bright yellow letters painted on a dark
 ground—</p>
 
-<blockquote>
-<p>FREE BELIEVERS’ AND TRUE REPENTERS’</p>
+<blockquote class="sign">
+<p class="center uc">Free Believers’ and True Repenters’</p>
 
-<p>LECTURE ROOM,</p>
+<p class="center uc">Lecture Room,</p>
 
-<p><i>Rev. F. A. T. Pyne—Principal Free Believer and True Repenter.</i></p>
+<p class="center"><i>Rev. F. A. T. Pyne—Principal Free Believer and True Repenter.</i></p>
 
-<p>UP STAIRS.</p>
+<p class="center uc">Up Stairs.</p>
 </blockquote>
 
 <p>“Fat Pyne is piling on the agonies”—exclaimed Luke, as the sound of a
@@ -13702,7 +13640,7 @@ in such a cause? Are you, Brothers, I say?”</p>
 <p>“We <i>air</i>!” responded the three faint and sickly voices.</p>
 
 <p>“Here is a sight for the whole world to see!” continued the Reverend
-F. A. T. Pyne, his eyes dilating, while his crimson face, looked like
+<abbr>F. A. T.</abbr> Pyne, his eyes dilating, while his crimson face, looked like
 the full-moon seen through a distempered mist—“Here, standing upon
 the Rock of Freedom we tell the Pope of Rome, that his schemes are
 defeated, that his Babylon has fallen! Ha, ha! We laugh at the Pope of
@@ -13762,7 +13700,7 @@ looking out into the open square of Geneva—where that same Servetus,
 a rank infidel, was burning—up with the good old doctrine, which
 proclaims fire and brimstone, the cardinal points of the belief of the
 good Savior Jesus! Down with the Pope—up with fire and brimstone; up
-with toleration; <span class="allsmcap">UP</span> <i>with the Bible</i>!”</p>
+with toleration; <span class="allsmcap">up</span> <i>with the Bible</i>!”</p>
 
 <p>How the applause of the Free Believers and True Repenters, rose up
 to the ceiling like the voice of some huge monster! Thunder was mere
@@ -13963,17 +13901,15 @@ whistled for very glee!</p>
 <p>“‘My daddy was a scavenger, and my mammy sold rags!’ Ha, ha, ha!
 Hurrah! Down with the Pope and the Wattykin! Up with the Patent-Gospel,
 up with Monk-Hall! Let Pagan Rome look out for itself—hurrah!”</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_FOURTH_2">
-    CHAPTER FOURTH.
-    <br>
-    STRANGE VISITORS IN MONK-HALL.
-  </h2>
-</div>
 
+<section id="book-3-4">
+  <header>
+    <h4>Chapter Fourth.</h4>
+    <p class="subtitle">Strange Visitors in Monk-Hall.</p>
+  </header>
 
 <p>The beams of a small lamp of rusty iron, standing on the table near
 the fire, gave a faint and dusky light to the Doorkeeper’s den.
@@ -14140,7 +14076,7 @@ Injin ink.”</p>
 <p>And as he spoke, Devil-Bug bared his right arm, and thrust it forward
 into the full glare of the light. Brick-Top gazed upon it in surprise.
 On its brawny skin, in rough characters, was punctured, this brief name
-and date—“<span class="allsmcap">CHRISTMAS EVE</span>—1825—<span class="allsmcap">ELLEN</span>.”</p>
+and date—“<span class="allsmcap">Christmas Eve</span>—1825—<span class="allsmcap">ELLEN</span>.”</p>
 
 <p>“And so ye know’d her did ye?” exclaimed Brick-Top gazing in
 Devil-Bug’s face with a piercing glance, while his lip trembled with
@@ -14455,21 +14391,16 @@ it well-nigh touched the face of the listener.</p>
 
 <p>But we must depict a scene which occurred one hour before this incident
 of our Revelations.</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
+<section id="book-3-5">
 
 <p><span class="pagenum" id="Page_238">[Pg 238]</span></p>
-
-
-  <h2 class="nobreak" id="CHAPTER_FIFTH_2">
-    CHAPTER FIFTH.
-    <br>
-    DORA AND FITZ-COWLES.
-  </h2>
-</div>
-
+<header>
+    <h4>Chapter Fifth.</h4>
+    <p class="subtitle">Dora and Fitz-Cowles.</p>
+</header>
 
 <p>We open this scene with a picture.—Kneeling on the carpet of a
 princely chamber, a man of some thirty years and more supports the
@@ -14776,17 +14707,15 @@ that letter about?”</p>
 
 <p>“What’s it about?” echoed Mulhill, with a broad grin widening his
 features—“Nothin’ pertikler! Jist a love letter from a g-a-l!”</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_SIXTH_2">
-    CHAPTER SIXTH.
-    <br>
-    DEVIL-BUG IN LOVE.
-  </h2>
-</div>
 
+<section id="book-3-6">
+  <header>
+    <h4>Chapter Sixth.</h4>
+    <p class="subtitle">Devil-Bug in Love.</p>
+  </header>
 
 <p>“Your name is—”</p>
 
@@ -14845,7 +14774,7 @@ white hands, each held a pistol extended at arms length, in an attitude
 of determined menace.</p>
 
 <p>“Look here Musketer, look here Glow-worm—aint that a purty sight?
-You’re the rale pluck I tell ye, g-a-l! D’ye mean them words as a
+You’re the rale pluck I tell ye, g‑a‑l! D’ye mean them words as a
 purty speech or as rale sensible tolk? D’ye see them niggers? Suppose
 ye fire at yer humble sarvant, d’ye think a g-a-l with yer soft bosom
 and smooth limbs ar’ a match for sich reglar iron-boned devils as them
@@ -14925,17 +14854,15 @@ deformed wretch by her side.</p>
 dropping on his knees, he applied his loathsome lips to the skin of
 that delicate hand—“Before daybreak you shall have the ring, and I the
 goold! Ha, ha! Ho, ho! Vonders how that ’ill vork?”</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_SEVENTH_2">
-    CHAPTER SEVENTH.
-    <br>
-    PARSON PYNE AND HIS DAUGHTER.
-  </h2>
-</div>
 
+<section id="book-3-7">
+  <header>
+    <h4>Chapter Seventh.</h4>
+    <p class="subtitle">Parson Pyne and His Daughter.</p>
+  </header>
 
 <p>“Comfortable range of apartments,” muttered the Rev. Dr. Pyne, as
 he entered a small chamber on the second floor. “This is my study.
@@ -15318,17 +15245,15 @@ talon fingers.</p>
 <p>“Ho, ho, ho!” he cried, as the idea, which absorbed his soul, rose
 before him like an embodied thing of flesh and blood. “Ho, ho, ho! I
 vonders how <i>that</i> ’ill vork!”</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_EIGHTH_2">
-    CHAPTER EIGHTH.
-    <br>
-    THE PIT OF MONK-HALL.
-  </h2>
-</div>
 
+<section id="book-3-8">
+  <header>
+    <h4>Chapter Eighth.</h4>
+    <p class="subtitle">The Pit of Monk-Hall.</p>
+  </header>
 
 <p>“Look here Glow-worm, look here Musketer!” he shouted to his negroes,
 who sat dozing before the fire. “D’ye see that poker and that old
@@ -16258,7 +16183,7 @@ act of listening to some far-off sound.</p>
 thundering up the private staircase.</p>
 
 <p>“D’ye hear that?” shouted Devil-Bug as his eye flashed with an
-expression of malignant triumph. “D’ye hear that sound, g-a-l? Ho, ho,
+expression of malignant triumph. “D’ye hear that sound, g‑a‑l? Ho, ho,
 ho! Yer feller passes down the stairs, he passes the entry, he crosses
 the room, ha, ha, ha! In the centre of that room, is the old well of
 Monk-Hall kivered with loose boards! Yer feller tries to cross that
@@ -16270,11 +16195,11 @@ matter, I <i>do</i> declare!”</p>
 face. “But I will save him yet—” she cried opening the secret door.
 “Even yet I will foil ye, monster and devil that you are!”</p>
 
-<p>“Werry likely g-a-l, werry likely,” exclaimed Devil-Bug quietly
+<p>“Werry likely g‑a‑l, werry likely,” exclaimed Devil-Bug quietly
 interposing between her form and the door. “But jist now you’ll retire
 to yer apartments. Arter this minnit consider yerself a pris’ner. Go
 home Bessie—” he continued with his habitual sneer. “Go home little
-g-a-l, yer mommy’s got short cakes an’ coffee for supper. She wants
+g‑a‑l, yer mommy’s got short cakes an’ coffee for supper. She wants
 you—don’t you hear her callin’?”</p>
 
 <p>Bess calmly folded her arms, and while a dark frown marred the beauty
@@ -16304,7 +16229,7 @@ your throat—”</p>
 <p>Devil-Bug turned round with an involuntary shudder. When he looked
 toward the stairway again, Bess had disappeared.</p>
 
-<p>“That g-a-l is a born devil!” he muttered. “Howsomdever I’ll go down
+<p>“That g‑a‑l is a born devil!” he muttered. “Howsomdever I’ll go down
 stairs and see if that feller is ralely done for!”</p>
 
 <p>He disappeared through the private door, and for a few moments, the
@@ -16322,21 +16247,18 @@ his hideous face, was shadowed by a heavy frown.</p>
 trifles, when, when——”</p>
 
 <p>As he spoke he entered the door of Dr. Pyne’s ante-chamber.</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
+
+<section id="book-3-9">
 
 <p><span class="pagenum" id="Page_270">[Pg 270]</span></p>
 
-
-  <h2 class="nobreak" id="CHAPTER_NINTH_2">
-    CHAPTER NINTH.
-    <br>
-    PATENT-GOSPEL GRACE.
-  </h2>
-</div>
-
+  <header>
+    <h4>Chapter Ninth.</h4>
+    <p class="subtitle">Patent-Gospel Grace.</p>
+  </header>
 
 <p>“Is it not beautiful my child? Is it not beautiful?”</p>
 
@@ -16460,7 +16382,7 @@ at night! Now brethren—and you, my dear sisters—behold the change! A
 change of heart and a change of linen! I walk the streets in the day,
 clad in fine broadcloth; at night I sleep on a bed of down, and my
 conscience, brothers and sisters, oh it is peaceful, calm and peaceful!
-Easy, quite e-a-s-y, I assure you! And this, my children—” his red
+Easy, quite e‑a‑s‑y, I assure you! And this, my children—” his red
 round face assumed an expression of deep pathos—“is all the work
 Patent-Gospel grace!”</p>
 
@@ -16627,7 +16549,7 @@ her form quivering with a slight convulsive motion, while she gazed
 upon his face with her large black eyes dilating in an expression of
 utter horror.</p>
 
-<p>“Oh tremble, trem-b-l-e!” whispered the good Dr. Pyne. “It does me good
+<p>“Oh tremble, trem‑b‑l‑e!” whispered the good Dr. Pyne. “It does me good
 to see you laying there, helpless <span class="pagenum" id="Page_275">[Pg 275]</span>as a baby! You may cry for help—no
 one will hear you! You may attempt to escape—but the doors are locked!
 Tremble, oh trem-b-l-e!”</p>
@@ -16680,17 +16602,15 @@ toward the bed. Mabel started up in involuntary affright. Devil-Bug
 struck his huge hands violently against his forehead, and uttered that
 terrific howl yet again. Then turning on his heel, he fled madly from
 the room.</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_TENTH_2">
-    CHAPTER TENTH.
-    <br>
-    PARSON PYNE HAS A GOOD LAUGH TO HIMSELF.
-  </h2>
-</div>
 
+<section id="book-3-10">
+  <header>
+    <h4>Chapter Tenth.</h4>
+    <p class="subtitle">Parson Pyne has a Good Laugh to Himself.</p>
+  </header>
 
 <p>The portly form of Parson Pyne lay on the carpet of the ante-chamber,
 with a huge negro watching on either side.</p>
@@ -16792,7 +16712,7 @@ terrible pang through his very brain. “Take care, take care! You’ll
 burn out my eye! Oh, o-h!”</p>
 
 <p>“That I will!” grunted Devil-Bug, as the gaze of his solitary eye grew
-like the white heat of the iron. “H-i-s-s! h-i-s-s! Parson don’t yo’
+like the white heat of the iron. “H‑i‑s‑s! h‑i‑s‑s! Parson don’t yo’
 feel the jagged pint hissing into yer eye already?” He held the iron
 within a half-in-inch of the Preacher’s right eye.</p>
 
@@ -16847,7 +16767,7 @@ feel, Parson?”</p>
 <p>“Ha! ha! ha!” roared the Parson, with an outburst of spasmodic
 laughter, the result of the titillating movement of Devil-Bug’s fingers
 along the soles of his feet. “Ha! ha! ha! Ho! ho! ho! Oh-oh-oh! Hi! hi!
-hi! Oh for God’s sake don’t—d-o-n-t! Hoo! hoo! hoo!” And the fat form
+hi! Oh for God’s sake don’t—d‑o‑n‑t! Hoo! hoo! hoo!” And the fat form
 of the Parson wriggled, and strained, and heaved, as with an epileptic
 fit.</p>
 
@@ -16869,34 +16789,42 @@ Hurrah! Ha! ha!”</p>
 <p>“Go it my pianey fortey!” cried Devil-Bug, with a most effective
 flourish. “Jist see how my fingers go over these white soles! Ha!
 ha! Parson, you save souls; I tickles ’em! ‘Gently over the stones,
-driver!’ E-a-sy, I say!”</p>
+driver!’ E‑a‑sy, I say!”</p>
 
 <p>“Ha! ha! ha-a-a!” roared the Parson, as he grew black in the face,
 while his watery eyes started from their sockets. “Ho! ho! ho! Oh,
-for God’s sake—hoo! hoo! hoo! Don’t ye tickle—ha! ha! ha! Tick-l-e,
-tick-l-e me! Hurrah! hi! hi! hi-i-i!”</p>
+for God’s sake—hoo! hoo! hoo! Don’t ye tickle—ha! ha! ha! Tick‑l‑e,
+tick‑l‑e me! Hurrah! hi! hi! hi‑i‑i!”</p>
 
 <p>“Wot a spektikle for the Free Believers! Ha, ha! Jist see the Parson
 wriggle! Wos there ever sich twistin’ as that! How black he grows in
 the face! His eyes big as Delawar’ bay oysters—ha! ha! ha! Come on my
 pianey fortey—I’ll tune yo’ up!</p>
 
-<p>
-  <span style="margin-left: 1.0em;">Yankey doo-del is the tune—”</span>
-</p>
+<blockquote class="poetry">
+  <p>
+    <span>Yankey doo-del is the tune—”</span>
+ </p>
+</blockquote>
 
 <p>“Ha! ha! ha!” interrupted the Parson.</p>
 
-<p>
-  <span style="margin-left: 1.0em;">“An’ nothin’ comes so han-dy!</span><br>
-  <span style="margin-left: 1.0em;">As yankey doo-del doo-del do-oo—”</span>
-</p>
+
+<blockquote class="poetry">
+  <p>
+    <span>“An’ nothin’ comes so han-dy!</span>
+    <br>
+    <span>As yankey doo-del doo-del do-oo—”</span>
+  </p>
+</blockquote>
 
 <p>“Hoo! hoo! hoo!” roared Parson Pyne.</p>
 
-<p>
-  <span style="margin-left: 1.0em;">“An’ yankey doo-del dan-dy!”</span>
-</p>
+<blockquote class="poetry">
+  <p>
+    <span>“An’ yankey doo-del dan-dy!”</span>
+ </p>
+</blockquote>
 
 <p>Screamed Devil-Bug, executing a delicate flourish on the soles of the
 Parson’s feet.</p>
@@ -16910,15 +16838,15 @@ tips of Devil-Bug ran softly, oh how softly along his feet, still he
 was forced to rend the air with unwilling laughter. Tickle, tickle,
 tickle! Ha! ha! ha! His face had now assumed a dark livid hue, and as
 his eyes hung out from their sockets, the white surface of each eyeball
-assumed a fearful prominence. Tickle, tic-kle, tic-kle! Ho! ho! ho!
+assumed a fearful prominence. Tickle, tic‑kle, tic‑kle! Ho! ho! ho!
 <span class="pagenum" id="Page_279">[Pg 279]</span>The veins stood out from his forehead like cords, and his chest heaved
 and swelled as though moving under the impulse of a small steam engine.
-Softly moved the finger tips, oh softly, soft-l-y, soft-l-y! Tic-k-le,
-tic-k-l-e, t-i-c-kle! Hoo! hoo! hoo!</p>
+Softly moved the finger tips, oh softly, soft‑l‑y, soft‑l‑y! Tic‑k‑le,
+tic‑k‑l‑e, t‑i‑c‑kle! Hoo! hoo! hoo!</p>
 
 <p>“Oh, God! God! God!” yelled the Parson, as the tears rolled down his
-livid cheeks. “Mer-cy! ha! ha! ha! Ho! ho! ho! Hi! hi! hi! Mer-cy!
-Ho-o-o! Ah-a-a-ha-a!”</p>
+livid cheeks. “Mer‑cy! ha! ha! ha! Ho! ho! ho! Hi! hi! hi! Mer‑cy!
+Ho‑o‑o! Ah‑a‑a‑ha‑a!”</p>
 
 <p>A wild unearthly shriek burst from the Parson’s lips. Then he
 blasphemed the name of his God, then invoked all the curses of hell
@@ -16927,7 +16855,7 @@ upon his head, and then the white foam frothed around his lips.</p>
 <p>“Do yo’ give in?” shouted Devil-Bug executing a brilliant flourish with
 his finger tips.</p>
 
-<p>“Ho! Ho! Ho!” roared the Parson. “Ye-s! Ye-s! Hoo! Hoo! Hoo!
+<p>“Ho! Ho! Ho!” roared the Parson. “Ye‑s! Ye‑s! Hoo! Hoo! Hoo!
 Curses—ha! ha! ha!—curses! D—n! Hi! Hi! Hi! Hi-i-i!”</p>
 
 <p>“Did’nt I tell yo’ my feller that ye’d better not perwoke me?” calmly
@@ -17036,21 +16964,17 @@ deformed wretch gathering round his throat.</p>
 
 <p>Devil-Bug started up with a wild howl, and rushed madly into the next
 chamber.</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
+
+<section id="book-3-11">
 
 <p><span class="pagenum" id="Page_281">[Pg 281]</span></p>
-
-
-  <h2 class="nobreak" id="CHAPTER_ELEVENTH_2">
-    CHAPTER ELEVENTH.
-    <br>
-    THE SAVAGE ALONE WITH THE MAIDEN.
-  </h2>
-</div>
-
+  <header>
+    <h4>Chapter Eleventh.</h4>
+    <p class="subtitle">The Savage Alone with the Maiden.</p>
+  </header>
 
 <p>His teeth grating together, and his hands outspread, while his eye
 blazed with a madman’s glare, he rushed toward the bed, whereon the
@@ -17060,7 +16984,7 @@ over her bosom, as she beheld him approach.</p>
 <p>“Oh save me now, my God!” she shrieked and held her breath in very
 terror.</p>
 
-<p>“Come g-a-l, come!” cried Devil-Bug as gathering his arm around her
+<p>“Come g‑a‑l, come!” cried Devil-Bug as gathering his arm around her
 waist, he bore her quickly along the room. “Come, I say come!”</p>
 
 <p>He stopped before an antique mirror of circular shape, which depended
@@ -17081,10 +17005,10 @@ terror.</p>
 <p>Devil-Bug wound his rough arm round her neck, and swept her thick black
 tresses aside from her right temple.</p>
 
-<p>“Look, look g-a-l look!” he shrieked as he pointed to the reflection of
+<p>“Look, look g‑a‑l look!” he shrieked as he pointed to the reflection of
 her beautiful countenance in the mirror. “I don’t want you to look at
 them black eyes, which are like hers, nor the lips, nor the cheeks! But
-the right temple g-a-l—the right temple!”</p>
+the right temple g‑a‑l—the right temple!”</p>
 
 <p>Mabel involuntarily gazed within the mirror. She started back with a
 strange feeling of surprise as she beheld a slight, thin and discolored
@@ -17092,7 +17016,7 @@ streak, marring the beauty of her face, near the right temple. It was a
 faint and delicate copy of the deep red mark near the swarthy temple of
 Devil-Bug.</p>
 
-<p>“That was born with you g-a-l, that was born with you g-a-l!” shouted
+<p>“That was born with you g‑a‑l, that was born with you g‑a-‑l!” shouted
 Devil-Bug. “An’ you’re my—yes yes you’re my——”</p>
 
 <p>He paused suddenly and fell on his knees. He placed the light on a
@@ -17146,7 +17070,7 @@ something like human feeling in the solitary eye of the monster.</p>
 
 <p>“He may aid me to escape from this house!” she murmured.</p>
 
-<p>“G-a-l, had ye ever a friend?” And as he spoke he took her fair white
+<p>“G‑a‑l, had ye ever a friend?” And as he spoke he took her fair white
 hand within his talon fingers.</p>
 
 <p>“Never!” answered Mabel, as her heart warmed with a strange sympathy
@@ -17155,15 +17079,15 @@ and shelter, but I never yet looked upon the face of a human being
 whom I could call friend! No mother ever smiled upon me, and as for my
 father—oh, for God’s sake do not, do not place me in his power again!”</p>
 
-<p>“The g-a-l’s been edicated!” muttered Devil-Bug. “You never had a
-friend, then? You don’t remember your mother? I do, g-a-l, I do!”</p>
+<p>“The g‑a‑l’s been edicated!” muttered Devil-Bug. “You never had a
+friend, then? You don’t remember your mother? I do, g‑a‑l, I do!”</p>
 
 <p>“You!”</p>
 
-<p>“Yes, g-a-l, I was your mother’s servant, a good many years ago. I used
+<p>“Yes, g‑a‑l, I was your mother’s servant, a good many years ago. I used
 to kiss the very ground she stood upon. Don’t mind me, my dear, if I
 talk a little wild. I’m a poor one-eyed devil, and nobody cares for me!
-But I’ll be your friend g-al—I, that never yet was friend to a human
+But I’ll be your friend g‑al—I, that never yet was friend to a human
 bein’ save one—I will be your friend!”</p>
 
 <p>“You!”</p>
@@ -17186,9 +17110,9 @@ out, he lays—<i>he</i>, jist as he fell through the trap!”</p>
 <p>He rushed wildly toward the door, as the terrible phantoms, in all
 their horror, broke anew upon his gaze.</p>
 
-<p>“But I’ll be yer friend, g-al!” he shouted, turning suddenly round.
+<p>“But I’ll be yer friend, g‑a‑l!” he shouted, turning suddenly round.
 “I, I, old Devil-Bug will be your slave! You shall roll in wealth,
-g-a-l! Parson Pyne ain’t yer father—not a bit o’ it! Yer father has
+g‑a‑l! Parson Pyne ain’t yer father—not a bit o’ it! Yer father has
 gold enough to buy ye a row o’ houses! I tell ye, gal, old Devil-Bug is
 yer friend! The man that tries to injure ye will have a wild beast to
 fight—that’s all!”</p>
@@ -17201,10 +17125,10 @@ bedside.</p>
 shouted Devil-Bug. “And look ye, Parson Pyne! it ’ud be better for you
 to crack jokes with a hungry tiger than to dare touch that gal ag’in!
 Go home, Parson Pyne, and mind yer business, and put down the Pope o’
-Rome! The g-a-l shall go to her father, the rich merchant Livingstone!
+Rome! The g‑a‑l shall go to her father, the rich merchant Livingstone!
 Her face is proof enough that she is Ellen’s darter! And mind ye,
 Parson Pyne—” he cried, as he stood in the doorway, his face darkened
-by a scowl of rage. “If yo’ ever lay a finger on that g-a-l ag’in, I’ll
+by a scowl of rage. “If yo’ ever lay a finger on that g‑a‑l ag’in, I’ll
 have my revenge on you, if I have to drag you from yer pulpit! I’ll
 have yer blood if I have to spill it in the sacrament cup!”</p>
 
@@ -17217,17 +17141,15 @@ an’ satins—that she shall!”</p>
 
 <p>And as he went down to the vault of Monk-Hall, his wild and discordant
 laughter broke upon the air with a sound of strange and savage joy.</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_TWELFTH_1">
-    CHAPTER TWELFTH.
-    <br>
-    THE FLIGHT FROM MONK-HALL.
-  </h2>
-</div>
 
+<section id="book-3-12">
+  <header>
+    <h4>Chapter Twelfth.</h4>
+    <p class="subtitle">The Flight from Monk-Hall.</p>
+  </header>
 
 <p>The negroes were alone in the ante-chamber. Glow-worm stood on one side
 of the fire gazing into the face of his comrade, who leaned against the
@@ -17288,7 +17210,7 @@ which led out into the hall. “This way and you shall be saved!”</p>
 <p>“What foh you do dat foh?” muttered Glow-worm, fiercely, as he turned
 toward Long-haired Bess with a threatening look.</p>
 
-<p>“Hush, h-u-s-h!” whispered Bess, as she glanced meaningly at the
+<p>“Hush, h‑u‑s‑h!” whispered Bess, as she glanced meaningly at the
 half-conscious face of the girl who hung on her arm. “You see,
 Glow-worm, there’s a rumpus kicked up down stairs, and Devil-Bug wants
 to have the gal removed to the Tower Room. Open the door quick, and let
@@ -17420,7 +17342,7 @@ woman breathing in her sleep.</p>
 Livingstone, an’ I’ll tell him the story, and I’ll tear that Parson’s
 heart from his carcase, if he dares say that she ain’t the merchant’s
 darter! I hate and cuss the whole world; the whole world hates and
-cusses me—but the g-a-l! I’ll skulk along the street, and see her
+cusses me—but the g‑a‑l! I’ll skulk along the street, and see her
 ridin’ in her carriage; I’ll watch in the cold winter nights and see
 her—all shinin’ with goold and jewels—as she goes into the theatre,
 with the big folks round her, and the rich merchant by her side.”</p>
@@ -17884,7 +17806,7 @@ beclouds his path. Already he beholds <span class="pagenum" id="Page_294">[Pg 29
 the bloodhounds of calumniation and persecution, lie gasping in their
 last agonies, while his foot is on their necks. Huzza for the old
 State House bell, and above all other hours, huzza for the hour of
-<span class="allsmcap">ONE</span>.</p>
+<span class="allsmcap">one</span>.</p>
 
 <p><span class="smcap">One!</span></p>
 
@@ -17901,7 +17823,7 @@ law from his proud position; already he beholds written on the
 walls of his chamber, in letters of flame, that black and staring
 word—“<span class="smcap">Corruption</span>.”</p>
 
-<p>Huzza for the hour of <span class="allsmcap">ONE</span>.</p>
+<p>Huzza for the hour of <span class="allsmcap">one</span>.</p>
 
 <p>That sound, speaking from the heighths of Independence Hall, strikes
 over the Quaker City like the voice of God’s Judgment, rousing crime
@@ -18079,7 +18001,7 @@ this suspicion in the mind of Mary.</p>
 <p>“Walk in ladies: walk in! You see I was jist enjoyin’ a glass of
 whiskey punch by the fire, with a prime Hawanner! And whiskey punch,
 ladies, as you may have had occasion to know, is a werry good drink,
-an’ goes down quite e-a-sy! Ladies, I’d always adwise yo’ to marry
+an’ goes down quite e‑a‑sy! Ladies, I’d always adwise yo’ to marry
 a gentleman, as knows how to make good whiskey punch, but you must
 be keerful he don’t make it too weak. Weak punch—” continued the
 red-faced gentleman, with an anti-total-abstinence smile—“Weak punch,
@@ -18187,17 +18109,15 @@ a wild and maniac laugh.</p>
 
 <p>“Lorraine,” she cried, “Lorraine, ha, ha, ha! He will return at last,
 he will yet be mine! Lorraine! Lorraine!”</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_THIRTEENTH_1">
-    CHAPTER THIRTEENTH.
-    <br>
-    THE GOLD WHICH DEVIL-BUG WON.
-  </h2>
-</div>
 
+<section id="book-3-13">
+  <header>
+    <h4>Chapter Thirteenth.</h4>
+    <p class="subtitle">The Gold Which Devil-Bug Won.</p>
+  </header>
 
 <p>Slowly and silently Devil-Bug ascended the staircase of Monk-Hall. The
 lamp which he held extended at arm’s length cast a flaring light over
@@ -18628,7 +18548,7 @@ let me pass, or I fire this pistol!”</p>
 Devil-Bug raised his face from his hands. Every harsh lineament of his
 countenance was convulsed with an expression of fiendish laughter.</p>
 
-<p>“Ho, ho, what a sweet creetur you are to-w be-sure! Be so kind as to
+<p>“Ho, ho, what a sweet creetur you are to‑w be-sure! Be so kind as to
 blow my brains out with them pistols—it <span class="pagenum" id="Page_306">[Pg 306]</span>’ill quite dissap’int me if
 you don’t. That’s a good girl; oh fire away my duck! Wot a pity it is
 for you that them bull-dogs ain’t got no balls in ’em! Ha, ha! Wot in
@@ -19065,16 +18985,15 @@ him.</p>
 it a Revelation from the other world? Was it a Prophecy whispered to
 the monster’s soul by the tongues of angels?</p>
 
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_FOURTEENTH_1">
-    CHAPTER FOURTEENTH.
-    <br>
-    DEVIL-BUG’S DREAM.
-  </h2>
-</div>
 
+<section id="book-3-14">
+  <header>
+    <h4>Chapter Fourteenth.</h4>
+    <p class="subtitle">Devil-Bug’s Dream.</p>
+</header>
 
 <p>When first he slept, the phantoms of his murdered victims rose before
 him; the man with the broken jaw and the lolling tongue, the woman with
@@ -19147,18 +19066,17 @@ for mercy! Only a drop of water, only a drop of water!</p>
 <p>The orchestra of hell strikes up its music, and the play goes on.</p>
 
 <p>Suddenly all became dark again and the dream changed.</p>
-
+</section>
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
+
+<section id="last-day-of-quaker-city">
 
 <p><span class="pagenum" id="Page_315">[Pg 315]</span></p>
 
 
-  <h2 class="nobreak" id="The_Last_Day_of_the_Quaker_City">
-    The Last Day of the Quaker City.
-  </h2>
-</div>
+  <h3>The Last Day of the Quaker City.</h3>
 
 
 <p>He stood in the wide street of a magnificent city. All around him, from
@@ -19448,9 +19366,11 @@ fire, which he could not read.</p>
 the heavens his hand is extended, behold the words of flame on yon
 glistening cloud.”</p>
 
-<p>
-  <span style="margin-left: 1.0em;">WO UNTO SODOM</span>
+<blockquote>
+<p class="center uc">
+  Wo Unto Sodom
 </p>
+</blockquote>
 
 <p>Devil-Bug looked upon these characters of flame and felt a strange awe
 penetrate his heart.</p>
@@ -19495,9 +19415,11 @@ wide town, and to-morrow—”</p>
 letters of flame written on its darkness, and as it pointed, a sad
 smile stole over its lips, and it whispered:</p>
 
-<p>
-  <span style="margin-left: 1.0em;">WO UNTO SODOM</span>
+<blockquote>
+<p class="center uc">
+  Wo Unto Sodom
 </p>
+</blockquote>
 
 <p>“To-morrow” shrieked the spirit, “To-morrow will be the last day of the
 Quaker City. The judgment comes, and they know it not.”</p>
@@ -20211,9 +20133,11 @@ the night before, like the raven corpse of the dead. And in its awful
 surface was written the words of flame and a ghastly voice whispered
 their meaning to the air.</p>
 
-<p>
-  <span style="margin-left: 1.0em;">WO UNTO SODOM</span>
-</p>
+
+<blockquote>
+<p class="center uc">
+  Wo Unto Sodom</p>
+</blockquote>
 
 <p>Again like a spirit reigning over the evil which he had wrought,
 Devil-Bug raised his hands and laughed in glee.</p>
@@ -20229,36 +20153,33 @@ city, has pierced the ear of God. Look beneath, and look upon the wreck
 of the Doomed City! Look below and with the angels of eternal justice,
 shout the amen to the litany of the city’s crimes, shout Wo,</p>
 
-<p>
-  <span style="margin-left: 1.0em;">WO UNTO SODOM.”</span>
+<blockquote>
+<p class="center uc">
+  Wo Unto Sodom
 </p>
-
-
-<hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-
-<p><span class="pagenum"><a id="Page_332"></a><a id="Page_333"></a>[Pg 333]</span></p>
-
-
-  <h2 class="nobreak" id="BOOK_THE_FOURTH">
-    BOOK THE FOURTH.
-    <br>
-    THE SECOND DAY.
-    <br>
-    RAVONI THE SORCERER.
-  </h2>
-</div>
-
+</blockquote>
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_FIRST_3">
-    CHAPTER FIRST.
-    <br>
-    GOD IS JUST.
-  </h2>
-</div>
 
+<section id="book-4">
+
+<p><span class="pagenum" id="Page_333">[Pg 333]</span></p>
+
+
+<header>
+  <h3>Book the Fourth.</h3>
+  <p class="subtitle">The Second Day.</p>
+  <p>Ravoni the Sorcerer.</p>
+  </header>
+
+<hr class="chap x-ebookmaker-drop">
+
+<section id="book-4-1">
+  <header>
+    <h4>Chapter First.</h4>
+    <p class="subtitle">God is Just.</p>
+  </header>
 
 <p>The night drew near its close. From the dark azure of the sky, the cold
 winter stars shone down over the streets of the silent city.</p>
@@ -21243,7 +21164,7 @@ with a violent struggle.</p>
 throat—“Where—am—I—ah!” His voice rose into a horrible shriek husky
 with the death rattle. He beheld the ghastly face of the Suicide.</p>
 
-<p>“Ah—a-h!” he groaned clutching at his throat with his gouty hands.
+<p>“Ah—a‑h!” he groaned clutching at his throat with his gouty hands.
 “<i>At the Bar of God Almighty before daybreak to-morrow!</i>”</p>
 
 <p>With these words on his lips, he fell—a shapeless mass of clay. He had
@@ -21320,7 +21241,7 @@ nap and asked a brief question.—</p>
 <p>“Kicked the bucket, James!”</p>
 
 <p>“No!” replied the other in a tone of complacent wonder. “Cussed glad he
-paid me off, yesterday. W-h-oop!”</p>
+paid me off, yesterday. W‑h‑oop!”</p>
 
 <p>He applied the whip to the blood horses and away they dashed, bearing
 to his home, his wife and children, the dead body of the Bank President.</p>
@@ -21411,17 +21332,15 @@ broke on his ears.</p>
 me, shall I not live until my name is worshipped as a God among these
 play-things of an intellect like mine, there men who plot and plan and
 gather gold, and yet creep into the same dull grave at last?”</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_SECOND_3">
-    CHAPTER SECOND.
-    <br>
-    THE CURSE OF THE DRUGGED POTION.
-  </h2>
-</div>
 
+<section id="book-4-2">
+  <header>
+    <h4>Chapter Second.</h4>
+    <p class="subtitle">The Curse of the Drugged Potion.</p>
+</header>
 
 <p>The day was breaking in the east, when a pale man came trembling up the
 marble steps of a mansion in South Third street, and leaning against
@@ -21642,7 +21561,7 @@ Monk-Hall, he went slowly down the stairs and from the house.</p>
 <p>It was now sunrise on the morning of Friday the twenty-third of
 December.</p>
 
-<p><i>On</i> <span class="allsmcap">CHRISTMAS EVE</span> <i>at the hour of</i> <span class="allsmcap">SUNSET</span>,
+<p><i>On</i> <span class="allsmcap">Christmas Eve</span> <i>at the hour of</i> <span class="allsmcap">sunset</span>,
 <i>one of ye will die by the other’s hand. The winding sheet is woven
 and the coffin made.</i></p>
 
@@ -21657,17 +21576,15 @@ door.</p>
 
 <p>Into that door again, he did not return until the hour before Sunset on
 Saturday the twenty-fourth of December; the hour of Christmas Eve.</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_THIRD_3">
-    CHAPTER THIRD.
-    <br>
-    “RAVONI A GOD!”
-  </h2>
-</div>
 
+<section id="book-4-3">
+  <header>
+    <h4>Chapter Third.</h4>
+    <p class="subtitle">“Ravoni a God!”</p>
+</header>
 
 <p>The gleam of a vivid light illumined the Audience chamber of Ravoni.</p>
 
@@ -21716,7 +21633,7 @@ strange magnetic power in their glance; their look was a spell; their
 anger an awful fascination that left the gazer powerless; their love an
 irresistible influence that dragged the victim to shame and ruin with a
 smile. That terrible consciousness of soul, which men in their poverty
-of words, call <span class="allsmcap">THE WILL</span>, gleamed calmly and fixedly from those
+of words, call <span class="allsmcap">the Will</span>, gleamed calmly and fixedly from those
 wizard eyes.</p>
 
 <p>And this gayly dressed Chevalier, standing alone in the Audience
@@ -21873,20 +21790,18 @@ the hangings as he spoke.</p>
 <p>“Now for the Festival of Pavoni, where the Senses hold their revel,
 and Thought is softened and mellowed in the delirious atmosphere of
 Passion.”</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
 
+<section id="book-4-4">
 <p><span class="pagenum" id="Page_360">[Pg 360]</span></p>
 
 
-  <h2 class="nobreak" id="CHAPTER_FOURTH_3">
-    CHAPTER FOURTH.
-    <br>
-    THE PRIESTESS OF RAVONI.
-  </h2>
-</div>
+<header>
+    <h4>Chapter Fourth.</h4>
+    <p class="subtitle">The Priestess of Ravoni.</p>
+</header>
 
 
 <p>In the course if one hour occurred three prominent Incidents of our
@@ -22056,7 +21971,7 @@ the top of a street organ!”</p>
 <p>And taking the arm of each gentleman within his own, he strode down the
 broad walk, leaving Poodle to his own delightful meditations.</p>
 
-<p>“Well,” muttered Buzby, “w-e-ll if I don’t cut that fellow up some day
+<p>“Well,” muttered Buzby, “w‑e‑ll if I don’t cut that fellow up some day
 my name ain’t Poodle! And as for that Petriken——damme I’ll go right
 to the office and abuse his Western Hem. People that insult Buzby
 Poodle must look for a Poodle’s vengeance. I’m a perfect Injin; I am!”</p>
@@ -22313,10 +22228,10 @@ previous, he now placed the note which the Parson had written, in the
 hands of the wondering girl.</p>
 
 <p>“Ha!” she exclaimed, as she raised the note to the light. “It is a
-message from my father! ‘<span class="allsmcap">MABEL</span>, my own child, so long lost
+message from my father! ‘<span class="allsmcap">Mabel</span>, my own child, so long lost
 to me, but now forever mine, trust yourself without fear in the
 hands of the bearer of this note: he will lead you to your father,
-to—<span class="allsmcap">LIVINGSTONE</span>.’ Oh joy, joy! I am ready Sir!” she cried with
+to—<span class="allsmcap">Livingstone</span>.’ Oh joy, joy! I am ready Sir!” she cried with
 a radiant countenance, as she extended her hands toward the Sorcerer.</p>
 
 <p>“What, without hat or cloak?” said he playfully. “You love your
@@ -22377,17 +22292,16 @@ superhuman, seemed to behold some gorgeous landscape, denied to all
 other sight.</p>
 
 <p>“And she shall be the Priestess of Ravoni!”</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_FIFTH_3">
-    CHAPTER FIFTH.
-    <br>
-    THE DISSECTING ROOM.
-  </h2>
-</div>
 
+<section id="book-4-5">
+
+<header>
+    <h4>Chapter Fifth.</h4>
+    <p class="subtitle">The Dissecting Room.</p>
+</header>
 
 <p>A tall thin man, attired in a close-fitting great coat, was hurrying
 along Walnut street. His face, marked by thick eyebrows and an aquiline
@@ -22883,21 +22797,18 @@ soul, like a ray of light from the eternal world.</p>
 
 <p>“I go with you!” he whispered and his pale cheek glowed with a new
 fire, and his dark eye gathered a strange light.</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
+
+<section id="book-4-6">
 
 <p><span class="pagenum" id="Page_377">[Pg 377]</span></p>
 
-
-  <h2 class="nobreak" id="CHAPTER_SIXTH_3">
-    CHAPTER SIXTH.
-    <br>
-    THE FIRST MIRACLE OF THE NEW FAITH.
-  </h2>
-</div>
-
+<header>
+    <h4>Chapter Sixth.</h4>
+    <p class="subtitle">The First Miracle of the New Faith.</p>
+</header>
 
 <p>The taint of corruption and the breath of incense, the shrouded form
 of the dead and the dark-robed figure of the Sorcerer, the commanding
@@ -23313,17 +23224,16 @@ frenzy.</p>
 
 <p>“My child,” she murmured, extending her hands with a maniac smile.
 “Where have you taken my child?”</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_SEVENTH_3">
-    CHAPTER SEVENTH.
-    <br>
-    RAVONI AND MABEL.
-  </h2>
-</div>
 
+<section id="book-4-7">
+
+<header>
+    <h4>Chapter Seventh.</h4>
+    <p class="subtitle">Ravoni and Mabel.</p>
+</header>
 
 <p>It was one o’clock when a dashing carriage, with cream colored-panels
 and a liveried driver, came rattling along the street, and halted
@@ -23387,7 +23297,7 @@ without the Sorcerer’s knowledge?”</p>
 
 <p>“It would be vastly convenient—”</p>
 
-<p>“Va-s-tly! Save all disagreeable explanations. Ha—hum! What’s this?”</p>
+<p>“Va‑s‑tly! Save all disagreeable explanations. Ha—hum! What’s this?”</p>
 
 <p>Approaching the western side of the Audience Chamber, his eye was fixed
 upon a ray of red light which streamed from a crevice in the dark
@@ -23549,7 +23459,7 @@ the dandy? Ho, ho! I wonders how it verks!”</p>
 <p>“Come Parson, we’d better go,” said Fitz-Cowles. “That incarnate fiend
 seems to mix himself up with everybody’s affairs. Come!”</p>
 
-<p>“Oh, O, O-o-o! I wish he had’nt mixed <i>you</i> up with <i>me</i> so
+<p>“Oh, O, O‑o‑o! I wish he had’nt mixed <i>you</i> up with <i>me</i> so
 confoundedly!”</p>
 
 <p>Groaning and aching, Parson Pyne followed Fitz-Cowles to his carriage.</p>
@@ -23779,7 +23689,7 @@ red visage. Fitz-Cowles placed his gold-headed cane to his lips, and
 muttered wildly to himself, while Mulhill drew from his pocket, a slip
 of paper, and rattled it against the tip of his nose with a broad grin.</p>
 
-<p>“A love letter from a g-a-l!” he muttered, and then went laughing on
+<p>“A love letter from a g‑a‑l!” he muttered, and then went laughing on
 his way.</p>
 
 <p>And at the same instant, like a Ghost walking forth in the noon-day
@@ -23965,17 +23875,16 @@ my lips in many an hour of joy, a name soft as a ripplet’s murmur or a
 woman’s sigh, when first her cheek kindles to her lovers kiss.</p>
 
 <p>“<span class="smcap">Izole.</span>”</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_EIGHTH_3">
-    CHAPTER EIGHTH.
-    <br>
-    THE DEATH OF THE WHITE OWL.
-  </h2>
-</div>
 
+<section id="book-4-8">
+
+<header>
+    <h4>Chapter Eighth.</h4>
+    <p class="subtitle">The Death of the White Owl.</p>
+</header>
 
 <p>An old man, leaning upon spade, stood on the brow of a gentle eminence,
 with the beams of the setting sun falling over his wrinkled face.</p>
@@ -24104,11 +24013,11 @@ leaning within the hearse, the driver proceeded to arrange it in its
 former position. While thus occupied, he read the inscription on the
 silver plate of the coffin. Thus it ran:</p>
 
-<p>
-  <span style="margin-left: 1.0em;"><span class="antiqua">Dora Livingstone</span>,</span><br>
-  <span style="margin-left: 1.0em;"><span class="smcap">Died, Dec., 22, 1842.</span></span><br>
-  <span style="margin-left: 1.0em;"><span class="smcap">Aged 21 years, 3 months and one day</span>.</span>
-</p>
+<blockquote class="center">
+  <p class="blackletter">Dora Livingstone,</p>
+  <p class="smcap">Died, Dec., 22, 1842.</p>
+  <p class="allsmcap">Aged 21 years, 3 months and one day.</p>
+</blockquote>
 
 <p>“Couzin o’ his,” muttered the phlegmatic driver, pointing to the
 distant horseman. “Ha-hum! Died this morning ’fore daybreak; he was in
@@ -24401,29 +24310,21 @@ ha, the Heir of Hawkewood must have his Spirit, disguised as an owl!”</p>
 hearse rolled past the hall door toward the gate of the mansion, its
 uplifted drapery disclosing the vacant space, no longer occupied by the
 coffin, concealed in black cloth with a glittering plate on its bosom.</p>
-
+</section>
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
+
+<section id="book-5">
 
 <p><span class="pagenum" id="Page_403">[Pg 403]</span></p>
 
 
-  <h2 class="nobreak" id="BOOK_THE_FIFTH">
-    BOOK THE FIFTH.
-  </h2>
-</div>
-
-
-<hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="THE_THIRD_NIGHT">
-    THE THIRD NIGHT.
-    <br>
-    THE DEATH-ANGELS.
-  </h2>
-</div>
-
+  <header>
+  <h3>Book the Fifth.</h3>
+  <p class="subtitle">The Third Night.</p>
+  <p>The Death-Angels.</p>
+  </header>
 
 <p>It is night again, and we are once more in the Quaker City. It is the
 third night of our history, and from the bosom of the darkness, which
@@ -24454,16 +24355,14 @@ blood which shall drip from their wings ere the morrow’s dawn.</p>
 
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_FIRST_4">
-    CHAPTER FIRST.
-    <br>
-    THE OUTCASTS OF THE QUAKER CITY.
-  </h2>
-</div>
 
+<section id="book-5-1">
+  <header>
+    <h4>Chapter First.</h4>
+    <p class="subtitle">The Outcasts of the Quaker City.</p>
+  </header>
 
-<p>THE Dead-Vault of Monk-Hall was illumined by the glare of lights.
+<p>The Dead-Vault of Monk-Hall was illumined by the glare of lights.
 In the centre of the square space, described by four massive brick
 pillars, stood a large table of unpainted pine, with some dozen
 candles, arranged along its surface, burning in candlesticks of rusted
@@ -24510,28 +24409,41 @@ thieves! Ho-hoo! The Jew belongs to their band——”</p>
 strains of the Vagabond’s song, broke on the air, chanted by hoarse
 voices to a quick cantering measure.</p>
 
-
-<p>THE VAGABOND’S SONG.</p>
+<blockquote class="poetry">
+<header>
+  <p class="uc">The Vagabond’s Song.</p>
+</header>
 
 <p>
-  <span style="margin-left: 1.0em;">“A jolly band of good fellows all,</span><br>
-  <span style="margin-left: 1.0em;">Are the Outcast Monks of old Monk-Hall!</span><br>
-  <span style="margin-left: 1.0em;">They dance, they steal, they drink, they fight</span><br>
-  <span style="margin-left: 1.0em;">And turn the shiny day into-night——”</span>
+  <span>“A jolly band of good fellows all,</span>
+  <br>
+  <span>Are the Outcast Monks of old Monk-Hall!</span>
+  <br>
+  <span>They dance, they steal, they drink, they fight</span>
+  <br>
+  <span>And turn the shiny day into-night——”</span>
 </p>
+</blockquote>
 
 <p>“Chorus boys!” shouted a hoarse voice.</p>
 
+<blockquote class="poetry">
 <p>
-  <span style="margin-left: 1.0em;">“Raw Mon’gahaley is the g-o!</span><br>
-  <span style="margin-left: 1.0em;">Clink your mugs with a jolly sound</span><br>
-  <span style="margin-left: 1.0em;">Down in the vaults below, bel-ow!</span><br>
-  <span style="margin-left: 1.0em;">Down in the vaults below the ground—</span><br>
-  <span style="margin-left: 1.0em;">Hurrah, for the brave lads, one and all</span><br>
-  <span style="margin-left: 1.0em;">The Outcast Monks of old Monk-Hall—</span><br>
-  <br>
-  <span style="margin-left: 10.0em;">Hur-rah!”</span>
+  <span>“Raw Mon’gahaley is the g-o!</span>
+<br>
+  <span>Clink your mugs with a jolly sound</span>
+<br>
+  <span>Down in the vaults below, bel-ow!</span>
+<br>
+  <span>Down in the vaults below the ground—</span>
+<br>
+  <span>Hurrah, for the brave lads, one and all</span>
+<br>
+  <span>The Outcast Monks of old Monk-Hall—</span>
+<br>
+  <span class="right">Hur-rah!”</span>
 </p>
+</blockquote>
 
 <p><span class="pagenum" id="Page_405">[Pg 405]</span></p>
 
@@ -24547,10 +24459,13 @@ out yo’ thieves, yo’ robbers, yo’ devils!”</p>
 Dead-Vault. Devil-Bug’s amiable greeting, was answered by the thunder
 shout of some twenty or thirty voices.</p>
 
+<blockquote class="poetry">
 <p>
-  <span style="margin-left: 1.0em;">“Hurrah, for the brave lads one and all,</span><br>
-  <span style="margin-left: 1.0em;">The Outcast Monks of old Monk-Hall!”</span>
+  <span>“Hurrah, for the brave lads one and all,</span>
+<br>
+  <span>The Outcast Monks of old Monk-Hall!”</span>
 </p>
+</blockquote>
 
 <p>And through the opened door, into the Dead-Vault there poured one
 breathing mass of rags and lameness, filth and crime!</p>
@@ -24881,7 +24796,7 @@ Von Gelt is comin’ down stairs? Hello! Brick-Top here!”</p>
 
 <p>“You see the poleese is arter me—” began Luke.</p>
 
-<p>“H-u-s-h! These fellers mustn’t know nothin’!” muttered Devil-Bug.
+<p>“H‑u‑s‑h! These fellers mustn’t know nothin’!” muttered Devil-Bug.
 “That Jew Von Gelt has been betrayin’ us. He must die. You must help
 dispatch him, and I,” he muttered this sentence to himself, “Will see
 to you, and so git rid of both my partners! The Jew must die,” he cried
@@ -25275,22 +25190,18 @@ God! his dying shriek rings in my ears! But he shall be avenged!”</p>
 head from the floor, while a fiendish grin convulsed his face. “The
 gallows for me; you hell-cat!” He shook his manacled hands together.
 “Ha, ha, hoo! Vonders how that ’ill vork!”</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
 
+<section id="book-5-2">
 <p><span class="pagenum" id="Page_417">[Pg 417]</span></p>
 
-
-  <h2 class="nobreak" id="CHAPTER_SECOND_4">
-    CHAPTER SECOND.
-    <br>
-    THE OAK CHAMBER OF HAWKEWOOD.
-    <br>
-    DORA LIVINGSTONE GAINS THE CORONET, FOR WHICH SHE PERILLED HER SOUL.
-  </h2>
-</div>
+  <header>
+    <h4>Chapter Second.</h4>
+    <p class="subtitle">The Oak Chamber of Hawkewood.</p>
+    <p class="allsmcap">Dora Livingstone Gains the Coronet, for Which she Perilled her Soul.</p>
+</header>
 
 
 <p>“A fine old-time mansion, Dora!” exclaimed Livingstone as he crossed
@@ -25834,7 +25745,7 @@ backward over her coffin, into the arm-chair.</p>
 <p>“Ha, ha, ha!” she screamed, with a burst of maniac laughter. “Ha, ha!
 These are brave steeds Fitz-Cowles! Away, away! With the night we
 leave all danger behind. How softly the morning breaks, oh beautiful!
-H-u-s-h! My mother is dying. H-u-s-h! That was her last groan!
+H‑u‑s‑h! My mother is dying. H‑u‑s‑h! That was her last groan!
 Livingstone claims me as his bride, over the corpse of my dead mother.
 Heaven will bless our nuptuals, yes, yes——Ah! How cold, how dark,
 how dread! We are in the death-vault now. I am not dead, yet they bury
@@ -25952,17 +25863,16 @@ the steed of Livingstone.</p>
 cheerful glow of fire, gave warmth and comfort to the place, but the
 corpse of the woman and the coffin, were gone from the floor, while a
 plate of glittering silver gleamed among the hearthside ashes.</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_THIRD_4">
-    CHAPTER THIRD.
-    <br>
-    HURRAH FOR THE GALLOWS!
-  </h2>
-</div>
 
+<section id="book-5-3">
+
+  <header>
+    <h4>Chapter Third.</h4>
+    <p class="subtitle">Hurrah for the Gallows!</p>
+</header>
 
 <p>“This is wot I calls a werry respectable family party! Here’s the
 whole lump of us, packed in this box of a room, together, and a jolly
@@ -26041,8 +25951,9 @@ in this den, while I made a rush on the fellers down in the cellar.
 ’Spose they’re all quiet enough in charge o’ th’ police? Fire away
 <i>Brother</i> Devil-Bug. Give us your experience on hangin’!”</p>
 
-
-<p>THE HANGMAN’S GLEE.</p>
+<blockquote class="center">
+<p class="allsmcap">The Hangman’s Glee.</p>
+</blockquote>
 
 <p>“Hurray for hangin’ say I! It’s only a kick an’ a jerk, and a feller
 goes like a shot, right slap into kingdom come. It does wons heart good
@@ -26079,8 +25990,8 @@ they could do for him wos to hang him, for <i>fear you</i> know he
 might’n’t be able to get work the next winter.</p>
 
 <p>“Come my chap,” ses I, a-bindin’ his hands. “I’m an ugly devil, but
-you need’n’t be frightened, for I’m sent here by the <span class="allsmcap">LAW</span>,”
-pronouncin’ the word big you know? “<span class="allsmcap">THE LAW</span>, wot takes care ov
+you need’n’t be frightened, for I’m sent here by the <span class="allsmcap">Law</span>,”
+pronouncin’ the word big you know? “<span class="allsmcap">The Law</span>, wot takes care ov
 everybody and can’t never be bribed. Come feller.”</p>
 
 <p>“I bound his hands, and led him from the cell. The poor fool was
@@ -26118,7 +26029,7 @@ and sisters in some far away land, an’ I seized the reins and giv’ the
 horse a lick, and <span class="pagenum" id="Page_431">[Pg 431]</span>the soldiers began to march, and the wheels o’ th’
 cart to rumble, and the parson to look solemn—hurray!</p>
 
-<p>“Trum-te-trum-te-tum-tum, went the drums a-beatin’ the dead march,
+<p>“Trum‑te‑trum‑te‑tum‑tum, went the drums a-beatin’ the dead march,
 rattle, rattle, went the wheels of the cart, and away we goes, down
 Schuylkill Sixth Street, toward Bush Hill.</p>
 
@@ -26143,7 +26054,7 @@ middle of the dusty street. “Hurray” ses I, “look yander my boy!”</p>
 <p>“Charley looks up, and gives a groan. What d’ye think he saw? A great
 big, black, mass of people, reaching over Bush Hill, fur as the eye
 could see, with a gibbet rising in the middle of the crowd. The hot
-sun, was shinin’ down upon us, and the drums went trum-te-trum, and the
+sun, was shinin’ down upon us, and the drums went trum‑te‑trum, and the
 cart wheels went rumble rumble, and on we went, the poor devil that wos
 to be hung, the Parson that wos to pray over him, and <i>me</i> that
 wos to hang him!</p>
@@ -26352,7 +26263,7 @@ it—hey?”</p>
 <p>“Ho-hoo! ‘spose I’m goin’ to tell you with these ornaments on my hands?
 Wonders how <i>that</i> ’ud vork? Strike off these irons, gin’ me an
 hour’s liberty, and I’ll lead you to the place where you kin fight for
-the g-a-l——yes <i>fight</i> for her!”</p>
+the g‑a‑l——yes <i>fight</i> for her!”</p>
 
 <p><span class="pagenum" id="Page_435">[Pg 435]</span></p>
 
@@ -26405,7 +26316,7 @@ door, leaving Devil-Bug standing in the centre of the den, while Mother
 Nancy and Peggy Grud sate against the wall, yelling and swinging their
 bodies backwards and forwards to the same lively tune.</p>
 
-<p>“Now g-a-l, to drag you from the Wizard’s den!” shrieked Devil-Bug,
+<p>“Now g‑a‑l, to drag you from the Wizard’s den!” shrieked Devil-Bug,
 tramping through the front door. “First I must get Luke, and then, ho,
 hoo! She’ll roll in Livingstone’s wealth—<i>That</i> ’ill work just
 right!”</p>
@@ -26416,22 +26327,21 @@ off, and not cut us loose! Whilaloo—ochone!”</p>
 <p>“Young ’ooman, vy should I leave my rispectable dwellin’?” asked Mother
 Nancy with spiteful severity. “Here I’ve lived, and here I’ll stick
 <span class="pagenum" id="Page_436">[Pg 436]</span>till I die—He, he, he-e! Did’nt I see the note which Fitz-Cowles giv’
-to Larkspur? He, he, h-e-e! It was a thousan’ dollars I’ll be bound!”</p>
+to Larkspur? He, he, h‑e‑e! It was a thousan’ dollars I’ll be bound!”</p>
 
 <p>As she spoke, the room was filled by the band of police officers, who
 had been hurried from their revel down stairs, by the sounds of uproar,
 in the Doorkeeper’s Den.</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_FOURTH_4">
-    CHAPTER FOURTH.
-    <br>
-    THE CHAPEL OF JESUS.
-  </h2>
-</div>
 
+<section id="book-5-4">
+
+  <header>
+    <h4>Chapter Fourth.</h4>
+    <p class="subtitle">The Chapel of Jesus.</p>
+  </header>
 
 <p>The Oak Chamber of Hawkewood yet once again!</p>
 
@@ -27108,17 +27018,16 @@ be spoken!”</p>
 looking back on the sea of flame, sped madly onward, while the
 distorted form of Devil-Bug rode at his horse’s heels, like some
 laughing Demon in pursuit of his victim.</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_FIFTH_4">
-    CHAPTER FIFTH.
-    <br>
-    THE TEMPLE OF RAVONI.
-  </h2>
-</div>
 
+<section id="book-5-5">
+
+  <header>
+    <h4>Chapter Fifth.</h4>
+    <p class="subtitle">The Temple of Ravoni.</p>
+</header>
 
 <p>White columns of incense, rolled in soft and curling folds, through
 the temple to the arching dome, from whose azure expanse, innumerable
@@ -27760,29 +27669,20 @@ with supernatural light; with folded arms he stood erect.</p>
 <p>“Farewell my children, Izolé farewell!”</p>
 
 <p>The words lingered on his lips, as he fell dead along the marble floor.</p>
-
+</section>
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
+
+<section id="book-6">
 
 <p><span class="pagenum"><a id="Page_460"></a><a id="Page_461"></a>[Pg 461]</span></p>
 
-
-  <h2 class="nobreak" id="BOOK_THE_SIXTH">
-    BOOK THE SIXTH.
-  </h2>
-</div>
-
-
-<hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="THE_THIRD_DAY">
-    THE THIRD DAY.
-    <br>
-    CHRISTMAS EVE.
-  </h2>
-</div>
-
+<header>
+  <h3>Book the Sixth.</h3>
+  <p class="subtitle">The Third Day.</p>
+  <p>Christmas Eve.</p>
+</header>
 
 <p>Ho! From the mast-head a cry shrieks through the clouds of night.</p>
 
@@ -27810,14 +27710,12 @@ with a raven picking its goary meal, from the livid brow!</p>
 
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_FIRST_5">
-    CHAPTER FIRST.
-    <br>
-    HOME ONCE MORE.
-  </h2>
-</div>
 
+<section id="book-6-1">
+  <header>
+    <h4>Chapter First.</h4>
+    <p class="subtitle">Home Once More.</p>
+  </header>
 
 <p>It is the hour of Christmas Eve. One short hour’s travel down the
 wintry sky, and the sun will sink to rest. The sky is filled with
@@ -28242,17 +28140,16 @@ his sleigh-bells, broke upon their ears.</p>
 <p>“Now for the other remedy!” shrieked Byrnewood Arlington. “Nay hold me
 not father—mother release my arm! I will neither eat, nor drink, nor
 sleep until I have washed out my sister’s wrong, in this man’s blood!”</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_SECOND_5">
-    CHAPTER SECOND.
-    <br>
-    THE PERSONAGE.
-  </h2>
-</div>
 
+<section id="book-6-2">
+
+  <header>
+    <h4>Chapter Second.</h4>
+    <p class="subtitle">The Personage.</p>
+  </header>
 
 <p>The light of the declining sun, reflected from the snow on the
 house-tops, poured warmly into the chamber of the Millionaire, in the
@@ -28264,7 +28161,7 @@ blue cloth, and a small cap placed jauntily on his head.</p>
 addressed his tutelar Deity. “Dat ’ill do! Dis chile look like a
 reg’lar buck! Wonder whar de debbil, Massa is? Habn’t seen him, since
 last night at Camden. Hows’ever dere’s no use o’ frettin’ ’bout
-<i>him</i>—hah-a-whah—de debbil always takes care his own!”</p>
+<i>him</i>—hah‑a‑whah—de debbil always takes care his own!”</p>
 
 <p>Opening a drawer of the dressing bureau, the Creole drew from thence, a
 box of Lucifer matches and a cigar.</p>
@@ -28295,7 +28192,7 @@ hair falling, in matted locks, around its care-worn outlines.</p>
 
 <p>“Massa!” cried Dim, springing from his seat.</p>
 
-<p>“H-u-s-h, or I’ll brain you!” muttered the hoarse voice of Fitz-Cowles.
+<p>“H‑u‑s‑h, or I’ll brain you!” muttered the hoarse voice of Fitz-Cowles.
 “Hush—not a word, on the peril of your life. Tell me quick—has
 <i>he</i> come?”</p>
 
@@ -28564,24 +28461,23 @@ gaol. Something must be done for you!”</p>
 
 <p>In less than a month Fitz-Cowles walked the streets a free man. The
 mysteries of the forgery, the hooks and crooks, by which that pliable
-old gentleman <span class="allsmcap">THE LAW</span> was evaded and conciliated, are they not
+old gentleman <span class="allsmcap">The Law</span> was evaded and conciliated, are they not
 written in the Chronicles of the Criminal Courts?</p>
 
 <p>Who was the individual, so mysteriously denominated the Personage? The
 documents from which this history are drawn, are dark on that point,
 but the reader may rest assured that <i>the Personage</i>, was either a
 Canadian Statesman, or a British Lord, or a <i>Mexican Prince</i>!</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="CHAPTER_THIRD_5">
-    CHAPTER THIRD.
-    <br>
-    MONK-HALL ONCE MORE.
-  </h2>
-</div>
 
+<section id="book-6-3">
+
+  <header>
+    <h4>Chapter Third.</h4>
+    <p class="subtitle">Monk-Hall Once More.</p>
+  </header>
 
 <p>“What the devil yo’ skeered about niggers!” growled Devil-Bug turning
 hastily to his attendants. “Aint I in my own home agin, aint I in
@@ -28697,7 +28593,7 @@ compressed lips and glaring eye, indicated a deep and settled resolve.
 The rumbling of the rock, along the floor above, came heavily to his
 ear.</p>
 
-<p>“Ha! The g-a-l shall roll in wealth, dress in silks an’ satins, and be
+<p>“Ha! The g‑a‑l shall roll in wealth, dress in silks an’ satins, and be
 a lady all her life, old Devil-Bug’s daughter, with the mark o’ the
 red snake on her right temple! It’s all settled—Parson Pyne thinks
 she’s the <i>first</i> child o’Nell, tho’ he told me she was the
@@ -28770,21 +28666,18 @@ like that twice in a life-time! A body smashed beneath a big rock, an’
 a head stickin’ out, with a face all purple, and the eye laid on the
 cheek, and tongue lollin’ from the mouth! Ugh! Gen’elmen,” he continued
 in a husky whisper—“Our pris’ner’s escaped, an’ that’s a fact!”</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
+
+<section id="book-6-4">
 
 <p><span class="pagenum" id="Page_478">[Pg 478]</span></p>
 
-
-  <h2 class="nobreak" id="CHAPTER_FOURTH_5">
-    CHAPTER FOURTH.
-    <br>
-    THE MEETING OF THE BROTHER AND THE LIBERTINE.
-  </h2>
-</div>
-
+  <header>
+    <h4>Chapter Fourth.</h4>
+    <p class="subtitle">The Meeting of the Brother and the Libertine.</p>
+  </header>
 
 <p>Around the blazing stove in the Oyster Cellar, were gathered a band of
 some twenty loungers, smoking and swearing in a breath, while Smoky
@@ -29081,21 +28974,18 @@ your ear. Lorrimer takes the cars for Baltimore this afternoon. We will
 follow him.”</p>
 
 <p>“We will!” shrieked Byrnewood, “To the Death!”</p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
+
+<section id="book-6-5">
 
 <p><span class="pagenum" id="Page_483">[Pg 483]</span></p>
 
-
-  <h2 class="nobreak" id="CHAPTER_FIFTH_5">
-    CHAPTER FIFTH.
-    <br>
-    SUNSET ON CHRISTMAS EVE.
-  </h2>
-</div>
-
+  <header>
+    <h4>Chapter Fifth.</h4>
+    <p class="subtitle">Sunset on Christmas Eve.</p>
+  </header>
 
 <p>The warm glow of the setting sun, gleaming through an opening in the
 clouds, streamed down the hill of Walnut Street, over the wharf, and
@@ -29376,19 +29266,16 @@ the heavens! A song—huzza—a song! And the chorus, mark ye how it
 swells! Huzza!”</p>
 
 <p>“This, this is the vengeance of a Brother!”</p>
-
+</section>
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
+
+<section id="conclusion">
 
 <p><span class="pagenum" id="Page_488">[Pg 488]</span></p>
 
-
-  <h2 class="nobreak" id="THE_CONCLUSION">
-    THE CONCLUSION.
-  </h2>
-</div>
-
+  <h3>The Conclusion.</h3>
 
 <p>In a deep forest wild, a maiden form bent over a spring of clear cold
 water which bubbled upward from among a mass of green leaves, near
@@ -29737,15 +29624,13 @@ like the sigh of a broken neart—</p>
 <p>“<span class="smcap">Lorraine!</span>”</p>
 
 
-<p>THE END OF THE QUAKER CITY.</p>
-
+<p class="center mt-5 uc">The End of The Quaker City.</p>
+</section>
 
 <hr class="chap x-ebookmaker-drop">
-<div class="chapter">
-  <h2 class="nobreak" id="NOTES">
-    NOTES
-  </h2>
-</div>
+
+<div id="notes">
+  <header><p class="uc">Notes.</p></header>
 
 
 <div class="footnote"><p><a id="Footnote_1_1" href="#FNanchor_1_1" class="label">[1]</a> This genteel term is applied to a well-dressed edition of
@@ -29914,6 +29799,8 @@ Executive granted about 700 pardons.</p></div>
 <div class="footnote"><p><a id="Footnote_25_25" href="#FNanchor_25_25" class="label">[25]</a> The main incidents of this episode are strictly true. The
 Hangman, of course, is alone, responsible for the language and opinions
 of the story.</p></div>
+
+</div>
 
 </body>
 </html>
