@@ -302,9 +302,9 @@
         }
 
         blockquote.poetry p {
-    text-align: left;
-    text-indent: 0;
-}
+          text-align: left;
+          text-indent: 0;
+        }
 
 blockquote.poetry p > span {
     display: block;
@@ -329,6 +329,14 @@ blockquote.poetry p > span + br {
   width: 100%;
 }
 
+        h2.hidden {
+            display: none;
+        }
+
+        ul li {
+            list-style: none;
+        }
+
     </style>
 </head>
 <body>
@@ -340,12 +348,12 @@ blockquote.poetry p > span + br {
   </div>
 </div>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="titlepage">
 
   <header class="center">
-    <h1>The Quaker City;</h1>
+    <h1>The Quaker City</h1>
 
     <p class="subtitle uc">Or, the<br>
     <span class="larger">Monks of Monk-Hall.</span></p>
@@ -396,7 +404,7 @@ blockquote.poetry p > span + br {
 
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <div id="loc">
 <p class="center">
@@ -406,7 +414,7 @@ blockquote.poetry p > span + br {
 </p>
 </div>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <div id="titlepage-image">
 
@@ -416,7 +424,110 @@ blockquote.poetry p > span + br {
 
 </div>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
+
+<section id="contents">
+  <h2>Contents</h2>
+  <nav data-epub-type="toc">
+    <ul>
+      <li><a href="#preface-1">Preface to This Edition<a></li>
+      <li><a href="#dedication">Dedication<a></li>
+      <li><a href="#preface-2">The Origin and Object of This Book<a></li>
+      <li><a href="#halftitlepage">The Monks of Monk-Hall<a>
+        <ul>
+          <li><a href="#book-1">Book the First<a>
+            <ul>
+              <li><a href="#book-1-1">Chapter First</a></li>
+              <li><a href="#book-1-2">Chapter Second</a></li>
+              <li><a href="#book-1-3">Chapter Third</a></li>
+              <li><a href="#book-1-4">Chapter Fourth</a></li>
+              <li><a href="#book-1-5">Chapter Fifth</a></li>
+              <li><a href="#book-1-6">Chapter Sixth</a></li>
+              <li><a href="#book-1-7">Chapter Seventh</a></li>
+              <li><a href="#book-1-8">Chapter Eighth</a></li>
+              <li><a href="#book-1-9">Chapter Ninth</a></li>
+              <li><a href="#book-1-10">Chapter Tenth</a></li>
+              <li><a href="#book-1-11">Chapter Eleventh</a></li>
+              <li><a href="#book-1-12">Chapter Twelfth</a></li>
+              <li><a href="#book-1-13">Chapter Thirteenth</a></li>
+              <li><a href="#book-1-14">Chapter Fourteenth</a></li>
+              <li><a href="#book-1-15">Chapter Fifteenth</a></li>
+            </ul>
+          </li>
+          <li><a href="#book-2">Book the Second<a>
+            <ul>
+              <li><a href="#book-2-1">Chapter First</a></li>
+              <li><a href="#book-2-2">Chapter Second</a></li>
+              <li><a href="#book-2-3">Chapter Third</a></li>
+              <li><a href="#book-2-4">Chapter Fourth</a></li>
+              <li><a href="#book-2-5">Chapter Fifth</a></li>
+              <li><a href="#book-2-6">Chapter Sixth</a></li>
+              <li><a href="#book-2-7">Chapter Seventh</a></li>
+              <li><a href="#book-2-8">Chapter Eighth</a></li>
+              <li><a href="#book-2-9">Chapter Ninth</a></li>
+              <li><a href="#book-2-10">Chapter Tenth</a></li>
+              <li><a href="#book-2-11">Chapter Eleventh</a></li>
+            </ul>
+          </li>
+          <li><a href="#book-3">Book the Third<a>
+            <ul>
+              <li><a href="#book-3-1">Chapter First</a></li>
+              <li><a href="#book-3-2">Chapter Second</a></li>
+              <li><a href="#book-3-3">Chapter Third</a></li>
+              <li><a href="#book-3-4">Chapter Fourth</a></li>
+              <li><a href="#book-3-5">Chapter Fifth</a></li>
+              <li><a href="#book-3-6">Chapter Sixth</a></li>
+              <li><a href="#book-3-7">Chapter Seventh</a></li>
+              <li><a href="#book-3-8">Chapter Eighth</a></li>
+              <li><a href="#book-3-9">Chapter Ninth</a></li>
+              <li><a href="#book-3-10">Chapter Tenth</a></li>
+              <li><a href="#book-3-11">Chapter Eleventh</a></li>
+              <li><a href="#book-3-12">Chapter Twelfth</a></li>
+              <li><a href="#book-3-13">Chapter Thirteenth</a></li>
+              <li><a href="#book-3-14">Chapter Fourteenth</a></li>
+            </ul>
+          </li>
+          <li><a href="#last-day-of-quaker-city">The Last Day of the Quaker City</a></li>
+          <li><a href="#book-4">Book the Fourth<a>
+            <ul>
+              <li><a href="#book-4-1">Chapter First</a></li>
+              <li><a href="#book-4-2">Chapter Second</a></li>
+              <li><a href="#book-4-3">Chapter Third</a></li>
+              <li><a href="#book-4-4">Chapter Fourth</a></li>
+              <li><a href="#book-4-5">Chapter Fifth</a></li>
+              <li><a href="#book-4-6">Chapter Sixth</a></li>
+              <li><a href="#book-4-7">Chapter Seventh</a></li>
+              <li><a href="#book-4-8">Chapter Eighth</a></li>
+            </ul>
+          </li>
+          <li><a href="#book-5">Book the Fifth<a>
+            <ul>
+              <li><a href="#book-5-1">Chapter First</a></li>
+              <li><a href="#book-5-2">Chapter Second</a></li>
+              <li><a href="#book-5-3">Chapter Third</a></li>
+              <li><a href="#book-5-4">Chapter Fourth</a></li>
+              <li><a href="#book-5-5">Chapter Fifth</a></li>
+            </ul>
+          </li>
+          <li><a href="#book-6">Book the Sixth<a>
+            <ul>
+              <li><a href="#book-6-1">Chapter First</a></li>
+              <li><a href="#book-6-2">Chapter Second</a></li>
+              <li><a href="#book-6-3">Chapter Third</a></li>
+              <li><a href="#book-6-4">Chapter Fourth</a></li>
+              <li><a href="#book-6-5">Chapter Fifth</a></li>
+            </ul>
+          </li>
+          <li><a href="#the-conclusion">The Conclusion</a></li>
+        </ul>
+      </li>
+      <li><a href="#notes">Notes</a></li>
+    </ul>
+  </nav>
+
+</section>
+
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="preface-1">
 
@@ -505,15 +616,17 @@ thought or a bad deed.</p>
 
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
-<div id="dedication">
+<section id="dedication">
+
+<h2 class="hidden">Dedication</h2>
 
 <p class="center uc">Inscribed to the Memory of Charles Brockden Brown.</p>
 
-</div>
+</section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="preface-2">
 
@@ -605,7 +718,7 @@ life, mystery and crime of Philadelphia.</p>
 
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="halftitlepage">
 
@@ -614,7 +727,7 @@ life, mystery and crime of Philadelphia.</p>
 
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-1">
 
@@ -626,7 +739,7 @@ life, mystery and crime of Philadelphia.</p>
   <p class="center uc">Mary, the Merchant’s Daughter.</p>
 </header>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-1-1">
   <header>
@@ -1207,7 +1320,7 @@ creep—creep very low, remarkably low, d——d low—<i>always creep</i>!”</
 
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-1-2">
 
@@ -1438,7 +1551,7 @@ subterranean establishment along Chesnut street. To the wager and its
 result we now turn our attention and the readers interest.</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-1-3">
   <header>
@@ -1663,7 +1776,7 @@ is open—let’s enter! Let’s consult this familiar of the fates, this
 intimate acquaintance of the Future!”</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-1-4">
     <p><span class="pagenum" id="Page_23">[Pg 23]</span></p>
@@ -2016,7 +2129,7 @@ its tones—“One of you will die by the other’s hand! The winding sheet
 is woven, and the coffin made—you are rushing madly on your doom!”</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-1-5">
     <header>
@@ -2644,7 +2757,7 @@ and they hurried down Fourth street with a single word from Luke—</p>
 
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-1-6">
     <header>
@@ -2807,7 +2920,7 @@ some tract-society receipts,—“Good tenant that!—pays his rent with
 the regularity of clock-work!”</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-1-7">
     <header>
@@ -4065,7 +4178,7 @@ cataract, broke from his lips. He thrust aside the curtain, and strode
 madly through its folds into the next room.</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-1-8">
     <header>
@@ -4441,7 +4554,7 @@ house—Come along, Dolph-<i>ee</i>—Sleep a leetle, Bessie, that’s a
 dear!”</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-1-9">
     <header>
@@ -4980,7 +5093,7 @@ five minutes silently awaiting the appearance of the Bridegroom and the
 Bride.</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-1-10">
     <header>
@@ -5528,7 +5641,7 @@ hour of sun-down, one of ye will die by the other’s hand—the winding
 sheet is woven and the coffin made!</i>’”</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-1-11">
     <header>
@@ -5947,7 +6060,7 @@ drowning man. Then all was silent as before.</p>
 light streamed around the room.</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-1-12">
 
@@ -6564,7 +6677,7 @@ and gazed within the Rose Chamber.</p>
 joy.</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-1-13">
     <header>
@@ -7139,7 +7252,7 @@ would choose to encounter, for his weight in gold—it was so like the
 look of one arisen from the dead.</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-1-14">
     <header>
@@ -7523,7 +7636,7 @@ Dora! Dora!”</p>
 shame, Luke led the Merchant from the room and from the house.</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-1-15">
 <p><span class="pagenum" id="Page_123">[Pg 123]</span></p>
@@ -7865,7 +7978,7 @@ we like with you? Kin we? Ho-ho-ho! <i>I vonders how that’ill vork!</i>”</p>
 </section>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-2">
 
@@ -7876,6 +7989,8 @@ we like with you? Kin we? Ho-ho-ho! <i>I vonders how that’ill vork!</i>”</p>
         <p class="subtitle">The Day After the Night<p>
         <p>The Forger.</p>
     </header>
+
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-2-1">
     <header>
@@ -8769,7 +8884,7 @@ bluff off a creditor—”</p>
 However—<i>onter noos</i>—as we say in domestic French.”&#x2060;<a id="FNanchor_9_9" href="#Footnote_9_9" class="fnanchor">[9]</a></p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-2-2">
     <header>
@@ -9047,7 +9162,7 @@ glass! Crack—smash—bang! Thry it agin—ould porpise! This bates
 Watherloo—hurray, hurray!”</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-2-3">
 
@@ -9378,7 +9493,7 @@ rattles in my pocket, then—ha, ha, ha!—how I shall laugh at these
 fools of the Quaker City!”</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-2-4">
   <header>
@@ -10148,7 +10263,7 @@ sudden huskiness of her voice:</p>
 <p>“Leave that to me, and to the <i>Future</i>!”</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-2-5">
 
@@ -10869,7 +10984,7 @@ spasm, while her cheek grew like death, and the white foam hung on her
 livid lips.</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-2-6">
   <header>
@@ -11121,7 +11236,7 @@ I said last night—when hurrying down this very street—I say now! To
 Monk-Hall!”</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-2-7">
   <header>
@@ -11233,7 +11348,7 @@ long arter dark, and then—and then—cuss the light, it’s gone out!”</p>
 <p>The libertine and his minions were enveloped in sudden darkness.</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-2-8">
   <header>
@@ -11373,7 +11488,7 @@ look of smothered disgust.</p>
 pair—“The handsome millionaire arm in arm with a police officer!”</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-2-9">
   <header>
@@ -11981,7 +12096,7 @@ the Aldermon is a-strugglin’ with boat loads o’ terripin and basket of
 oysters! Hurray for Tippeycanoe!”</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-2-10">
   <header>
@@ -12306,7 +12421,7 @@ feeling of horror, that chilled him to the inmost heart.</p>
 with thick red blood.</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-2-11">
   <header>
@@ -12595,7 +12710,7 @@ of the fire-place.</p>
 </section>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-3">
 
@@ -12607,7 +12722,7 @@ of the fire-place.</p>
   <p>Mabel.</p>
 </header>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-3-1">
   <header>
@@ -12760,7 +12875,7 @@ anybody, what have I done?”</p>
 cage—“Mur‑<i>der</i>!”</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-3-2">
   <header>
@@ -13356,7 +13471,7 @@ locked within that faultless form; within the snowy whiteness of that
 bosom, now gleaming coldly in the light, was Hell.</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-3-3">
   <header>
@@ -13903,7 +14018,7 @@ Hurrah! Down with the Pope and the Wattykin! Up with the Patent-Gospel,
 up with Monk-Hall! Let Pagan Rome look out for itself—hurrah!”</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-3-4">
   <header>
@@ -14393,7 +14508,7 @@ it well-nigh touched the face of the listener.</p>
 of our Revelations.</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 <section id="book-3-5">
 
 <p><span class="pagenum" id="Page_238">[Pg 238]</span></p>
@@ -14709,7 +14824,7 @@ that letter about?”</p>
 features—“Nothin’ pertikler! Jist a love letter from a g-a-l!”</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-3-6">
   <header>
@@ -14856,7 +14971,7 @@ that delicate hand—“Before daybreak you shall have the ring, and I the
 goold! Ha, ha! Ho, ho! Vonders how that ’ill vork?”</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-3-7">
   <header>
@@ -15247,7 +15362,7 @@ before him like an embodied thing of flesh and blood. “Ho, ho, ho! I
 vonders how <i>that</i> ’ill vork!”</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-3-8">
   <header>
@@ -16249,7 +16364,7 @@ trifles, when, when——”</p>
 <p>As he spoke he entered the door of Dr. Pyne’s ante-chamber.</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-3-9">
 
@@ -16604,7 +16719,7 @@ terrific howl yet again. Then turning on his heel, he fled madly from
 the room.</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-3-10">
   <header>
@@ -16966,7 +17081,7 @@ deformed wretch gathering round his throat.</p>
 chamber.</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-3-11">
 
@@ -17143,7 +17258,7 @@ an’ satins—that she shall!”</p>
 laughter broke upon the air with a sound of strange and savage joy.</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-3-12">
   <header>
@@ -18111,7 +18226,7 @@ a wild and maniac laugh.</p>
 he will yet be mine! Lorraine! Lorraine!”</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-3-13">
   <header>
@@ -18987,7 +19102,7 @@ the monster’s soul by the tongues of angels?</p>
 
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-3-14">
   <header>
@@ -19069,7 +19184,7 @@ for mercy! Only a drop of water, only a drop of water!</p>
 </section>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="last-day-of-quaker-city">
 
@@ -20160,7 +20275,7 @@ shout the amen to the litany of the city’s crimes, shout Wo,</p>
 </blockquote>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-4">
 
@@ -20173,7 +20288,7 @@ shout the amen to the litany of the city’s crimes, shout Wo,</p>
   <p>Ravoni the Sorcerer.</p>
   </header>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-4-1">
   <header>
@@ -21334,7 +21449,7 @@ play-things of an intellect like mine, there men who plot and plan and
 gather gold, and yet creep into the same dull grave at last?”</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-4-2">
   <header>
@@ -21578,7 +21693,7 @@ door.</p>
 Saturday the twenty-fourth of December; the hour of Christmas Eve.</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-4-3">
   <header>
@@ -21792,7 +21907,7 @@ and Thought is softened and mellowed in the delirious atmosphere of
 Passion.”</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-4-4">
 <p><span class="pagenum" id="Page_360">[Pg 360]</span></p>
@@ -22294,7 +22409,7 @@ other sight.</p>
 <p>“And she shall be the Priestess of Ravoni!”</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-4-5">
 
@@ -22799,7 +22914,7 @@ soul, like a ray of light from the eternal world.</p>
 fire, and his dark eye gathered a strange light.</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-4-6">
 
@@ -23226,7 +23341,7 @@ frenzy.</p>
 “Where have you taken my child?”</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-4-7">
 
@@ -23877,7 +23992,7 @@ woman’s sigh, when first her cheek kindles to her lovers kiss.</p>
 <p>“<span class="smcap">Izole.</span>”</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-4-8">
 
@@ -24313,7 +24428,7 @@ coffin, concealed in black cloth with a glittering plate on its bosom.</p>
 </section>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-5">
 
@@ -24354,7 +24469,7 @@ and the plain of sand.</p>
 blood which shall drip from their wings ere the morrow’s dawn.</p>
 
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-5-1">
   <header>
@@ -25192,7 +25307,7 @@ gallows for me; you hell-cat!” He shook his manacled hands together.
 “Ha, ha, hoo! Vonders how that ’ill vork!”</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-5-2">
 <p><span class="pagenum" id="Page_417">[Pg 417]</span></p>
@@ -25865,7 +25980,7 @@ corpse of the woman and the coffin, were gone from the floor, while a
 plate of glittering silver gleamed among the hearthside ashes.</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-5-3">
 
@@ -26334,7 +26449,7 @@ had been hurried from their revel down stairs, by the sounds of uproar,
 in the Doorkeeper’s Den.</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-5-4">
 
@@ -27020,7 +27135,7 @@ distorted form of Devil-Bug rode at his horse’s heels, like some
 laughing Demon in pursuit of his victim.</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-5-5">
 
@@ -27672,7 +27787,7 @@ with supernatural light; with folded arms he stood erect.</p>
 </section>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-6">
 
@@ -27709,7 +27824,7 @@ with a raven picking its goary meal, from the livid brow!</p>
 <p>“Land on the western horizon—land! Hurrah!”</p>
 
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-6-1">
   <header>
@@ -28142,7 +28257,7 @@ not father—mother release my arm! I will neither eat, nor drink, nor
 sleep until I have washed out my sister’s wrong, in this man’s blood!”</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-6-2">
 
@@ -28470,7 +28585,7 @@ but the reader may rest assured that <i>the Personage</i>, was either a
 Canadian Statesman, or a British Lord, or a <i>Mexican Prince</i>!</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-6-3">
 
@@ -28668,7 +28783,7 @@ cheek, and tongue lollin’ from the mouth! Ugh! Gen’elmen,” he continued
 in a husky whisper—“Our pris’ner’s escaped, an’ that’s a fact!”</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-6-4">
 
@@ -28976,7 +29091,7 @@ follow him.”</p>
 <p>“We will!” shrieked Byrnewood, “To the Death!”</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="book-6-5">
 
@@ -29269,7 +29384,7 @@ swells! Huzza!”</p>
 </section>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <section id="conclusion">
 
@@ -29627,7 +29742,7 @@ like the sigh of a broken neart—</p>
 <p class="center mt-5 uc">The End of The Quaker City.</p>
 </section>
 
-<hr class="chap x-ebookmaker-drop">
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
 <div id="notes">
   <header><p class="uc">Notes.</p></header>
