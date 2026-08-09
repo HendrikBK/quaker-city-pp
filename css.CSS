@@ -1,38 +1,266 @@
-h1, h2, h3, h4 {
-    text-align: center;
-    text-transform: uppercase;    
-}
+       body {
+           margin-left: 10%;
+           margin-right: 10%;
+       }
 
-*.uc {
-    text-transform: uppercase;
-}
+       h1, h2, h3, h4, h5, h6 {
+           text-align: center;
+           /* all headings centered */
+           clear: both;
+       }
 
-*.center,
-*.subtitle {
-    text-align: center;
-    text-indent: 0;
-}
+       p {
+           margin-top: .5em;
+           text-align: justify;
+           margin-bottom: .5em;
+       }
 
-*.larger {
-    font-size: 1.3em;
-}
+       p+p {
+           text-indent: 1em;
+       }
 
-/* Margins */
+       hr {
+           width: 33%;
+           margin-top: 2em;
+           margin-bottom: 2em;
+           margin-left: 33.5%;
+           margin-right: 33.5%;
+           clear: both;
+       }
 
-*.mt-2 {
-    margin-top: 2em;
-}
+       hr.tb {
+           width: 45%;
+           margin-left: 27.5%;
+           margin-right: 27.5%;
+       }
 
-*.mt-5 {
-    margin-top: 5em;
-}
+       hr.chap {
+           width: 65%;
+           margin-left: 17.5%;
+           margin-right: 17.5%;
+       }
 
-section > p,
-blockquote > p {
-    text-indent: 1em;
-}
+       @media print {
+           hr.chap {
+               display: none;
+               visibility: hidden;
+           }
+       }
 
-blockquote.bridgehead p {
-    text-align: justify;
-    text-indent: -1em;
-}
+       /* Page numbers */
+
+       .pagenum {
+           /* uncomment the next line for invisible page numbers */
+           /*  visibility: hidden;  */
+           position: absolute;
+           left: 92%;
+           font-size: small;
+           text-align: right;
+           font-style: normal;
+           font-weight: normal;
+           font-variant: normal;
+           text-indent: 0;
+       }
+
+       blockquote {
+           margin-top: 0;
+           margin-bottom: 0;
+           margin-left: 5%;
+           margin-right: 10%;
+       }
+
+
+
+       /* Images */
+
+       img {
+           max-width: 100%;
+           height: auto;
+       }
+
+       .footnote {
+           margin-left: 10%;
+           margin-right: 10%;
+           font-size: 0.9em;
+       }
+
+       .footnote .label {
+           position: absolute;
+           right: 84%;
+           text-align: right;
+       }
+
+       .fnanchor {
+           vertical-align: super;
+           font-size: .8em;
+           text-decoration:
+               none;
+       }
+
+       /* Poetry */
+       .poetry {
+           text-align: left;
+           margin-left: 5%;
+           margin-right: 5%;
+       }
+
+       /* Transcriber's notes */
+       .transnote {
+           background-color: #E6E6FA;
+           color: black;
+           font-size: small;
+           padding: 0.5em;
+           margin-bottom: 5em;
+           font-family: sans-serif, serif;
+       }
+
+       /* General CSS */
+
+       *.center {
+           text-align: center;
+           text-indent: 0;
+       }
+
+       *.right {
+           text-align: right;
+       }
+
+       header p {
+           text-align: center;
+           text-transform: uppercase;
+       }
+
+       /* Transform */
+
+       h1,
+       h2,
+       h3,
+       *.uc {
+           text-Transform: uppercase;
+       }
+
+       *.smcap {
+           font-variant: small-caps;
+       }
+
+       *.allsmcap {
+           font-variant: small-caps;
+           text-Transform: lowercase;
+       }
+
+       /* Margins and padding */
+
+       *.my-1 {
+           margin-top: 1em;
+           margin-bottom: 1em;
+       }
+
+       /* Breaks */
+
+       body>section,
+       body>div,
+       *.break {
+           page-break-before: always;
+       }
+
+       figure.break {
+           page-break-before: always;
+           page-break-after: always;
+       }
+
+       footer p {
+           text-align: right;
+       }
+
+       div.poetry p {
+           text-align: left;
+           text-indent: 0;
+       }
+
+       div.poetry p>span {
+           display: block;
+           padding-left: 1em;
+           text-indent: -1em;
+       }
+
+       div.poetry p>span+br {
+           display: none;
+       }
+
+       p span.i1 {
+           padding-left: 2em;
+           text-indent: -1em;
+       }
+
+       .img-container {
+           text-align: center;
+           margin: auto;
+       }
+
+       .img-25 {
+           width: 25%;
+       }
+
+       .img-100 {
+           width: 100%;
+       }
+
+       h2.hidden {
+           display: none;
+       }
+
+       #contents ul li {
+           list-style: none;
+       }
+
+       h1,
+       h2,
+       h3,
+       h4 {
+           text-align: center;
+           text-transform: uppercase;
+       }
+
+       *.uc {
+           text-transform: uppercase;
+       }
+
+       *.center,
+       *.subtitle {
+           text-align: center;
+           text-indent: 0;
+       }
+
+       *.larger {
+           font-size: 1.3em;
+       }
+
+       blockquote.sign {
+           border: solid black 1px;
+           max-width: 50%;
+           margin: auto;
+       }
+
+       /* Margins */
+
+       *.mt-2 {
+           margin-top: 2em;
+       }
+
+       *.mt-5 {
+           margin-top: 5em;
+       }
+
+       section>p,
+       blockquote>p {
+           text-indent: 1em;
+       }
+
+       blockquote.bridgehead p {
+           text-align: justify;
+           text-indent: -1em;
+       }
+
+       .blackletter {
+           font-family: Fraktur, Textur, "Old English Text MT", Schwabacher, Blackletter, "Olde English", "Old English Five", "Engravers Old English BT", "Collins Old English", "New Old English", UnifrakturMaguntia, serif
+       }

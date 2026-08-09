@@ -199,17 +199,16 @@ Pg. 152
 
 Normalization
 
-ancles [3] | ankles [2]
-sate [] | sate []
-wierd [] | weird []
-to night | to-night
-to day | to-day
-snow white | snow-white
-did'nt | didn't
-bookcase | book-case
-corse | corpse
-Chesnut | Chestnut
-bedchamber | bed-chamber
-new comer | new-comer
-fire-place | fire place
-backroom | back-room
+ancles | ankles -> ankles
+wierd | weird -> wierd
+to night | to-night -> to-night
+to day | to-day -> to-day
+snow white | snow-white -> snow-white
+did'nt | didn't -> didn’t
+bookcase | book-case -> book-case
+corse | corpse -> corpse
+Chesnut | Chestnut -> chesnut
+bedchamber | bed-chamber -> bedchamber
+new comer | new-comer -> new-comer
+fire-place | fire place -> fire-place
+backroom | back-room -> backroom
