@@ -8,7 +8,7 @@
       The Quaker City | Project Gutenberg
     </title>
     <link rel="icon" href="images/cover.jpg" type="image/x-cover">
-<link rel="stylesheet" href="css.CSS">
+<link rel="stylesheet">
     <style>
        body {
             margin-left: 10%;
@@ -57,15 +57,6 @@
                 visibility: hidden;
             }
         }
-
-        hr.full {
-            width: 95%;
-            margin-left: 2.5%;
-            margin-right: 2.5%;
-        }
-
-        div.chapter {page-break-before: always;}
-        h2.nobreak  {page-break-before: avoid;}
 
         /*ul.index { list-style-type: none; }
         li.ifrst {
@@ -160,9 +151,6 @@
             height: auto;
         }
 
-        /* Footnotes */
-        .footnotes        {border: 1px dashed;}
-
         .footnote         {margin-left: 10%; margin-right: 10%; font-size: 0.9em;}
 
         .footnote .label  {position: absolute; right: 84%; text-align: right;}
@@ -175,12 +163,7 @@
         }
 
         /* Poetry */
-        /* uncomment the next line for centered poetry */
-        /* .poetry-container {display: flex; justify-content: center;} */
-        .poetry-container {text-align: center;}
         .poetry           {text-align: left; margin-left: 5%; margin-right: 5%;}
-        .poetry .stanza   {margin: 1em auto;}
-        .poetry .verse    {text-indent: -3em; padding-left: 3em;}
 
         /* Transcriber's notes */
         .transnote {background-color: #E6E6FA;
@@ -198,16 +181,8 @@
             text-indent: 0;
         }
 
-        *.left {
-            text-align: left;
-        }
-
         *.right {
             text-align: right;
-        }
-
-        p.noindent {
-            text-indent: 0;
         }
 
         header p {
@@ -232,56 +207,9 @@
 
         /* Margins and padding */
 
-        *.mt-1 {
-            margin-top: 1em;
-        }
-
-        *.mb-1 {
-            margin-bottom: 1em;
-        }
-
-        *.ml-1 {
-            margin-left: 1em;
-        }
-
-        *.mr-1 {
-            margin-right: 1em;
-        }
-
-        *.mx-1 {
-            margin-left: 1em;
-            margin-right: 1em;
-        }
-
         *.my-1 {
             margin-top: 1em;
             margin-bottom: 1em;
-        }
-
-        *.pt-1 {
-            padding-top: 1em;
-        }
-
-        *.pr-1 {
-            padding-right: 1em;
-        }
-
-        *.pb-1 {
-            padding-bottom: 1em;
-        }
-
-        *.pl-1 {
-            padding-left: 1em;
-        }
-
-        *.px-1 {
-            padding-left: 1em;
-            padding-right: 1em;
-        }
-
-        *.py-1 {
-            padding-top: 1em;
-            padding-bottom: 1em;
         }
 
         /* Breaks */
@@ -301,19 +229,24 @@
           text-align: right;
         }
 
-        blockquote.poetry p {
+        div.poetry p {
           text-align: left;
           text-indent: 0;
         }
 
-blockquote.poetry p > span {
+div.poetry p > span {
     display: block;
     padding-left: 1em;
     text-indent: -1em;
 }
 
-blockquote.poetry p > span + br {
+div.poetry p > span + br {
     display: none;
+}
+
+p span.i1{
+	padding-left: 2em;
+	text-indent: -1em;
 }
 
 .img-container {
@@ -336,6 +269,55 @@ blockquote.poetry p > span + br {
         ul li {
             list-style: none;
         }
+
+h1, h2, h3, h4 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+*.uc {
+    text-transform: uppercase;
+}
+
+*.center,
+*.subtitle {
+    text-align: center;
+    text-indent: 0;
+}
+
+*.larger {
+    font-size: 1.3em;
+}
+
+blockquote.sign {
+border: solid black 1px;
+max-width: 50%;
+margin: auto;
+}
+
+/* Margins */
+
+*.mt-2 {
+    margin-top: 2em;
+}
+
+*.mt-5 {
+    margin-top: 5em;
+}
+
+section > p,
+blockquote > p {
+    text-indent: 1em;
+}
+
+blockquote.bridgehead p {
+    text-align: justify;
+    text-indent: -1em;
+}
+
+.blackletter {
+    font-family: Fraktur, Textur, "Old English Text MT", Schwabacher, Blackletter, "Olde English", "Old English Five", "Engravers Old English BT", "Collins Old English", "New Old English", UnifrakturMaguntia, serif
+}
 
     </style>
 </head>
@@ -430,12 +412,12 @@ blockquote.poetry p > span + br {
   <h2>Contents</h2>
   <nav data-epub-type="toc">
     <ul>
-      <li><a href="#preface-1">Preface to This Edition<a></li>
-      <li><a href="#dedication">Dedication<a></li>
-      <li><a href="#preface-2">The Origin and Object of This Book<a></li>
-      <li><a href="#halftitlepage">The Monks of Monk-Hall<a>
+      <li><a href="#preface-1">Preface to This Edition</a></li>
+      <li><a href="#dedication">Dedication</a></li>
+      <li><a href="#preface-2">The Origin and Object of This Book</a></li>
+      <li><a href="#halftitlepage">The Monks of Monk-Hall</a>
         <ul>
-          <li><a href="#book-1">Book the First<a>
+          <li><a href="#book-1">Book the First</a>
             <ul>
               <li><a href="#book-1-1">Chapter First</a></li>
               <li><a href="#book-1-2">Chapter Second</a></li>
@@ -454,7 +436,7 @@ blockquote.poetry p > span + br {
               <li><a href="#book-1-15">Chapter Fifteenth</a></li>
             </ul>
           </li>
-          <li><a href="#book-2">Book the Second<a>
+          <li><a href="#book-2">Book the Second</a>
             <ul>
               <li><a href="#book-2-1">Chapter First</a></li>
               <li><a href="#book-2-2">Chapter Second</a></li>
@@ -469,7 +451,7 @@ blockquote.poetry p > span + br {
               <li><a href="#book-2-11">Chapter Eleventh</a></li>
             </ul>
           </li>
-          <li><a href="#book-3">Book the Third<a>
+          <li><a href="#book-3">Book the Third</a>
             <ul>
               <li><a href="#book-3-1">Chapter First</a></li>
               <li><a href="#book-3-2">Chapter Second</a></li>
@@ -488,7 +470,7 @@ blockquote.poetry p > span + br {
             </ul>
           </li>
           <li><a href="#last-day-of-quaker-city">The Last Day of the Quaker City</a></li>
-          <li><a href="#book-4">Book the Fourth<a>
+          <li><a href="#book-4">Book the Fourth</a>
             <ul>
               <li><a href="#book-4-1">Chapter First</a></li>
               <li><a href="#book-4-2">Chapter Second</a></li>
@@ -500,7 +482,7 @@ blockquote.poetry p > span + br {
               <li><a href="#book-4-8">Chapter Eighth</a></li>
             </ul>
           </li>
-          <li><a href="#book-5">Book the Fifth<a>
+          <li><a href="#book-5">Book the Fifth</a>
             <ul>
               <li><a href="#book-5-1">Chapter First</a></li>
               <li><a href="#book-5-2">Chapter Second</a></li>
@@ -509,7 +491,7 @@ blockquote.poetry p > span + br {
               <li><a href="#book-5-5">Chapter Fifth</a></li>
             </ul>
           </li>
-          <li><a href="#book-6">Book the Sixth<a>
+          <li><a href="#book-6">Book the Sixth</a>
             <ul>
               <li><a href="#book-6-1">Chapter First</a></li>
               <li><a href="#book-6-2">Chapter Second</a></li>
@@ -518,7 +500,7 @@ blockquote.poetry p > span + br {
               <li><a href="#book-6-5">Chapter Fifth</a></li>
             </ul>
           </li>
-          <li><a href="#the-conclusion">The Conclusion</a></li>
+          <li><a href="#conclusion">The Conclusion</a></li>
         </ul>
       </li>
       <li><a href="#notes">Notes</a></li>
@@ -7882,7 +7864,9 @@ is blood—the river rushes before me, and the sky and the city—all
 pictured in colors of blood.</p>
 
 <figure class="break my-1">
-<img class="img-100" src="images/p126.jpg">
+<img class="img-100" alt="A picture depicting a scared women on the floor and a man
+embracing her and pointing his fist towards the air, while three other men watch
+the scene." src="images/p126.jpg">
 <figcaption class="center uc">Mary, Byrnewood, and Lorrimer.—Page 126.</figcaption>
 </figure>
 
@@ -7986,7 +7970,7 @@ we like with you? Kin we? Ho-ho-ho! <i>I vonders how that’ill vork!</i>”</p>
 
     <header>
         <h3>Book the Second</h3>
-        <p class="subtitle">The Day After the Night<p>
+        <p class="subtitle">The Day After the Night</p>
         <p>The Forger.</p>
     </header>
 
@@ -11539,7 +11523,7 @@ fellers laugh and shout in the next cellar!”</p>
 voice, then echoed by a score, came faint and murmuring through the
 thick walls of the adjoining cellar.</p>
 
-<blockquote class="poetry">
+<div class="poetry">
   <p>
     <span>“Let the Bank D’rector swill his sham-pane,</span>
     <br>
@@ -11549,7 +11533,7 @@ thick walls of the adjoining cellar.</p>
     <br>
     <span class="i1">For d—l a beak we fears!”</span>
   </p>
-</blockquote>
+</div>
 
 <p>“That’s what I likes—” said Devil-Bug, as he came shuffling onward
 into the light of the lanthern—“I usually wisits my private ’partments
@@ -16916,30 +16900,30 @@ wriggle! Wos there ever sich twistin’ as that! How black he grows in
 the face! His eyes big as Delawar’ bay oysters—ha! ha! ha! Come on my
 pianey fortey—I’ll tune yo’ up!</p>
 
-<blockquote class="poetry">
+<div class="poetry">
   <p>
     <span>Yankey doo-del is the tune—”</span>
  </p>
-</blockquote>
+</div>
 
 <p>“Ha! ha! ha!” interrupted the Parson.</p>
 
 
-<blockquote class="poetry">
+<div class="poetry">
   <p>
     <span>“An’ nothin’ comes so han-dy!</span>
     <br>
     <span>As yankey doo-del doo-del do-oo—”</span>
   </p>
-</blockquote>
+</div>
 
 <p>“Hoo! hoo! hoo!” roared Parson Pyne.</p>
 
-<blockquote class="poetry">
+<div class="poetry">
   <p>
     <span>“An’ yankey doo-del dan-dy!”</span>
  </p>
-</blockquote>
+</div>
 
 <p>Screamed Devil-Bug, executing a delicate flourish on the soles of the
 Parson’s feet.</p>
@@ -24524,7 +24508,7 @@ thieves! Ho-hoo! The Jew belongs to their band——”</p>
 strains of the Vagabond’s song, broke on the air, chanted by hoarse
 voices to a quick cantering measure.</p>
 
-<blockquote class="poetry">
+<div class="poetry">
 <header>
   <p class="uc">The Vagabond’s Song.</p>
 </header>
@@ -24538,11 +24522,11 @@ voices to a quick cantering measure.</p>
   <br>
   <span>And turn the shiny day into-night——”</span>
 </p>
-</blockquote>
+</div>
 
 <p>“Chorus boys!” shouted a hoarse voice.</p>
 
-<blockquote class="poetry">
+<div class="poetry">
 <p>
   <span>“Raw Mon’gahaley is the g-o!</span>
 <br>
@@ -24558,7 +24542,7 @@ voices to a quick cantering measure.</p>
 <br>
   <span class="right">Hur-rah!”</span>
 </p>
-</blockquote>
+</div>
 
 <p><span class="pagenum" id="Page_405">[Pg 405]</span></p>
 
@@ -24574,13 +24558,13 @@ out yo’ thieves, yo’ robbers, yo’ devils!”</p>
 Dead-Vault. Devil-Bug’s amiable greeting, was answered by the thunder
 shout of some twenty or thirty voices.</p>
 
-<blockquote class="poetry">
+<div class="poetry">
 <p>
   <span>“Hurrah, for the brave lads one and all,</span>
 <br>
   <span>The Outcast Monks of old Monk-Hall!”</span>
 </p>
-</blockquote>
+</div>
 
 <p>And through the opened door, into the Dead-Vault there poured one
 breathing mass of rags and lameness, filth and crime!</p>

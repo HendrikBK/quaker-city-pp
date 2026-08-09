@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 1600 2560">
+	<title>DP SVG Cover Generator</title>
+
+	<!-- To create a cover:
+		1. Save an image file as a jpeg, named blank-cover.jpg.
+		    The file must have a ratio of 1:1.6; it will
+		    look best if it is exactly 1600px wide and 2560px high.
+		2. Edit the "text" lines below, adjusting the font-size and
+		    letter-spacing in the .title and .author fields as necessary.
+		    A number of "presets" are available; you can comment out the
+		    default title and author lines and uncomment one of the others.
+		3. Adjust the CSS as necessary to better fit your title;
+		    font-size and letter-spacing are the most useful.
+		4. For more detailed instructions, visit the DP Wiki.
+	-->
+	
+	<style type="text/css">
+		.title-box{
+			fill-opacity: .85;
+			fill: #f4f0e8;
+		}
+		
+		.title-box-border{
+		fill-opacity:0;
+		stroke:black;
+		stroke-width:5px;
+		stroke-opacity:1;
+		}
+
+		text{
+			font-family: "Times New Roman";
+			fill: yellow;
+			text-anchor: middle;
+		}
+
+		.title-big{
+			font-size: 175px;
+			font-weight:bold;
+			letter-spacing: 10px;			
+		}
+
+        .subtitle{
+			font-size: 110px;
+            font-style: italic;
+			font-weight:bold;
+			letter-spacing: 10px;
+        }
+
+		.author{
+			font-size: 100px;
+			font-weight: bold;
+			letter-spacing: 5px;
+		}
+	</style>
+	
+	<!-- import the background image, named blank-cover.jpg -->
+	<image height="2560" width="1600" x="0" y="0" xlink:href="blank-cover.jpg"/>
+
+	<!-- Draw a simple text box, with border, for the title and author -->
+
+	
+	<!-- 
+		Below are several samples that can be used for title and author
+		    information. The first is the default. If another sample
+		    better suits your project, comment out the default and
+		    uncomment one of the others instead.
+	-->
+
+<!-- TITLE -->
+
+<!-- Short one-line title -->
+
+<!--
+	<text class="title-big" x="800" y="550">HAMLET</text>
+-->
+
+<!-- Short two-line title -->
+
+<!--
+	<text class="title-big" x="800" y="425">THE MAGIC</text>
+	<text class="title-big" x="800" y="600">MOUNTAIN</text>
+-->
+
+<!-- Longer two-line title -->
+
+<!--
+	<text class="title-medium" x="800" y="400">THE ORDEAL OF</text>
+	<text class="title-medium" x="800" y="525">GILBERT PINFOLD</text>
+-->
+
+<!-- Longer three-line title -->
+
+	<text class="title-big" x="800" y="360">THE</text>
+	<text class="title-big" x="800" y="525">QUAKER CITY</text>
+
+
+<!-- Two in one -->
+<!--
+	<text class="title" x="800" y="380">PROFESSOR TIM</text>
+	<text class="and" x="800" y="470">⁓ and ⁓</text>
+	<text class="title" x="800" y="600">PAUL TWYNING</text>
+	<text class="author" x="800" y="720">GEORGE SHIELS</text>
+-->
+
+<!-- AUTHOR -->
+
+<!-- Single Author, Two Lines -->
+
+	<text class="subtitle" x="800" y="805">Or,</text>
+	<text class="subtitle" x="800" y="915">The Monks of Monk-Hall</text>
+
+    <text class="author" x="800" y="2200">George Lippard</text>
+
+<!-- Single Author, One Line -->
+
+<!--	
+	<text class="author" x="800" y="850">THOMAS MANN</text>
+-->
+
+
+<!-- DECORATION -->
+
+<!-- High decoration -->
+<!--
+	<text class="title-big" x="800" y="675">❧</text>
+-->
+
+
+<!-- Middle decoration -->
+<!--
+	<text class="title-big" x="800" y="720">❧</text>
+-->
+
+</svg>
