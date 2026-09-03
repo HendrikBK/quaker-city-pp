@@ -237,7 +237,7 @@ thought or a bad deed.
 
 INSCRIBED TO THE MEMORY OF CHARLES BROCKDEN BROWN.
 
-$The origin and object of this Book.$
+~The origin and object of this Book.~
 
 
 One winter night I was called to the bedside of a dying friend. I
@@ -23418,7 +23418,7 @@ leaning within the hearse, the driver proceeded to arrange it in its
 former position. While thus occupied, he read the inscription on the
 silver plate of the coffin. Thus it ran:
 
-  $Dora Livingstone$,
+  ~Dora Livingstone~,
   DIED, DEC., 22, 1842.
   AGED 21 YEARS, 3 MONTHS AND ONE DAY.
 
@@ -29076,11 +29076,11 @@ TRANSCRIBER’S NOTES
 
   - Some clear typographical and spelling errors have been corrected.
 
-  - Words with inconsistent speeling have been normalized.
+  - Words with inconsistent spelling have been normalized.
 
   - Footnotes have been renumbered and moved to the end of the book.
 
-  - Text between _underscores_ represent italics. TExt between $dollar signs$
+  - Text between _underscores_ represent italics. Text between ~tilts~
   represent blackletter.
 
   - The table of contents was created for this edition.
