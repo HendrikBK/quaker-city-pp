@@ -142,7 +142,12 @@
 
        header p {
            text-align: center;
+           text-indent: 0;
            text-transform: uppercase;
+       }
+
+       p.continued {
+           text-indent: 0;
        }
 
        /* Transform */
@@ -200,7 +205,8 @@
            text-indent: -1em;
        }
 
-       .img-container {
+       .img-container,
+       figure {
            text-align: center;
            margin: auto;
        }
@@ -332,10 +338,10 @@
     representatives of a class.</i></p>
   </blockquote>
 
-<p class="center mt-5 uc">
-  Philadelphia:<br>
-  <span class="larger">Leary, Stuart & Company,</span><br>
-  9 South Ninth Street.
+<p class="center mt-5">
+  PHILADELPHIA:<br>
+  <span class="larger">LEARY, STUART & COMPANY,</span><br>
+  9 SOUTH NINTH STREET.
 </p>
 
 
@@ -571,6 +577,8 @@ thought or a bad deed.</p>
 
 <hr class="chap x-ebookmaker-drop" aria-hidden="true">
 
+<section id="preface-2">
+
 <h2><span class="blackletter">The origin and object of this Book.</span></h2>
 
 <p>One winter night I was called to the bedside of a dying friend. I
@@ -676,7 +684,7 @@ life, mystery and crime of Philadelphia.</p>
 <header>
   <h3>BOOK THE FIRST.</h3>
   <p class="subtitle">THE FIRST NIGHT.</p>
-  <p class="center uc">MARY, THE MERCHANT’S DAUGHTER.</p>
+  <p class="center">MARY, THE MERCHANT’S DAUGHTER.</p>
 </header>
 
 <hr class="chap x-ebookmaker-drop" aria-hidden="true">
@@ -3754,7 +3762,7 @@ please. Remember my warning about the light if you please—”</p>
 
 <p>“Oh now that I remember, this closet <i>does</i> open into the next
 room—” she said gaily, although her cheek—so it struck me—grew a
-little paler and her lip trembled slightly—“ I had quite forgotten the
+little paler and her lip trembled slightly—” I had quite forgotten the
 circumstance—”</p>
 
 <p>“Enter Emily, and don’t forget the light—”</p>
@@ -4261,7 +4269,7 @@ discoloring the flesh beneath each eye.</p>
 
 <p>“This here ‘Lively’ is first rate, after the tramp I’ve had—” said
 Bessie as her eyes grew brighter with the ‘lively’ effects of the
-bottle—“ You know Mother Nancy its three weeks since Gus mentioned the
+bottle—” You know Mother Nancy its three weeks since Gus mentioned the
 <i>thing</i> to me—”</p>
 
 <p>“What thing, my dear?”</p>
@@ -4415,7 +4423,7 @@ feet—“You hag of the devil—call me by that name again, and as God
 will judge at the last day, I’ll throttle you!” She shook her clenched
 hand across the table, and her eyes were bloodshot with sudden
 rage—“<i>Emily!</i>” Your mother called you by that name when a little
-child—“ She cried with a burst of feeling, most fearful to behold in
+child—” She cried with a burst of feeling, most fearful to behold in
 one so fallen— “Your father blessed you by that name, the night before
 you fled from his roof!</p>
 
@@ -5058,7 +5066,7 @@ Bride.</p>
     </header>
 
 <p>“I say Mutchy, my boy—” said Petriken, in a tone that indicated
-some lingering effects of his late debauch—“ How <i>do</i> I do it?
+some lingering effects of his late debauch—” How <i>do</i> I do it?
 Clever—hey? D’ye like this face? <i>Good</i>—is it? If my magazine
 fails, I think I’ll enter the ministry for good. Why not start a Church
 of my own? <span class="pagenum" id="Page_81" role="doc-pagebreak">81</span>When a man’s fit for nothin’ else, he can always find fools
@@ -7844,7 +7852,7 @@ blood—the river rushes before me, and the sky and the city—all
 pictured in colors of blood.</p>
 
 <figure class="break my-1">
-<img class="img-100" alt="A picture depicting a scared women on the floor and a man
+<img class="img-800" alt="A picture depicting a scared women on the floor and a man
 embracing her and pointing his fist towards the air, while three other men watch
 the scene." src="images/p126.jpg">
 <figcaption class="center">MARY, BYRNEWOOD, AND LORRIMER.—Page 126.</figcaption>
@@ -12434,7 +12442,7 @@ stood within the confines of the ancient chamber. The candle was still
 burning upon the table, and the wood fire flickered fitfully on the
 hearth.</p>
 
-<p>The old woman’s a-sleepin’ on that bed—“ muttered Devil-Bug—” She
+<p>The old woman’s a-sleepin’ on that bed—” muttered Devil-Bug—” She
 snores like a trumpet! We must be keerful! Have you got the keys—them
 false keys—”</p>
 
@@ -14204,7 +14212,7 @@ Devil-Bug from his feet.</p>
 
 <p>“The werry same. Here it is—”<i>The second child, was buried by a man
 named Dick Baltzar, who with his wife, resided in the widow’s house.
-The first child—</i>“ howsom-ever let me read on!”</p>
+The first child—</i>” howsom-ever let me read on!”</p>
 
 <p>The Manuscript drew near its close. His brows woven in frown, his teeth
 clenched, his hands clutching his cheeks with a convulsive grasp,
@@ -29957,6 +29965,8 @@ granted about 700 pardons.</p></aside>
 <aside class="footnote"><p><a id="note-25" href="#noteref-25" class="label">[25]</a> The main incidents of this episode are strictly true. The Hangman,
 of course, is alone, responsible for the language and opinions of the
 story.</p></aside>
+
+</section>
 
 
 </body>
