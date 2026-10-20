@@ -284,7 +284,7 @@
     <figure class="break">
       <img class="img-400" src="images/frontispiece.jpg" alt="A sketch of the author">
       <figcaption>
-        In Brotherhood<br>George Lippard<br><abbr>S. W.</abbr>
+        <i>In Brotherhood<br>George Lippard<br><abbr>S. W.</abbr></i>
       </figcaption>
     </figure>
   </div>
@@ -299,7 +299,7 @@
     <h1>THE QUAKER CITY</h1>
 
     <p class="subtitle">OR, THE<br>
-    <span class="larger">Monks of Monk-Hall.</span></p>
+    <span class="larger">Monks of Monk Hall.</span></p>
 
     <p class="center">A ROMANCE OF<br> PHILADELPHIA LIFE, MYSTERY AND CRIME.</p>
 
@@ -331,7 +331,7 @@
     Philadelphia Life are introduced—the Lawyer, who takes fees from
     both sides; the Parson, whose private history gives the lie to his
     public preaching; the Doctor, who commits a crime for money; as well
-    as the dishonest Merchant, the Swell-Forger, the black mail Editor,
+    as the dishonest Merchant, the Swell-Forger, the black-mail Editor,
     the Young Blood about town; the Fence Keeper, (receiver of stolen
     goods,) etc., etc.; yet has the author painted no living character in
     the pages of his work, but only the distinguishing features of the
@@ -383,7 +383,7 @@
           <li><a href="#book-1">BOOK THE FIRST: THE FIRST NIGHT.</a>
             <ul>
               <li><a href="#book-1-1">CHAPTER FIRST: THE WAGER IN THE OYSTER-CELLAR.</a></li>
-              <li><a href="#book-1-2">CHAPTER SECOND: MARY, THE MERCHANT’S DAUGHTER.</a></li>
+              <li><a href="#book-1-2">CHAPTER SECOND: MARY, THE MERCHANTS DAUGHTER.</a></li>
               <li><a href="#book-1-3">CHAPTER THIRD: BYRNEWOOD AND LORRIMER.</a></li>
               <li><a href="#book-1-4">CHAPTER FOURTH: THE ASTROLOGER.</a></li>
               <li><a href="#book-1-5">CHAPTER FIFTH: DORA LIVINGSTONE.</a></li>
@@ -1277,7 +1277,7 @@ creep—creep very low, remarkably low, d——d low—<i>always creep</i>!”</
 
   <header>
     <h4>CHAPTER SECOND.</h4>
-    <p class="subtitle">MARY, THE MERCHANT’S DAUGHTER.</p>
+    <p class="subtitle">MARY, THE MERCHANTS DAUGHTER.</p>
   </header>
 
 
@@ -6648,7 +6648,7 @@ joy.</p>
 
 <section id="book-1-13">
     <header>
-        <h4>Chapter Thirteenth.</h4>
+        <h4>CHAPTER THIRTEENTH.</h4>
         <p class="subtitle">THE CRIME WITHOUT A NAME.</p>
     </header>
 
@@ -19216,7 +19216,7 @@ for mercy! Only a drop of water, only a drop of water!</p>
 
 <p><span class="pagenum" id="Page_315" role="doc-pagebreak">315</span></p>
 
-<h3>THE LAST DAY OF THE QUAKER CITY.</h3>
+<h3><span class="blackletter">The Last Day of the Quaker City.</span></h3>
 
 
 <p>He stood in the wide street of a magnificent city. All around him, from
@@ -24571,7 +24571,7 @@ voices to a quick cantering measure.</p>
   <br>
   <span>They dance, they steal, they drink, they fight</span>
   <br>
-  <span>And turn the shiny day into-night——”</span>
+  <span>And turn the shiny day into night——”</span>
 </p>
 </div>
 
@@ -24581,7 +24581,7 @@ voices to a quick cantering measure.</p>
 <p>
   <span>“Raw Mon’gahaley is the g-o!</span>
 <br>
-  <span>Clink your mugs with a jolly sound</span>
+  <span>Clink you’re mugs with a jolly sound</span>
 <br>
   <span>Down in the vaults below, bel-ow!</span>
 <br>
@@ -25351,7 +25351,7 @@ gallows for me; you hell-cat!” He shook his manacled hands together
   <header>
     <h4>CHAPTER SECOND.</h4>
     <p class="subtitle">THE OAK CHAMBER OF HAWKEWOOD.</p>
-    <p class="allsmcap">Dora Livingstone Gains the Coronet, for Which she Perilled her Soul.</p>
+    <p class="allsmcap">DORA LIVINGSTONE GAINS THE CORONET, FOR WHICH SHE PERILLED HER SOUL.</p>
 </header>
 
 
