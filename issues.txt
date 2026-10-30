@@ -1,0 +1,2 @@
+676.png:
+    - There is an instance of g.eam, which is likely gleam, but it is not clear if the "l" is blotted or a period was put in place by mistake. The incorrect spelling was retained.

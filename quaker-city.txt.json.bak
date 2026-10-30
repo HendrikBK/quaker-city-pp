@@ -1,6 +1,6 @@
 {
-  "md5checksum": "e013c4b7dfd258dd49e784846dc7fe62",
-  "insertpos": "29055.46",
+  "md5checksum": "323bd32763dec8fc0be384d1a7d6cd4e",
+  "insertpos": "13739.33",
   "insertpospeer": "29073.0",
   "pagedetails": {
     "001": {
@@ -2818,7 +2818,7 @@
       "label": ""
     },
     "470": {
-      "index": "13739.34",
+      "index": "13739.33",
       "style": "\"",
       "number": "+1",
       "label": "Pg 234"
