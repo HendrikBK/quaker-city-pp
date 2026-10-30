@@ -1,0 +1,45 @@
+﻿unzipping /htdocs/ebookmaker/cache/20261030075303/file_base.zip
+Archive:  /htdocs/ebookmaker/cache/20261030075303/file_base.zip
+  inflating: /htdocs/ebookmaker/cache/20261030075303/quaker-city.html
+   creating: /htdocs/ebookmaker/cache/20261030075303/images/
+  inflating: /htdocs/ebookmaker/cache/20261030075303/images/cover.jpg
+  inflating: /htdocs/ebookmaker/cache/20261030075303/images/frontispiece.jpg
+  inflating: /htdocs/ebookmaker/cache/20261030075303/images/p126.jpg
+  inflating: /htdocs/ebookmaker/cache/20261030075303/images/titlepage.jpg
+
+Input file: /htdocs/ebookmaker/cache/20261030075303/quaker-city.html
+
+
+
+--- Starting ebookmaker processing
+EbookMaker 0.14.6
+Command: ebookmaker --verbose --validate --max-depth 3 --output-dir /htdocs/ebookmaker/cache/20261030075303 --make 'html' --make 'epub' --make 'epub3' --ebook '99999' --title 'The Quaker City' file:///htdocs/ebookmaker/cache/20261030075303/quaker-city.html
+INFO:root:using an HTML5 parser
+INFO:root:No PG header marker found.
+INFO:root:No PG footer marker found.
+INFO:root:Not configured, using /var/www for FILESDIR
+INFO:root:Not configured, using /var/www for FILESDIR
+INFO:root:Not configured, using /var/www for FILESDIR
+INFO:root:picsdir.images output in 99999-images.picsdir
+INFO:root:picsdir.images completed in 0:00:00.031576
+INFO:root:validating...
+INFO:root:99999-h.html validates ok.
+INFO:root:html.images output in 99999-h.html
+INFO:root:html.images completed in 0:00:02.490083
+INFO:root:492 elements having class pagenum have been rewritten.
+INFO:root:validating...
+INFO:root:99999-epub.epub validates ok.
+INFO:root:epub.noimages output in 99999-epub.epub
+INFO:root:epub.noimages completed in 0:00:07.229027
+INFO:root:492 elements having class pagenum have been rewritten.
+INFO:root:validating...
+INFO:root:99999-images-epub.epub validates ok.
+INFO:root:epub.images output in 99999-images-epub.epub
+INFO:root:epub.images completed in 0:00:07.154101
+INFO:root:492 elements having class pagenum have been rewritten.
+INFO:root:validating...
+INFO:root:99999-images-epub3.epub validates ok.
+INFO:root:epub3.images output in 99999-images-epub3.epub
+INFO:root:epub3.images completed in 0:00:07.573183
+INFO:root: Finished jobs. Total time: 0:00:26.224151
+--- ebookmaker complete
